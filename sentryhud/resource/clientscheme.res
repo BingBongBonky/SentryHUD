@@ -73,6 +73,8 @@ Scheme
 		
 		// Custom Colors
 		"S_Shadow"			"0 0 0 220"
+		"S_Lime"			"18 241 19 255"
+		"S_Overheal"		"120 255 255 255"
 
 		"CreditsGreen"		"94 150 49 255"
 		

@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"fgcolor"		"White"
+		"fgcolor"		"S_Lime"
 		"xpos"			"4"
 		"ypos"			"12"
 		"zpos"			"2"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"fgcolor"		"White"
+		"fgcolor"		"Blue"
 		"xpos"			"30"
 		"ypos"			"24"
 		"zpos"			"2"
