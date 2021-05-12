@@ -208,6 +208,8 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate PlayerStatusHealthValue			fgcolor		"120 255 255 255"	Linear 0.0 0.0
+
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -222,6 +224,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"White"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -230,8 +233,8 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"22"		Linear 0.125 0.075
+
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
@@ -251,8 +254,11 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
+	Animate AmmoInClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -267,6 +273,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
+	Animate AmmoInClip					fgcolor		"White"	Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"White"	Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"White"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -366,7 +375,6 @@ event HudSpyDisguiseFadeOut
 }
 
 //===========================================
-
 // Show the Overtime panel
 event OvertimeShow
 {
@@ -379,6 +387,11 @@ event HudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
 	Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
+	// Fix for lingering animations
+	RunEvent HudHealthDyingPulseStop 10.0
+    RunEvent HudHealthBonusPulseStop 10.0
+    RunEvent HudLowAmmoPulseStop 10.0
+    RunEvent HudMedicChargedStop 10.0
 }
 
 event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
@@ -424,11 +437,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"S_Lime"		Linear 0.0 0.2
+	Animate	ChargeLabel 	FgColor		"White"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"S_Lime"		Linear 0.0 0.2
+	Animate	ChargeMeter 	FgColor		"White"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -444,8 +457,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"S_Lime"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
 }
 
 //====================================
