@@ -87,18 +87,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-15"
+		"ypos"			"250"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"wide"			"30"
+		"tall"			"4"
 	}	
 
 	HudBowCharge
@@ -310,10 +303,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"xpos"		"0"
+		"ypos"		"0"	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -326,11 +317,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -1019,11 +1006,8 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1032,13 +1016,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"xpos"			"c-20"
+		"ypos"			"c0"
+		"wide"			"140"
 		"tall"			"50"
 	}	
 
