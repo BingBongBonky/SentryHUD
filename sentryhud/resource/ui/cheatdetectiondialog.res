@@ -17,7 +17,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"KCFont12"
 		"xpos"			"0"
 		"ypos"			"13"
 		"zpos"			"1"
@@ -28,7 +28,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"#TF_CheatDetected_Title"
+		"labelText"		"ur a fucking cheater get pwnd noob"
 		"textAlignment"		"North"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -36,7 +36,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmall"
+		"font"			"KCFont12"
 		"xpos"			"20"
 		"ypos"			"35"
 		"zpos"			"1"
@@ -47,7 +47,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"labelText"		"%reason%"
+		"labelText"		"uninstall"
 		"textAlignment"		"North"
 	}
 	"CloseButton"
