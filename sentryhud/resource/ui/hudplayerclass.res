@@ -104,8 +104,8 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"xpos"			"c-427"	[$WIN32]
-		"ypos"			"c80"	[$WIN32]
+		"xpos"			"c-427"
+		"ypos"			"c80"
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"200"
@@ -177,11 +177,11 @@
 			{
 				"fov"		"25"
 				"angles_x"	"-5"
-				"angles_y"	"220"
+				"angles_y"	"200"
 				"angles_z"	"0"
 				"origin_x"	"130"
 				"origin_y"	"0"
-				"origin_z"	"-70"
+				"origin_z"	"-65"
 			}
 			"Medic"
 			{
