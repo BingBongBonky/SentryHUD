@@ -6,6 +6,7 @@
 		"fieldName"		"scoreinfo"
 		"xpos"			"cs-0.5"
 		"ypos"			"31"
+		"zpos"			"9999"
 		"wide"			"640"
 		"tall"			"448"
 		"autoResize"	"0"
@@ -51,17 +52,12 @@
 		"xpos"			"7"
 		"ypos"			"9"
 		"zpos"			"20"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/team_blue"
 		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"BlueLeaderAvatar"
 	{
@@ -119,17 +115,12 @@
 		"xpos"			"571"
 		"ypos"			"-5"
 		"zpos"			"20"
-		"wide"			"80"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"RedLeaderAvatar"
 	{
@@ -194,7 +185,7 @@
 		"tall"			"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		
 		if_mvm
@@ -635,14 +626,9 @@
 		"wide"			"92"
 		"tall"			"92"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
-		
-		if_mvm
-		{
-			"visible"		"1"
-		}
 	}
 	"classmodelpanel"
 	{
@@ -652,12 +638,12 @@
 		"xpos"			"-10"
 		"ypos"			"185"
 		"zpos"			"10"		
-		"wide"			"130"
-		"tall"			"260"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		
 		"render_texture"	"0"
 		"fov"			"12"
@@ -665,11 +651,6 @@
 
 		"disable_speak_event"	"1"
 
-		if_mvm
-		{
-			"visible"		"0"
-		}
-				
 		"model"
 		{
 			"force_pos"	"1"
@@ -792,51 +773,40 @@
 		"xpos"			"105"
 		"ypos"			"372"
 		"zpos"			"-1"
-		"wide"			"485"
-		"tall"			"29"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"border"		"TFThinLineBorder"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"PlayerNameLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"KCFont24"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"ypos"			"377"
+		"ypos"			"374"
 		"zpos"			"3"
 		"wide"			"300"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"1"
-			"wide"			"175"
-		}
 	}
 	"ServerLabelNew"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabelNew"
-		"font"			"ScoreboardVerySmall"
+		"font"			"HSFont12"
 		"labelText"		"%server%"
-		"textAlignment"		"east"
-		"xpos"			"315"
-		"ypos"			"375"
+		"textAlignment"	"east"
+		"xpos"			"345"
+		"ypos"			"360"
 		"zpos"			"3"
 		"wide"			"265"
 		"tall"			"12"
@@ -844,24 +814,19 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"ScoreboardVerySmall"
+		"font"			"HSFont24"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
- 		"xpos"			"315"
-		"ypos"			"385"
+ 		"xpos"			"405"
+		"ypos"			"365"
 		"zpos"			"3"
-		"wide"			"265"
-		"tall"			"12"
+		"wide"			"205"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -911,11 +876,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 
 	"LocalPlayerDuelStatsPanel"
@@ -1142,11 +1102,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"1"
-		}
 
 		"KillsLabel"
 		{
