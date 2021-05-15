@@ -476,7 +476,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HSFont12"
+		"font"			"HSFont18"
 		"fgcolor_override"	"White"
 		"xpos"			"5"
 		"ypos"			"3"
