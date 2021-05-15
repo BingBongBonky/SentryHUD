@@ -20,14 +20,12 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
+		"tall"			"0"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"BottomBar"
@@ -35,15 +33,11 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"ypos"			"r70"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -52,18 +46,13 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"wide"			"f0"
+		"ypos"			"r70"
+		"tall"			"0"	
+		"wide"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"ReinforcementsLabel"
@@ -75,25 +64,17 @@
 		"xpos"			"c-200"	[$X360]
 		"ypos"			"50"	[$WIN32]
 		"ypos_minmode"	"3"		[$WIN32]
-		"ypos"			"67"	[$X360]
-		"ypos_hidef"	"79"
-		"ypos_lodef"	"85"
 		"wide"			"600"	[$WIN32]
-		"wide_minmode"	"300"
-		"wide"			"400"	[$X360]
 		"tall"			"18"
-		"tall_hidef"		"23"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"textAlignment_minmode"		"west"
 		"use_proportional_insets_minmode"	"1"
 		"textinsetx_minmode"				"5"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"			"HudFontSmall"
+		"font"			"KCFont24"
 	}
 	"BuyBackLabel"
 	{
@@ -109,7 +90,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"KCFont12"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -121,12 +102,8 @@
 		"font_hidef"		"HudFontMedium"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
-		"xpos"			"r285"	[$X360]
-		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
 		"tall"			"20"
-		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
