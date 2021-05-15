@@ -79,6 +79,7 @@ Scheme
 		"S_MenuShader"		"14 14 14 255"
 		"S_MenuTooltip"		"61 61 61 255"
 		"S_XP"				"0 255 34 255"
+		"S_Blue"			"45 121 221 255"
 
 		"CreditsGreen"		"94 150 49 255"
 		

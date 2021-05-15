@@ -278,7 +278,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"cs-0.5-350"
-		"ypos"			"cs-0.5-110"
+		"ypos"			"cs-0.5-130"
 
 		"zpos"			"-51"
 		"wide"			"1000"
@@ -296,10 +296,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c-128"
+		"xpos"			"c-131"
 		"ypos"			"86"
-		"wide"			"7"
-		"tall"			"7"
+		"wide"			"8"
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -350,8 +350,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-378"
-		"ypos"			"140"
+		"xpos"			"c-141"
+		"ypos"			"86"
 		"zpos"			"-1"
 		"wide"			"8"
 		"tall"			"8"
@@ -2295,10 +2295,67 @@
 
 	"CharacterSetupButton"
 	{
+ 		"ControlName"				"CExImageButton"
+ 		"fieldName"					"CharacterSetupButton"
+ 		"xpos"						"c-375"
+ 		"ypos"						"140"
+		"zpos"						"1"
+ 		"wide"						"250"
+ 		"tall"						"26"
+ 		"visible"					"1"
+ 		"enabled"					"1"
+ 		"font"						"HSFont18"
+ 		"textAlignment"				"west"
+ 		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"textinsetx"				"25"
+		"use_proportional_insets" "1"
+		"labelText"					"#MMenu_CharacterSetup"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"engine open_charinfo"
+		"navUp"			"RankPanel"
+		"navDown"		"GeneralStoreButton"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"SubImage"
+		{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"3"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"glyph_store"
+		}			
+	
+ 		// default style
+ 		"defaultBgColor_override"	"White"
+ 		"defaultFgColor_override"	"Black"
+		"defaultimage_drawcolor"	"Black"
+	
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+		 "defaultimage_drawcolor"	"White"
+	
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
+		 "defaultimage_drawcolor"	"White"
+
+	}
+
+	"CharacterSetupButton"
+	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"c-375"
-		"ypos"			"165"
+		"ypos"			"140"
 		"wide"			"250"
 		"tall"			"26"
 		"autoResize"	"0"
@@ -2320,9 +2377,8 @@
 		"proportionaltoparent"	"1"
 			
 		"paintbackground"	"1"
-		"image_drawcolor"	"White"
-				
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"46 43 42 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2357,148 +2413,169 @@
 
 	"GeneralStoreButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-300"
-		"ypos"			"200"
-		"wide"			"100"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"25"
+ 		"ControlName"				"CExImageButton"
+ 		"fieldName"					"GeneralStoreButton"
+ 		"xpos"						"c-200"
+ 		"ypos"						"200"
+		"zpos"						"1"
+ 		"wide"						"75"
+ 		"tall"						"26"
+ 		"visible"					"1"
+ 		"enabled"					"1"
+ 		"font"						"HSFont18"
+ 		"textAlignment"				"west"
+ 		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"textinsetx"				"25"
 		"use_proportional_insets" "1"
-		"font"			"HSFont18"
-		"textAlignment"	"west"
+		"labelText"					"#MMenu_Shop"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
-		"labeltext" "#MMenu_Shop"
-		"command" "engine open_store"
-		"bgcolor_override"	"Black"
-		"fgcolor_override"	"White"
-		"proportionaltoparent"	"1"
-
+		"Command"		"OpenOptionsDialog"
+		"navUp"			"CharacterSetupButton"
+		"navLeft"		"SettingsButton"
+		"navRight"		"TF2SettingsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"paintbackground"	"1"
-				
-		"image_drawcolor"	"White"
+
+		"image_drawcolor"	"46 43 42 255"
+
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image" "glyph_store"
-		}		
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"3"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"glyph_store"
+		}			
+	
+ 		// default style
+ 		"defaultBgColor_override"	"White"
+ 		"defaultFgColor_override"	"Black"
+	
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+	
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
 	}
 
 	"SettingsButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"SettingsButton"
-		"xpos"			"c-208+273"
-		"ypos"			"437"
-		"zpos"			"1"
-		"wide"			"30"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HSFont18"
-		"textAlignment"	"west"
-		"textinsetx"	"25"
+ 		"ControlName"				"CExImageButton"
+ 		"fieldName"					"SettingsButton"
+ 		"xpos"						"c-375"
+ 		"ypos"						"170"
+		"zpos"						"1"
+ 		"wide"						"250"
+ 		"tall"						"26"
+ 		"visible"					"1"
+ 		"enabled"					"1"
+ 		"font"						"HSFont18"
+ 		"textAlignment"				"west"
+ 		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"textinsetx"				"25"
 		"use_proportional_insets" "1"
+		"labelText"					"#GameUI_GameMenu_Options"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
-		"bgcolor_override"	"Black"
-		"fgcolor_override"	"White"
 		"Command"		"OpenOptionsDialog"
-
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"ReportBugButton"
 		"navRight"		"TF2SettingsButton"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"White"
+
+		"image_drawcolor"	"46 43 42 255"
+
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"3"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"glyph_options"
 		}			
+	
+ 		// default style
+ 		"defaultBgColor_override"	"White"
+ 		"defaultFgColor_override"	"Black"
+	
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+	
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
 	}
 
 	"TF2SettingsButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-183+273"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"26"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"+"
-		"textAlignment"	"north-west"
-		"textinsetx"	"18"
+ 		"ControlName"				"CExImageButton"
+ 		"fieldName"					"SettingsButton"
+ 		"xpos"						"c-375"
+ 		"ypos"						"200"
+		"zpos"						"1"
+ 		"wide"						"172"
+ 		"tall"						"26"
+ 		"visible"					"1"
+ 		"enabled"					"1"
+ 		"font"						"HSFont18"
+ 		"textAlignment"				"west"
+ 		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"textinsetx"				"25"
+		"use_proportional_insets" "1"
+		"labelText"					"Advanced Options"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
 		"Command"		"opentf2options"
-		"use_proportional_insets"	"1"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-
+		"navUp"			"SettingsButton"
+		"navRight"		"GeneralStoreButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
-		
-		"image_drawcolor"	"235 226 202 255"
+
+		"image_drawcolor"	"46 43 42 255"
+
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-			"scaleImage"	"1"
-		}				
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"3"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"glyph_options"
+		}			
+	
+ 		// default style
+ 		"defaultBgColor_override"	"White"
+ 		"defaultFgColor_override"	"Black"
+	
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+	
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
 	}
 	
 	"NewUserForumsButton"
