@@ -2,7 +2,7 @@
 {
 	"scores"
 	{
-		"ControlName"		"CTFClientScoreBoardDialog"
+		"ControlName"	"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"cs-0.5"
 		"ypos"			"31"
@@ -157,13 +157,13 @@
 		"xpos"			"0"
 		"ypos"			"38"
 		"zpos"			"-1"
-		"wide"			"640"
-		"tall"			"410"
+		"wide"			"500"
+		"tall"			"400"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"visible"		"0"
+		"enabled"		"0"
+		"border"		"NoBorder"
 		
 		if_mvm
 		{
@@ -175,7 +175,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"ScoreboardTeamNameNew"
+		"font"			"HSFont24"
+		"fgcolor"		"White"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"80"
@@ -197,7 +198,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"ScoreboardTeamScoreNew"
+		"font"			"KCFont48"
+		"fgcolor"		"White"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"175"
@@ -219,12 +221,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScoreNew"
-		"fgcolor"		"Black"
+		"font"			"KCFont48"
+		"fgcolor"		"S_Shadow"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"176"
-		"ypos"			"13" 
+		"xpos"			"177"
+		"ypos"			"14" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -242,7 +244,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"ScoreboardTeamCountNew"
+		"font"			"KCFont12"
+		"fgcolor"		"White"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"80"
@@ -263,7 +266,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameNew"
+		"font"			"HSFont24"
+		"fgcolor"		"White"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"401"
@@ -285,7 +289,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"ScoreboardTeamScoreNew"
+		"font"			"KCFont48"
+		"fgcolor"		"White"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"368"
@@ -307,12 +312,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScoreNew"
-		"fgcolor"		"Black"
+		"font"			"KCFont48"
+		"fgcolor"		"S_Shadow"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"369"
-		"ypos"			"13"
+		"xpos"			"370"
+		"ypos"			"14"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -330,7 +335,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"ScoreboardTeamCountNew"
+		"font"			"KCFont12"
+		"fgcolor"		"White"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"401"
@@ -375,16 +381,16 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"TimerBG"
-		"xpos"			"280"
+		"xpos"			"285"
 		"ypos"			"-3"
 		"zpos"			"-1"
-		"wide"			"80"
-		"tall"			"43"
+		"wide"			"70"
+		"tall"			"33"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"border"		"ScoreboardTimeLimitBorder"
 		
 		if_mvm
 		{
