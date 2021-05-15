@@ -19,8 +19,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"20"
+			"tall"			"20"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -213,8 +213,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"HSFont18"
+			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
@@ -236,8 +236,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"HSFont12"
+			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
@@ -246,13 +246,6 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-			}
-
-			"fonts"
-			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
 			}
 		}
 
@@ -267,8 +260,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"HSFont12"
+			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -277,19 +270,6 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-			}
-
-			"fonts"
-			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
-			}
-
-			"colors"
-			{
-				"1"		"CreditsGreen"
-				"2"		"TanLight"
 			}
 		}
 
@@ -334,7 +314,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -352,7 +332,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
@@ -380,7 +360,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
+						"fgcolor_override"	"Black"
 						"bgcolor_override"	"0 0 0 0"
 					}
 
@@ -395,7 +375,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"S_XP"
 					}
 
 					"Frame"

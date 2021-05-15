@@ -75,6 +75,10 @@ Scheme
 		"S_Shadow"			"0 0 0 220"
 		"S_Lime"			"18 241 19 255"
 		"S_Overheal"		"120 255 255 255"
+		"S_Menu"			"23 24 24 255"
+		"S_MenuShader"		"14 14 14 255"
+		"S_MenuTooltip"		"61 61 61 255"
+		"S_XP"				"0 255 34 255"
 
 		"CreditsGreen"		"94 150 49 255"
 		
@@ -3081,7 +3085,42 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		"KCFont24Outline"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		
+		"KCFont18"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"KCFont18Outline"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
 		"KCFont12"
 		{
 			"1"
@@ -3137,6 +3176,17 @@ Scheme
 			}
 		}
 		
+		"HSFont18"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
 		"HSFont12"
 		{
 			"1"
