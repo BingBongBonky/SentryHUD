@@ -286,8 +286,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameNew"
-		"fgcolor_override"		"White"
+		"font"			"KCFont32"
+		"fgcolor"		"White"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"401"
@@ -1124,7 +1124,7 @@
 		"tall"			"448"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 
 		"KillsLabel"
