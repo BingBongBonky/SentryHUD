@@ -1,16 +1,17 @@
 "Resource/UI/HudItemEffectMeter_Cleaver.res"
 // Scout: The Flying Guillotine
+
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c0"
-		"ypos"			"370"
+		"xpos"			"c105"
+		"ypos"			"371"
 		"xpos_minmode"	"r52"
 		"ypos_minmode"	"r68"
-		"wide"			"400"
+		"wide"			"600"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -18,22 +19,23 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"-11"
+		"ypos"			"19"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"			
+		"wide"			"180"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"	
+		"fillcolor"		"S_Shadow"		
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"110"
+		"xpos"					"10"
 		"ypos"					"17"
 		"zpos"					"2"
 		"wide"					"60"
@@ -41,9 +43,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Cleaver"
@@ -51,31 +50,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HSFont12"
-	}
-
-	"ItemEffectMeterLabelShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabelShadow"
-		"xpos"					"111"
-		"ypos"					"18"
-		"zpos"					"2"
-		"wide"					"60"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Cleaver"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"HSFont12"
-		"fgcolor"				"S_Shadow"
 	}
 
 	"ItemEffectMeter"
@@ -83,7 +57,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"170"
+		"xpos"					"65"
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"100"

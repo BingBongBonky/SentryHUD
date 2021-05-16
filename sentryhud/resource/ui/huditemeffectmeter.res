@@ -1,13 +1,20 @@
 "Resource/UI/HudItemEffectMeter.res"
+// Scout: The Wrap Assassin, The Sandman
+// Pyro: The Gas Passer
+// Heavy: The Lunchbox Items
+// Medic: The Projectile Shield (MvM)
+// Sniper: The Jarate, The Cleaner's Carbine, The Razorback
+// Spy: Cloak Meter
+
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c125"
+		"xpos"			"c105"
 		"xpos_minmode"	"r52"
-		"ypos"			"375"
+		"ypos"			"379"
 		"ypos_minmode"	"r54"
 		"wide"			"600"
 		"tall"			"50"
@@ -17,43 +24,23 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"6"
+		"xpos"			"-11"
+		"ypos"			"24"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"			
+		"wide"			"180"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"	
+		"fillcolor"		"S_Shadow"		
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"-5"
-		"ypos"					"22"
-		"zpos"					"2"
-		"wide"					"60"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"HSFont12"
-	}
-
-	"ItemEffectMeterLabelShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabelShadow"
-		"xpos"					"-4"
+		"xpos"					"2"
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"60"
@@ -64,19 +51,17 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HSFont12"
-		"fgcolor"					"S_Shadow"
 	}
-
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"45"
+		"xpos"					"65"
 		"ypos"					"28"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"

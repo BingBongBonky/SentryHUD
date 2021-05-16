@@ -1,6 +1,8 @@
 "Resource/UI/HudItemEffectMeter_Engineer.res"
 // Engineer: The Frontier Justice
 // Pyro: The Manmelter
+// This is a counter not a meter
+
 {
 	HudItemEffectMeter
 	{
@@ -34,7 +36,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"11"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"70"
@@ -45,7 +47,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HSFont12"

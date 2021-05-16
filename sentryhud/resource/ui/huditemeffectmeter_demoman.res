@@ -1,5 +1,7 @@
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 // Demoman: The Eyelander
+// This is a counter not a meter
+
 {
 	HudItemEffectMeter
 	{
@@ -7,7 +9,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c170"
-		"ypos"			"310"
+		"ypos"			"305"
 		"xpos_minmode"	"r70"
 		"ypos_minmode"	"r74"
 		"wide"			"100"
@@ -26,17 +28,17 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"			
+		"enabled"		"0"			
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"55"
-		"ypos"					"10"
+		"xpos"					"11"
+		"ypos"					"27"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"70"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -50,32 +52,16 @@
 		"font"					"HSFont12"
 	}
 
-	"ItemEffectMeterLabelShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabelShadow"
-		"xpos"					"56"
-		"ypos"					"11"
-		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"HEADS"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"HSFont12"
-		"fgcolor"				"S_Shadow"
-	}
-
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"6"				
 		"visible"				"0"
 		"enabled"				"0"
 	}					
@@ -85,7 +71,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos"					"5"
+		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -106,7 +92,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"26"
-		"ypos"					"6"
+		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
