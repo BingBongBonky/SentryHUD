@@ -3204,7 +3204,67 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
+		"CVFont60"
+		{
+			"1"
+			{
+				"name"		"Coolvetica Rg"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"CVFont48"
+		{
+			"1"
+			{
+				"name"		"Coolvetica Rg"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"CVFont32"
+		{
+			"1"
+			{
+				"name"		"Coolvetica Rg"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"CVFont24"
+		{
+			"1"
+			{
+				"name"		"Coolvetica Rg"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"CVFont18"
+		{
+			"1"
+			{
+				"name"		"Coolvetica Rg"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"CVFont12"
+		{
+			"1"
+			{
+				"name"		"Coolvetica Rg"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		
 	}
 	
@@ -6066,6 +6126,11 @@ Scheme
 		{
 			"font"	"resource/fonts/Hakuna-Sans.ttf"
 			"name" "Hakuna Sans"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/coolvetica rg.ttf"
+			"name" 	"Coolvetica Rg"
 		}
 	}
 }
