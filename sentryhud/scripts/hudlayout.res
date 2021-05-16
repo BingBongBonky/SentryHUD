@@ -722,8 +722,12 @@
 		"tall" "400"
 
 		"item_wide"	"135"
-		
+
 		"show_avatar"		"1"
+		"avatar_xpos"		"1"
+		"avatar_ypos"		"1"
+		"avatar_tall"		"14"
+		"avatar_wide"		"14"
 		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
