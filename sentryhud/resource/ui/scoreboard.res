@@ -1,4 +1,5 @@
 "Resource/UI/Scoreboard.res"
+// Scoreboard
 {
 	"scores"
 	{
@@ -27,17 +28,17 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"-4"
-		"ypos"			"9"
-		"wide"			"290"
-		"tall"			"71"
+		"xpos"			"c-424"
+		"ypos"			"19"
+		"wide"			"280"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg_solid"
+		"fillcolor"		"S_SBBlue"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -50,12 +51,12 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueTeamImage"
 		"xpos"			"7"
-		"ypos"			"9"
+		"ypos"			"15"
 		"zpos"			"20"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"40"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/team_blue"
 		"scaleImage"		"1"
 	}
@@ -89,19 +90,19 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"354"
-		"ypos"			"9"
-		"wide"			"290"
-		"tall"			"71"
+		"xpos"			"c-69" // Nice.
+		"ypos"			"19"
+		"wide"			"280"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_red_bg_solid"
+		"fillcolor"		"S_SBRed"
 		"scaleImage"		"1"
-
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -112,13 +113,13 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamImage"
 		"fieldName"		"BlueTeamImage"
-		"xpos"			"571"
-		"ypos"			"-5"
+		"xpos"			"600"
+		"ypos"			"15"
 		"zpos"			"20"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"40"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
 	}
@@ -156,13 +157,13 @@
 		"fieldName"		"MainBG"
 		"xpos"			"0"
 		"ypos"			"38"
-		"zpos"			"-1"
+		"zpos"			"-9999"
 		"wide"			"640"
 		"tall"			"410"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"border"		"TFThinLineBorder"
 		
 		if_mvm
@@ -170,7 +171,26 @@
 			"ypos"			"0"
 			"tall"			"448"
 		}
-	}							
+	}
+	"ScoreboardBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ScoreboardBackground"
+		"xpos"			"c-420"
+		"ypos"			"169"
+		"zpos"			"-1"
+		"wide"			"640"
+		"tall"			"500"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"S_SBBG"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+	}					
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"

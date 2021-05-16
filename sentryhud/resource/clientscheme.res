@@ -80,6 +80,12 @@ Scheme
 		"S_MenuTooltip"		"61 61 61 255"
 		"S_XP"				"0 255 34 255"
 		"S_Blue"			"45 121 221 255"
+		"S_Yellow"			"224 227 48 255"
+
+		// Scoreboard
+		"S_SBBlue"			"76 108 124 255"
+		"S_SBRed"			"172 52 52 255"
+		"S_SBBG"			"11 11 11 150"
 
 		"CreditsGreen"		"94 150 49 255"
 		
