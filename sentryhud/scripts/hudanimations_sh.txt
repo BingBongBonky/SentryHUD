@@ -802,7 +802,7 @@ event SpyWarningFlashEnd
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
 	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
 
 	RunEvent HudReadyPulseLoop	0.5
@@ -815,7 +815,7 @@ event HudReadyPulseLoop
 
 event HudReadyPulseEnd
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
 	
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0
@@ -837,7 +837,7 @@ event RespecEarnedPulseLoop
 
 event RespecEarnedPulseEnd
 {
-	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelWin 	FgColor		"White"		Linear 0.0 0.1
 	
 	StopEvent RespecEarnedPulse			0.0
 	StopEvent RespecEarnedPulseLoop		0.0
@@ -846,7 +846,7 @@ event RespecEarnedPulseEnd
 // Respec on Loss
 event RespecEarnedPulseLoss
 {
-	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss	FgColor	"White"		Linear 0.0 0.1
 	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
 	
 	RunEvent RespecEarnedPulseLoopLoss		0.5
@@ -859,8 +859,8 @@ event RespecEarnedPulseLoopLoss
 
 event RespecEarnedPulseEndLoss
 {
-	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"White"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"White"		Linear 0.0 0.1
 	
 	StopEvent RespecEarnedPulseLoss		0.0
 	StopEvent RespecEarnedPulseLoopLoss	0.0
@@ -869,7 +869,7 @@ event RespecEarnedPulseEndLoss
 event RDPositiveScorePulse
 {
 	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
-	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+	Animate Score FgColor	"White"			Linear 0.1 0.2
 
 	Animate Score Position	"3 5"		Deaccel 0.0 0.05
 	Animate Score Position	"3 10"		Accel 0.05 0.2
@@ -881,7 +881,7 @@ event RDPositiveScorePulse
 event RDNegativeScorePulse
 {
 	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
-	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+	Animate Score FgColor	"White"			Linear 0.1 0.2
 
 	Animate Score Position	"3 5"		Deaccel 0.0 0.05
 	Animate Score Position	"3 10"		Accel 0.05 0.2
@@ -906,7 +906,7 @@ event ItemCard_ShowPinHint
 {
 	Animate PinLabel Position	"0 -20"	Deaccel	0	0
 
-	Animate PinLabel FgColor	"TanLight"	Linear 0.2 0
+	Animate PinLabel FgColor	"White"	Linear 0.2 0
 	Animate PinLabel Position	"0 0"	Deaccel 0.2	0.2
 }
 
@@ -1081,7 +1081,7 @@ event CollectionCrafting_ItemRecieved
 event CollectionCrafting_OKBlink_Repeatable
 {
 	Animate OkButton	FgColor Red		 Linear 0 0.1
-	Animate OkButton	FgColor TanLight Linear 0.1 0.1
+	Animate OkButton	FgColor White Linear 0.1 0.1
 }
 
 event CollectionCrafting_OKBlink
@@ -1189,11 +1189,11 @@ event QuestItem_Complete_Progress
 event QuestItem_Options_Flash
 {
 	Animate OptionsButton FgColor LightOrange	Linear 0	 0.1
-	Animate OptionsButton FgColor TanLight		Linear 0.1	 0.1
+	Animate OptionsButton FgColor White		Linear 0.1	 0.1
 	Animate OptionsButton FgColor LightOrange	Linear 0.2	 0.1
-	Animate OptionsButton FgColor TanLight		Linear 0.3	 0.1
+	Animate OptionsButton FgColor White		Linear 0.3	 0.1
 	Animate OptionsButton FgColor LightOrange	Linear 0.4	 0.1
-	Animate OptionsButton FgColor TanLight		Linear 0.5	 0.1
+	Animate OptionsButton FgColor White		Linear 0.5	 0.1
 }
 
 //--------------------------------------------------------------------------
@@ -1711,7 +1711,7 @@ event PvPRankLevelUpXPBar
 	Animate ContinuousProgressBar BgColor ProgressBackground Linear 0.1 0.3
 
 	Animate LevelLabel FgColor "100 255 100 255"	Linear 0.0 0.1
-	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3 
+	Animate LevelLabel FgColor White				Linear 4.0 0.3 
 }
 
 event PvPRankLevelUpModel
@@ -1728,7 +1728,7 @@ event PvPRankLevelDownXPBar
 	Animate ContinuousProgressBar FgColor CreditsGreen Linear 0.1 0.3
 
 	Animate LevelLabel FgColor "255 100 100 255"	Linear 0.0 0.1
-	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3 
+	Animate LevelLabel FgColor White				Linear 4.0 0.3 
 }
 
 event PvPRankLevelDownModel
@@ -1801,19 +1801,19 @@ event CasualCategory_Checkbox_Show
 	Animate Title		xpos 100 Deaccel 0 0.2
 	Animate TitleShadow	xpos 101 Deaccel 0 0.2
 
-	//Animate Title		FgColor TanLight Deaccel 0 0.2
+	//Animate Title		FgColor White Deaccel 0 0.2
 }
 
 event CasualCategory_Selected
 {
 	Animate Shade BgColor "0 0 0 0" Deaccel 0 0.2
-	Animate Title		FgColor TanLight Deaccel 0 0.2
+	Animate Title		FgColor White Deaccel 0 0.2
 }
 
 event CasualCategory_NotSelected
 {
 	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
-	Animate Title		FgColor TanDark Deaccel 0 0.2
+	Animate Title		FgColor White Deaccel 0 0.2
 }
 
 event HealthProgressBar_Selected
@@ -1941,7 +1941,7 @@ event WinningNextMapVote
 
 event LosingNextMapVote
 {
-	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
+	Animate VotesLabel	FgColor	White	Deaccel		0	0.1.5
 }
 
 event QuestMap_Start
