@@ -18,7 +18,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"2"
