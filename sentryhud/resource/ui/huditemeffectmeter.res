@@ -1,5 +1,6 @@
 "Resource/UI/HudItemEffectMeter.res"
 // Scout: The Wrap Assassin, The Sandman
+// Soldier: All Banners
 // Pyro: The Gas Passer
 // Heavy: The Lunchbox Items
 // Medic: The Projectile Shield (MvM)
