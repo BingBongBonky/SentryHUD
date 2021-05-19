@@ -23,7 +23,7 @@ Scheme
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"TFOrange"			"45 121 221 255" // This is blue. I'm just EXTREMELY lazy
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
@@ -52,7 +52,7 @@ Scheme
 		"TransparentYellow"	"251 235 202 140"
 		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
-		//Changed black to a NTSC safe color
+		// Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"
