@@ -16,14 +16,14 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
+		"bgcolor_override"	"23 24 24 255"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"EconFontMedium"
+		"font"			"HSFont24"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -35,21 +35,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-	}
-	
-	"AbandonIcon"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AbandonIcon"
-		"xpos"		"10"
-		"ypos"		"52"
-		"wide"		"40"
-		"tall"		"40"
-		"image"			"pve/mvm_timeout_active_large"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
+		"fgcolor_override" "235 235 235 255"
 	}
 	
 	"ExplanationLabel"
@@ -58,8 +44,8 @@
 		"fieldName"		"ExplanationLabel"
 		"font"			"EconFontSmall"
 		"labelText"		"%text%"
-		"textAlignment"	"north-west"
-		"xpos"			"60"
+		"textAlignment"	"north"
+		"xpos"			"40"
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"220"
@@ -68,8 +54,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "TanLight"
+		"centerwrap"	"1"
+		"fgcolor_override" "235 235 235 255"
 	}
 		
 	"CancelButton"
@@ -87,7 +73,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
+		"font"			"HSFont12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -95,8 +81,6 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
@@ -115,7 +99,7 @@
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_cancel"
-	}	
+	}		
 
 	"ConfirmButton"
 	{
@@ -133,7 +117,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"EconFontSmall"
+		"font"			"HSFont12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -141,8 +125,6 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
@@ -161,5 +143,5 @@
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_select"
-	}			
+	}					
 }
