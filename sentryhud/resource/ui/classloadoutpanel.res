@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"23 24 24 255"
+		"infocus_bgcolor_override" "23 24 24 255"
+		"outoffocus_bgcolor_override" "23 24 24 255"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -42,7 +42,7 @@
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"14 14 14 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -56,7 +56,7 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
+				"font"			"KCFont12"
 				"visible"		"0"
 			}
 			
@@ -69,6 +69,7 @@
 		}
 
 		"itemoptionpanels_kv"
+		// Select Style
 		{
 			"ControlName"	"CExButton"
 			"xpos"			"0"
@@ -95,7 +96,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -107,13 +108,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "235 235 235 255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HSFont24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -131,7 +132,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TauntCaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-150"
@@ -143,13 +144,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "235 235 235 255"
 	}
 	"TauntLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HSFont12"
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
 		"xpos"			"c-130"
@@ -228,7 +229,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"61 61 61 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -240,7 +241,7 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"KCFont12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -252,7 +253,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"61 61 61 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -261,7 +262,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"HSFont12"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -319,7 +320,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont12"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -331,7 +332,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "235 235 235 255"
 		}
 		
 		"TextLabel"
@@ -379,12 +380,12 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "235 235 235 255"
+			"armedFgColor_override" "45 121 221 255"
+			"depressedFgColor_override" "45 121 221 255"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"45 45 45 255"
+			"image_armedcolor"	"235 235 235 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -413,7 +414,7 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 255"
+		"bgcolor_override"		"61 61 61 255"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -421,7 +422,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"HSFont12"
 		"xpos"			"c90"
 		"ypos"			"20"
 		"zpos"			"1"	
@@ -539,7 +540,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont12"
 			"labelText"		"#TauntsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -551,14 +552,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "235 235 235 255"
 		}
 		
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"HSFont12"
 			"labelText"		"#ClassLoadoutTauntsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -570,7 +571,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "235 235 235 255"
 		}
 		
 		"CloseButton"
@@ -599,12 +600,12 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "235 235 235 255"
+			"armedFgColor_override" "45 121 221 255"
+			"depressedFgColor_override" "45 121 221 255"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"45 45 45 255"
+			"image_armedcolor"	"235 235 235 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
