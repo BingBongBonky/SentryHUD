@@ -13,6 +13,7 @@ SentryHUD is a little project I'm doing since I got bored and really don't like 
 tf
 └── custom
     └── sentryhud
+        ├── materials
         ├── resource
         ├── scripts
         └── info.vdf
