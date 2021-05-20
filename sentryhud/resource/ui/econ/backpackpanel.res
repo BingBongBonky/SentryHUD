@@ -46,7 +46,7 @@
 			"tall"			"10"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"61 61 61 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 
@@ -58,12 +58,12 @@
 				"tall"			"13"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"235 235 235 255"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
-				"font"				"HudFontSmallestBold"
+				"font"				"HSFont12"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -72,7 +72,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"HSFont12"
 				"textAlignment"	"east"
 				"ypos"			"0"
 				"xpos"			"0"
@@ -103,7 +103,7 @@
 			"tall"			"42"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"61 61 61 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -122,14 +122,13 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type" "1" // High quality item image
 			}
 
 			"New"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"HSFont12"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
 				"ypos"			"0"
@@ -158,7 +157,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -170,13 +169,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "235 235 235 255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HSFont24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
