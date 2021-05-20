@@ -3128,12 +3128,34 @@ Scheme
 			}
 		}
 
+		"KCFont14"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
 		"KCFont12"
 		{
 			"1"
 			{
 				"name"		"Keep Calm Medium"
 				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"KCFont8"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"8"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -3194,12 +3216,34 @@ Scheme
 			}
 		}
 
+		"HSFont14"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
 		"HSFont12"
 		{
 			"1"
 			{
 				"name"		"Hakuna Sans"
 				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"HSFont8"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"8"
 				"weight"	"500"
 				"antialias" "1"
 			}
