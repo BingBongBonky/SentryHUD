@@ -72,7 +72,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"HSFont12"
+				"font"			"HSFont8"
 				"textAlignment"	"east"
 				"ypos"			"0"
 				"xpos"			"0"
@@ -128,7 +128,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"HSFont12"
+				"font"			"HSFont8"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
 				"ypos"			"0"
@@ -242,7 +242,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"ShowBaseItemsCheckbox"
 		"labelText"		"#ShowBaseItemsCheckBox"
-		"Font"			"HudFontSmallestBold"
+		"Font"			"HSFont12"
 		"textAlignment"	"east"
 		"xpos"			"c-70"
 		"ypos"			"15"
@@ -261,7 +261,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+137"
@@ -273,7 +273,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 
 	"NameFilterTextEntry"
@@ -282,7 +282,7 @@
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c+137"
 		"ypos"		"15"
-		"wide"		"90"
+		"wide"		"130"
 		"tall"		"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -292,10 +292,10 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"12 12 12 255"
+		"bgcolor_override"	"235 235 235 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallest"
+		"font"		"KCFont12"
 	}
 	
 	"SortByComboBox"
@@ -319,12 +319,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"235 235 235 255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "235 235 235 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "235 235 235 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 
