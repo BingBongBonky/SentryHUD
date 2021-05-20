@@ -250,5 +250,12 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
+		"modelpanels_kv"
+		{
+			"itemmodelpanel" 
+			{
+				"inventory_image_type" "1" // High quality item image
+			}
+		}
 	}	
 }
