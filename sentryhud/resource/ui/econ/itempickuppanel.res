@@ -48,7 +48,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
-				"inventory_image_type" "1"
+				"inventory_image_type" "1" // High quality item image
 			}
 		}
 	}
@@ -226,6 +226,17 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		// default style
+ 		"defaultBgColor_override"	"S_MenuShader"
+ 		"defaultFgColor_override"	"White"
+	
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+	
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
 	}
 	"OpenLoadoutButton"
 	{
@@ -249,6 +260,17 @@
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		// default style
+ 		"defaultBgColor_override"	"S_MenuShader"
+ 		"defaultFgColor_override"	"White"
+	
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+	
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
 	}
 	
 	"DiscardButton"
@@ -309,7 +331,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"bgcolor_override"		"61 61 61 255"
 		
 		"TipLabel"
 		{
