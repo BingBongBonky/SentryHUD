@@ -388,6 +388,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White"
 		
 		if_mvm
 		{
@@ -847,7 +848,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
  		"xpos"			"428"
-		"ypos"			"-6"
+		"ypos"			"-8"
 		"zpos"			"3"
 		"wide"			"205"
 		"tall"			"40"
