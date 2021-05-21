@@ -19,7 +19,7 @@
 
 		"FreezePanelBG"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"8"
 			"ypos"			"160"
@@ -28,14 +28,8 @@
 			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-			"scaleImage"		"1"	
-			
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-				
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"bgcolor_override"			"11 11 11 150"
+			"paintbackgroundtype"		"0"
 		}
 		
 		"FreezeLabel"
@@ -123,7 +117,7 @@
 
 			"NemesisPanelBG"
 			{
-				"ControlName"		"ScalableImagePanel"
+				"ControlName"		"EditableImagePanel"
 				"fieldName"		"NemesisPanelBG"
 				"xpos"			"95"
 				"ypos"			"4"
@@ -132,14 +126,8 @@
 				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../hud/color_panel_brown"
-				"scaleImage"		"1"	
-				
-				"src_corner_height"		"23"				// pixels inside the image
-				"src_corner_width"		"23"
-					
-				"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"6"	
+				"bgcolor_override"			"11 11 11 50"
+				"paintbackgroundtype"		"0"
 			}
 			"NemesisIcon"
 			{
