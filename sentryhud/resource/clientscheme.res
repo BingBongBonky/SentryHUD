@@ -81,6 +81,7 @@ Scheme
 		"S_XP"				"0 255 34 255"
 		"S_Blue"			"45 121 221 255"
 		"S_Yellow"			"224 227 48 255"
+		"S_Red"				"209 8 8 255"
 
 		// Scoreboard
 		"S_SBBlue"			"76 108 124 255"
