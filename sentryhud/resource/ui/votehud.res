@@ -129,7 +129,7 @@
 			"ypos"			"23"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
@@ -143,7 +143,7 @@
 			"fieldName"		"Divider"
 			"xpos"			"10"
 			"ypos"			"50"
-			"wide"			"130"
+			"wide"			"0"
 			"tall"			"1"
 			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
@@ -356,7 +356,7 @@
 			"fieldName"		"Divider2"
 			"xpos"			"10"
 			"ypos"			"100"
-			"wide"			"130"
+			"wide"			"0"
 			"tall"			"1"
 			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
@@ -580,7 +580,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
-			"fgcolor_override"	"235 235 235 255
+			"fgcolor_override"	"235 235 235 255"
 		}
 									
 		"VoteSetupList"
@@ -686,7 +686,7 @@
 			"Default"		"0"
 			"font"			"HSFont12"
 			// default style
- 			"defaultBgColor_override"	"S_MenuShader"
+ 			"defaultBgColor_override"	"S_Menu"
  			"defaultFgColor_override"	"White"
 	
  			// armed style
@@ -718,7 +718,7 @@
 			"Default"		"0"
 			"font"			"HSFont12"
 			// default style
- 			"defaultBgColor_override"	"S_MenuShader"
+ 			"defaultBgColor_override"	"S_Menu"
  			"defaultFgColor_override"	"White"
 	
  			// armed style
