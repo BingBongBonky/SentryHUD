@@ -2,7 +2,7 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -13,63 +13,40 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"bgcolor_override"			"11 11 11 50"
+		"paintbackgroundtype"		"0"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Blue"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"bgcolor_override"			"11 11 11 50"
+		"paintbackgroundtype"		"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Red"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"bgcolor_override"			"11 11 11 50"
+		"paintbackgroundtype"		"0"
 	}
 	
 	"TargetNameLabel"
@@ -101,11 +78,7 @@
 		"font"			"FontStoreOriginalPrice"
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -256,9 +229,7 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
-		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"ypos"			"6"
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"
