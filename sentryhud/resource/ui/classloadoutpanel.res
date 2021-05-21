@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"23 24 24 255"
-		"infocus_bgcolor_override" "23 24 24 255"
-		"outoffocus_bgcolor_override" "23 24 24 255"
+		"bgcolor_override"				"S_Menu"
+		"infocus_bgcolor_override" 		"S_Menu"
+		"outoffocus_bgcolor_override" 	"S_Menu"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -64,7 +64,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type" "1" // High quality item image
+				"inventory_image_type"  "1" // High quality item image
 			}
 		}
 
@@ -126,6 +126,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "235 235 235 255"
 	}
 
 	"TauntCaratLabel"
@@ -171,13 +172,10 @@
 		"xpos"			"c-305"
 		"ypos"			"40"
 		"zpos"			"2"
-		"wide"			"610"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
-		"tileVertically" "0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}				
 	
 	"classmodelpanel"
