@@ -168,8 +168,8 @@
 				"xpos"			"2"
 				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"22"
-				"tall"			"22"
+				"wide"			"24"
+				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -187,9 +187,7 @@
 				if_competitive
 				{
 					"xpos"			"4"
-					"ypos"			"4"
-					"wide"			"p0.4"
-					"tall"			"p0.6"
+					"ypos"			"0"
 					"image"			"../vgui/hud_connecting"
 					"proportionaltoparent" "1"
 				}
@@ -198,8 +196,6 @@
 				{
 					"xpos"			"5"
 					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
 			}
@@ -211,31 +207,23 @@
 				"xpos"			"5"
 				"ypos"			"4"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
 				{
-					"visible"		"1"
 				}
 
 				if_competitive
 				{
-					"xpos"			"4"
-					"ypos"			"4"
-					"wide"			"p0.4"
-					"tall"			"p0.6"
-					"visible"		"1"
-					"proportionaltoparent" "1"
 				}
 
 				if_readymode
 				{
-					"visible"		"1"
 				}
 			}
 			
@@ -267,7 +255,7 @@
 			
 			"ReadyBG"
 			{
-				"ControlName"		"ScalableImagePanel"
+				"ControlName"		"EditablePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
@@ -277,15 +265,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
-				
 				if_mvm
 				{
 					"visible"		"1"
