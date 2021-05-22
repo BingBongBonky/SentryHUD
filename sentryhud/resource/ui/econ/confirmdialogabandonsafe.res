@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmDialogAbandonSafe.res"
+"Resource/UI/Econ/ConfirmDialogAbandonSafe.res"
 {
 	"ConfirmDialog"
 	{
@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"23 24 24 255"
+		"bgcolor_override"	"S_MenuShader"
 	}
 	
 	"TitleLabel"
@@ -42,7 +42,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"EconFontSmall"
+		"font"			"HSFont18"
 		"labelText"		"%text%"
 		"textAlignment"	"north"
 		"xpos"			"40"
@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"HSFont12"
+		"font"			"HSFont18"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -81,10 +81,10 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"armedBgColor_override"		"S_SBRed"
+		"armedFgColor_override"		"White"
+		"depressedBgColor_override"	"S_SBRed"
+		"depressedFgColor_override"	"White"
 	}
 	
 	"CancelButtonHintIcon"
@@ -117,7 +117,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HSFont12"
+		"font"			"HSFont18"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -125,10 +125,10 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"armedBgColor_override"		"S_Blue"
+		"armedFgColor_override"		"White"
+		"depressedBgColor_override"	"S_Blue"
+		"depressedFgColor_override"	"White"
 	}
 	
 	"ConfirmButtonHintIcon"
