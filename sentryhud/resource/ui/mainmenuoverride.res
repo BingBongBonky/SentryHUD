@@ -257,12 +257,14 @@
 		"font"				"KCFont32"
 		"labelText"			"SentryHUD"
 		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
 		"textAlignment"		"center"
-		"xpos"				"c-400"
-		"ypos"				"10"
+		"xpos"				"c-330"
+		"ypos"				"25"
 		"zpos"				"10"
-		"wide"				"300"
-		"tall"				"60"
+		"wide"				"150"
+		"tall"				"32"
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"0"
@@ -1466,119 +1468,112 @@
 			"textinsetx"	"0"
 			"fgcolor_override"	"S_Shadow"
 		}
+	}
 		
-		"BookmarkList"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BookmarkList"
-			"xpos"			"2"
-			"ypos"			"30"
-			"zpos"			"10"
-			"wide"			"250"
-			"tall"			"100"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+	"BookmarkList"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"BookmarkList"
+		"xpos"			"c-375"
+		"ypos"			"235"
+		"zpos"			"11"
+		"wide"			"205"
+		"tall"			"87"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_MenuShader"
+	}
 
-			"Bookmark_1"
-			{
-				"ControlName"	"CExButton"
-				"fieldname"		"Bookmark_1"
-				"xpos"			"5"
-				"ypos"			"0"
-				"zpos"			"10"
-				"wide"			"200"
-				"tall"			"23"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"MGE"
-				"font"			"HSFont24"
-				"textinsetx"	"20"
-				"command"		"engine connect 92.119.148.52:27015"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				// default style
- 				"defaultBgColor_override"	"White"
- 				"defaultFgColor_override"	"Black"
+	"Bookmark_1"
+	{
+		"ControlName"	"CExButton"
+		"fieldname"		"Bookmark_1"
+		"xpos"			"c-370"
+		"ypos"			"240"
+		"zpos"			"12"
+		"wide"			"195"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"MGE"
+		"font"			"HSFont24"
+		"textinsetx"	"20"
+		"command"		"engine connect 92.119.148.52:27015"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		// default style
+ 		"defaultBgColor_override"	"White"
+ 		"defaultFgColor_override"	"Black"
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
+	}
 
- 				// armed style
- 				"armedBgColor_override"		"S_Blue"
- 				"armedFgColor_override" 	"White"
+	"Bookmark_2"
+	{
+		"ControlName"	"CExButton"
+		"fieldname"		"Bookmark_2"
+		"xpos"			"c-370"
+		"ypos"			"267"
+		"zpos"			"12"
+		"wide"			"195"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"JUMP ACADEMY"
+		"font"			"HSFont24"
+		"textinsetx"	"20"
+		"command"		"engine connect 74.91.127.161:27015"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		// default style
+ 		"defaultBgColor_override"	"White"
+ 		"defaultFgColor_override"	"Black"
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
+	}
 
- 				// depressed style    
- 				"depressedBgColor_override"	"S_Blue"
- 				"depressedFgColor_override" "White"
-			}
-
-			"Bookmark_2"
-			{
-				"ControlName"	"CExButton"
-				"fieldname"		"Bookmark_2"
-				"xpos"			"5"
-				"ypos"			"28"
-				"zpos"			"10"
-				"wide"			"200"
-				"tall"			"23"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"KT Balance Mod"
-				"font"			"HSFont24"
-				"textinsetx"	"20"
-				"command"		"engine connect 149.28.113.177:27015"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				// default style
- 				"defaultBgColor_override"	"White"
- 				"defaultFgColor_override"	"Black"
-
- 				// armed style
- 				"armedBgColor_override"		"S_Blue"
- 				"armedFgColor_override" 	"White"
-
- 				// depressed style    
- 				"depressedBgColor_override"	"S_Blue"
- 				"depressedFgColor_override" "White"
-			}
-
-			"Bookmark_3"
-			{
-				"ControlName"	"CExButton"
-				"fieldname"		"Bookmark_3"
-				"xpos"			"5"
-				"ypos"			"56"
-				"zpos"			"10"
-				"wide"			"200"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"JUMP ACADEMY"
-				"font"			"HSFont24"
-				"textinsetx"	"20"
-				"command"		"engine connect 74.91.127.161:27015"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				// default style
- 				"defaultBgColor_override"	"White"
- 				"defaultFgColor_override"	"Black"
-
- 				// armed style
- 				"armedBgColor_override"		"S_Blue"
- 				"armedFgColor_override" 	"White"
-
- 				// depressed style    
- 				"depressedBgColor_override"	"S_Blue"
- 				"depressedFgColor_override" "White"
-			}
-
-		}
-
+	"Bookmark_3"
+	{
+		"ControlName"	"CExButton"
+		"fieldname"		"Bookmark_3"
+		"xpos"			"c-370"
+		"ypos"			"294"
+		"zpos"			"12"
+		"wide"			"195"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"KT Balance Mod"
+		"font"			"HSFont24"
+		"textinsetx"	"20"
+		"command"		"engine connect 149.28.113.177:27015"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		// default style
+ 		"defaultBgColor_override"	"White"
+ 		"defaultFgColor_override"	"Black"
+ 		// armed style
+ 		"armedBgColor_override"		"S_Blue"
+ 		"armedFgColor_override" 	"White"
+ 		// depressed style    
+ 		"depressedBgColor_override"	"S_Blue"
+ 		"depressedFgColor_override" "White"
 	}
 
 	"FriendsContainer"
