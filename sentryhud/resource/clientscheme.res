@@ -55,7 +55,7 @@ Scheme
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
-		"Black"				"46 43 42 255"
+		"Black"				"5 5 5 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
@@ -75,8 +75,8 @@ Scheme
 		"S_Shadow"			"0 0 0 220"
 		"S_Lime"			"18 241 19 255"
 		"S_Overheal"		"120 255 255 255"
-		"S_Menu"			"23 24 24 255"
-		"S_MenuShader"		"14 14 14 255"
+		"S_Menu"			"14 14 14 255"
+		"S_MenuShader"		"9 9 9 255"
 		"S_MenuTooltip"		"61 61 61 255"
 		"S_XP"				"0 255 34 255"
 		"S_Blue"			"45 121 221 255"
