@@ -2196,14 +2196,15 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"RoundedCorners"	"5"
 			
+			"paintborder"		"0"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" 	 "235 235 235 255"
+			"armedBgColor_override"		 "S_Blue"
+			"depressedBgColor_override"  "S_Blue"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"0 0 0 255"
+			"image_armedcolor"	"White"
 
 			"proportionaltoparent"	"1"
 			
@@ -2264,15 +2265,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
+			"paintborder"		"0"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" 	 "235 235 235 255"
+			"armedBgColor_override"		 "S_Blue"
+			"depressedBgColor_override"  "S_Blue"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"25 25 25 255"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2331,15 +2332,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
+			"paintborder"		"0"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" 	 "235 235 235 255"
+			"armedBgColor_override"		 "S_Blue"
+			"depressedBgColor_override"  "S_Blue"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"0 0 0 255"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2400,14 +2401,15 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			
+			"paintborder"		"0"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" 	 "235 235 235 255"
+			"armedBgColor_override"		 "S_Blue"
+			"depressedBgColor_override"  "S_Blue"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"0 0 0 255"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
