@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"45 45 45 0"
-		"infocus_bgcolor_override"		"45 45 45 0"
-		"outoffocus_bgcolor_override"	"45 45 45 0"
+		"bgcolor_override"				"24 24 24 255"
+		"infocus_bgcolor_override"		"24 24 24 255"
+		"outoffocus_bgcolor_override"	"24 24 24 255"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"KCFont24"
