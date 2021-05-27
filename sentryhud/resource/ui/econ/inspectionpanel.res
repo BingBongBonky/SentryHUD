@@ -2,7 +2,7 @@
 {
 	"BGImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGImage"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -11,8 +11,9 @@
 		"tall"			"p0.75"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"item_carousel_bg"
-		"scaleImage"	"1"
+		"bgcolor_override"	"11 11 11 255"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
 		"proportionaltoparent" "1"
 	}
 
