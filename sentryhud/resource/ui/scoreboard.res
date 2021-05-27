@@ -28,7 +28,7 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-421"
 		"ypos"			"19"
@@ -38,8 +38,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"S_SBBlue"
-		"scaleImage"		"1"
+		"bgcolor_override"		"S_SBBlue"
+		"PaintBackgroundType"	"3"
 		
 		if_mvm
 		{
@@ -90,7 +90,7 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c-107"
 		"ypos"			"19"
@@ -100,7 +100,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"S_SBRed"
+		"bgcolor_override"		"S_SBRed"
+		"PaintBackgroundType"	"3"
+		"paintbackground"		"1"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -464,9 +466,9 @@
 		"fieldName"		"ServerTimeLeftValue"
 		"font"			"ScoreboardMediumSmall"
 		"labelText"		"%servertime%"
-		"textAlignment"		"east"
-		"xpos"			"553"
-		"ypos"			"290"
+		"textAlignment"		"center"
+		"xpos"			"c-160"
+		"ypos"			"3"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"20"
