@@ -179,13 +179,11 @@
 	}	
 	
 	CHudAccountPanel
+	// Engineer Metal Count
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"c-45"
+		"ypos"					"265"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -196,15 +194,16 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-165"
-		"xpos_minmode"			"61"
-		"ypos"					"380"
+		"xpos"					"c-163"
+		"xpos_minmode"			"c-163"
+		"ypos"					"280"
 		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+		"textAlignment"			"center"
 	}
 	
 	CDamageAccountPanel
@@ -967,7 +966,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-225"
-		"ypos"			"c-55"
+		"ypos"			"c-85"
 		"wide"			"450"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -979,7 +978,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-225"
-		"ypos"			"c-59"
+		"ypos"			"c-89"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1237,7 +1236,7 @@
 		"ypos"					"rs1"
 		"zpos"					"10"
 		"wide"					"190"
-		"tall"					"190"
+		"tall"					"350"
 	}
 	
 	HudTFCrosshair
