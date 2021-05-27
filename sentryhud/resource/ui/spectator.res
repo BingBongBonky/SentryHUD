@@ -98,9 +98,9 @@
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
 		"font_hidef"		"HudFontMedium"
-		"xpos"			"r260"	[$WIN32]
-		"ypos"			"16"	[$WIN32]
-		"wide"			"240"	[$WIN32]
+		"xpos"			"r260"
+		"ypos"			"16"
+		"wide"			"240"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -142,114 +142,43 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"enabled"		"0"
+		"fgcolor_override"	"0 0 0 0"
 	}
 	"SwitchCamModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"80"
-		"ypos"			"10"		
-		"wide"			"125
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_SwitchCamMode"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"enabled"		"0"
+		"fgcolor_override"	"0 0 0 0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"5"
-		"ypos"			"20"		
-		"wide"			"60"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"enabled"		"0"
+		"fgcolor_override"	"0 0 0 0"
 	}
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"20"	[$WIN32]	
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetFwd"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"enabled"		"0"
+		"fgcolor_override"	"0 0 0 0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"enabled"		"0"
+		"fgcolor_override"	"0 0 0 0"
 	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetRev"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"enabled"		"0"
+		"fgcolor_override"	"0 0 0 0"
 	}
 	"TipLabel"
 	{
