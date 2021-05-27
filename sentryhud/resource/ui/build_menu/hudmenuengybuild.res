@@ -87,8 +87,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HSFont48"
 		"fgcolor"		"S_Shadow"
-		"xpos"			"69"			// align me to the left edge of the first selection
-		"ypos"			"-4"
+		"xpos"			"70"			// align me to the left edge of the first selection
+		"ypos"			"-3"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -107,6 +107,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
+		"fgcolor"		"White"
 		"xpos"			"245"
 		"ypos"			"8"
 		"zpos"			"1"
@@ -121,7 +122,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"

@@ -50,8 +50,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HSFont48"
 		"fgcolor"		"S_Shadow"
-		"xpos"			"69"			// align me to the left edge of the first selection
-		"ypos"			"0"
+		"xpos"			"70"			// align me to the left edge of the first selection
+		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
