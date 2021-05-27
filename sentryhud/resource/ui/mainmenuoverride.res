@@ -241,7 +241,7 @@
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c9999"
-		"ypos"			"0"
+		"ypos"			"-80"
 		"zpos"			"-9999"
 		"wide"			"0"
 		"tall"			"0"
@@ -2202,9 +2202,6 @@
 			"defaultBgColor_override" 	 "235 235 235 255"
 			"armedBgColor_override"		 "S_Blue"
 			"depressedBgColor_override"  "S_Blue"
-			
-			"image_drawcolor"	"0 0 0 255"
-			"image_armedcolor"	"White"
 
 			"proportionaltoparent"	"1"
 			
