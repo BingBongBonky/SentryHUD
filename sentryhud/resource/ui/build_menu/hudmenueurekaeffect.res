@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"White"
+		"iconColor"		"50 255 210 255"
 	}
 	
 	"BuildIconShadow"	
@@ -55,7 +55,7 @@
 		"font"			"HSFont32"
 		"fgcolor"		"White"
 		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -76,7 +76,7 @@
 		"font"			"HSFont32"
 		"fgcolor"		"S_Shadow"
 		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"2"
+		"ypos"			"7"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -96,8 +96,8 @@
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
 		"fgcolor"		"White"
-		"xpos"			"35"
-		"ypos"			"35"
+		"xpos"			"45"
+		"ypos"			"168"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"13"
