@@ -179,7 +179,7 @@
 	}	
 	
 	CHudAccountPanel
-	// Engineer Metal Count
+	// Engineer Metal Count: Centered
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-45"
