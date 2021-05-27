@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
+		"font"			"HSFont14"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -15,8 +15,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
-		"textAlignment"	"Left"
+		"fgcolor"		"White"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -34,14 +34,15 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"ProgressOffWhiteTransparent"
+		"iconColor"		"S_RedTransparent"
 	}
 	
 	"CantBuildReason"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Default"
+		"font"			"HSFont12"
+		"fgcolor"		"RedSolid"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -70,15 +71,15 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"TanDark"
+		"iconColor"		"RedSolid"
 	}
 	
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
-		"fgcolor"		"TanDark"
+		"font"			"KCFont14"
+		"fgcolor"		"RedSolid"
 		"xpos"			"23"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -120,8 +121,8 @@
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
@@ -131,8 +132,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"

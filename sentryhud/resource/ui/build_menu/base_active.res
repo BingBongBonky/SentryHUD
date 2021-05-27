@@ -4,7 +4,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
+		"font"			"HSFont14"
+		"fgcolor"		"White"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -15,9 +16,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"textAlignment"	"Left"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"White"
 	}
 
 	"ItemBackground"
@@ -33,7 +35,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"ProgressOffWhite"
+		"iconColor"		"S_MenuTransparent"
 	}
 	
 	"BuildingIcon"	
@@ -65,15 +67,15 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"TanDarker"
+		"iconColor"		"White"
 	}
 	
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
-		"fgcolor"		"TanDarker"
+		"font"			"KCFont14"
+		"fgcolor"		"White"
 		"xpos"			"23"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -115,8 +117,8 @@
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
@@ -126,8 +128,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"
