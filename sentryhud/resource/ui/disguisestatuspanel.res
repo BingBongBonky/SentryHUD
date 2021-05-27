@@ -30,34 +30,18 @@
 	}
 	"DisguiseStatusBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"10"
-		"xpos_minmode"			"10"
 		"ypos"			"30"
-		"ypos_minmode"			"48"
 		"zpos"			"-1"
 		"wide"			"200"
-		"wide_minmode"			"140"
 		"tall"	 		"32"
-		"tall_minmode"	 		"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"bgcolor_override"	"11 11 11 240"
 	}
 
 	"DisguiseNameLabel"
