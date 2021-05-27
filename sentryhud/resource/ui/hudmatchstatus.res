@@ -65,7 +65,7 @@
 		"font"			"KCFont48"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"40"
 		"zpos"			"5"
 		"autoResize"	"0"
@@ -92,7 +92,7 @@
 		"font"			"KCFont48"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"40"
 		"zpos"			"4"
 		"autoResize"	"0"
@@ -219,7 +219,7 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"bgcolor_override"			"25 25 25 200"
+		"bgcolor_override"			"S_MenuTransparent"
 		"paintbackgroundtype"		"2"
 
 		if_match
@@ -232,7 +232,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HSFont32"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -248,14 +248,14 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"RankUpShadowLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HSFont32"
 		"xpos"			"cs-0.5+2"
 		"ypos"			"80+2"
 		"wide"			"600"
@@ -271,7 +271,7 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"S_Shadow"
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -279,13 +279,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"110"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
