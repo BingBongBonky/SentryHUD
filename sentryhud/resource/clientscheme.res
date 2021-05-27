@@ -83,6 +83,11 @@ Scheme
 		"S_Yellow"			"224 227 48 255"
 		"S_Red"				"209 8 8 255"
 
+		// Transparent
+		"S_MenuTransparent"			"14 14 14 200"
+		"S_MenuShaderTransparent"	"9 9 9 200"
+		"S_RedTransparent"			"255 0 0 200"
+
 		// Scoreboard
 		"S_SBBlue"			"76 108 124 255"
 		"S_SBRed"			"172 52 52 255"
