@@ -1,5 +1,20 @@
 "Resource/HudLayout.res"
 {
+	"Transparent"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0" // Transparent Viewmodels - Set to 1 to active
+		"enabled"		"0" // Transparent Viewmodels - Set to 1 to active
+		"image"			"replay/thumbnails/transparent"
+		"scaleImage"	"1"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
