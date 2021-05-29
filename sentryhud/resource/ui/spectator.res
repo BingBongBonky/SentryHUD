@@ -142,6 +142,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
+		"wide"			"0"
 		"enabled"		"0"
 		"fgcolor_override"	"0 0 0 0"
 	}
@@ -149,6 +150,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
+		"wide"			"0"
 		"enabled"		"0"
 		"fgcolor_override"	"0 0 0 0"
 	}
@@ -156,6 +158,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
+		"wide"			"0"
 		"enabled"		"0"
 		"fgcolor_override"	"0 0 0 0"
 	}
@@ -163,6 +166,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
+		"wide"			"0"
 		"enabled"		"0"
 		"fgcolor_override"	"0 0 0 0"
 	}
@@ -170,6 +174,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
+		"wide"			"0"
 		"enabled"		"0"
 		"fgcolor_override"	"0 0 0 0"
 	}
@@ -177,6 +182,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
+		"wide"			"0"
 		"enabled"		"0"
 		"fgcolor_override"	"0 0 0 0"
 	}
@@ -185,6 +191,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"pinCorner"		"0"
+		"wide"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
