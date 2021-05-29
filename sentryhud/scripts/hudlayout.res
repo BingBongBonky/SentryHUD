@@ -481,7 +481,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "18"
+		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -1132,9 +1132,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"wide"					"125"
+		"xpos"					"c-170"
+		"ypos"					"18"
+		"wide"					"155"
 		"tall"					"70"
 	}
 	
