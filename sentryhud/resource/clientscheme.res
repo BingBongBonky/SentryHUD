@@ -77,7 +77,7 @@ Scheme
 		"S_Overheal"		"120 255 255 255"
 		"S_Menu"			"14 14 14 255"
 		"S_MenuShader"		"9 9 9 255"
-		"S_MenuTooltip"		"61 61 61 255"
+		"S_MenuTooltip"		"35 35 35 255"
 		"S_XP"				"0 255 34 255"
 		"S_Blue"			"45 121 221 255"
 		"S_Yellow"			"224 227 48 255"
@@ -3628,13 +3628,13 @@ Scheme
 
 		S_MeterBorder
 		{
-			"inset" "0 0 0 0"
+			"inset" "0 0 1 1"
 			Left
 			{
 				"1"
 				{
 					"color" "Black"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 			}
 
@@ -3666,6 +3666,43 @@ Scheme
 			}
 		}
 		
+		MainMenuButtonBorder
+		{
+		    "inset" "0 0 1 1"
+		    Left
+		    {
+		        "1"
+		        {
+		            "color" "Black"
+		            "offset" "0 1"
+		        }
+		    }
+		    Right
+		    {
+		        "1"
+		        {
+		            "color" "Black"
+		            "offset" "1 0"
+		        }
+		    }
+		    Top
+		    {
+		        "1"
+		        {
+		            "color" "Black"
+		            "offset" "0 0"
+		        }
+		    }
+		    Bottom
+		    {
+		        "1"
+		        {
+		            "color" "Black"
+		            "offset" "0 0"
+		        }
+		    }
+		}
+
 		TFThinLineBorder
 		{
 			"bordertype"			"scalable_image"
