@@ -55,13 +55,56 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
+		"wide"			"0"
+		"tall"			"0"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 			
 		"image"					"../hud/comp_round_timer"
 		"scaleimage"			"1"
+	}
+	"BlueTeamBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueTeamBackground"
+		"xpos"			"c-45"
+		"ypos"			"0"
+		"wide"			"45"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"S_Blue"
+		"proportionaltoparent"	"1"
+	}
+
+	"RedTeamBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedTeamBackground"
+		"xpos"			"c1"
+		"ypos"			"1"
+		"wide"			"45"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"S_SBRed"
+		"proportionaltoparent"	"1"
+	}
+
+	"TimerBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TimerBG"
+		"xpos"			"c-45"
+		"ypos"			"12"
+		"zpos"			"1"
+		"wide"			"91"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"S_Menu"
+		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
 	}
 }
