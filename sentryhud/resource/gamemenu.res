@@ -7,14 +7,13 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
@@ -22,7 +21,7 @@
 	{
 		"label"			""
 		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
 	}
@@ -30,7 +29,7 @@
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
@@ -38,8 +37,8 @@
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"0"
-		"subimage"		"glyph_alert"
+		"OnlyInGame"	"1"
+		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

@@ -591,7 +591,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_Alert"
+				"image"			"replay/thumbnails/mainmenu/glyph_alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -601,7 +601,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
+		"xpos"			"c216"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -611,6 +611,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"paintbackground"	"1"
 		
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
@@ -644,10 +645,22 @@
 				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			// default
+			"defaultBgColor_override" 	 "235 235 235 255"
+			"border_default"			"MainMenuButtonBorder"
+
+			// armed
+			"armedBgColor_override"		 "S_Blue"
+			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
+			"depressedBgColor_override"  "S_Blue"
+			"border_depressed"			"MainMenuButtonBorder"
+
+			"image_drawcolor"	"25 25 25 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -661,8 +674,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_streaming"
-
+				"image"			"replay/thumbnails/mainmenu/button_streaming"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
@@ -692,7 +704,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
+		"xpos"			"c248"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -735,10 +747,22 @@
 				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			// default
+			"defaultBgColor_override" 	 "235 235 235 255"
+			"border_default"			"MainMenuButtonBorder"
+
+			// armed
+			"armedBgColor_override"		 "S_Blue"
+			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
+			"depressedBgColor_override"  "S_Blue"
+			"border_depressed"			"MainMenuButtonBorder"
+
+			"image_drawcolor"	"25 25 25 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -765,7 +789,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c268"
+		"xpos"			"c280"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -808,9 +832,22 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"paintbackground"	"1"
+			"paintborder"		"0"
+			// default
+			"defaultBgColor_override" 	 "235 235 235 255"
+			"border_default"			"MainMenuButtonBorder"
+
+			// armed
+			"armedBgColor_override"		 "S_Blue"
+			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
+			"depressedBgColor_override"  "S_Blue"
+			"border_depressed"			"MainMenuButtonBorder"
+
+			"image_drawcolor"	"25 25 25 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -823,7 +860,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_MOTD"
+				"image"			"replay/thumbnails/mainmenu/button_motd"
 				"scaleImage"	"1"
 			}
 		}
@@ -2178,7 +2215,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"p0.8"
+			"wide"			"24"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -2197,27 +2234,35 @@
 			
 			"paintborder"		"1"
 			"paintbackground"	"1"
+
+			// default
 			"defaultBgColor_override" 	 "235 235 235 255"
 			"border_default"			"MainMenuButtonBorder"
+
+			// armed
 			"armedBgColor_override"		 "S_Blue"
 			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
 			"depressedBgColor_override"  "S_Blue"
 			"border_depressed"			"MainMenuButtonBorder"
 
+			"image_drawcolor"	"25 25 25 255"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"5"
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_create"
+				"image"			"replay/thumbnails/mainmenu/glyph_alert"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}				
@@ -2263,12 +2308,20 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"paintborder"		"0"
+			"paintborder"		"1"
 			"paintbackground"	"1"
 			
+			// default
 			"defaultBgColor_override" 	 "235 235 235 255"
+			"border_default"			"MainMenuButtonBorder"
+
+			// armed
 			"armedBgColor_override"		 "S_Blue"
+			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
 			"depressedBgColor_override"  "S_Blue"
+			"border_depressed"			"MainMenuButtonBorder"
 			
 			"image_drawcolor"	"25 25 25 255"
 			"image_armedcolor"	"White"
@@ -2330,12 +2383,20 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"paintborder"		"0"
+			"paintborder"		"1"
 			"paintbackground"	"1"
 			
+			// default
 			"defaultBgColor_override" 	 "235 235 235 255"
+			"border_default"			"MainMenuButtonBorder"
+
+			// armed
 			"armedBgColor_override"		 "S_Blue"
+			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
 			"depressedBgColor_override"  "S_Blue"
+			"border_depressed"			"MainMenuButtonBorder"
 			
 			"image_drawcolor"	"25 25 25 255"
 			"image_armedcolor"	"White"
@@ -2399,12 +2460,20 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			
-			"paintborder"		"0"
+			"paintborder"		"1"
 			"paintbackground"	"1"
 			
+			// default
 			"defaultBgColor_override" 	 "235 235 235 255"
+			"border_default"			"MainMenuButtonBorder"
+
+			// armed
 			"armedBgColor_override"		 "S_Blue"
+			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
 			"depressedBgColor_override"  "S_Blue"
+			"border_depressed"			"MainMenuButtonBorder"
 			
 			"image_drawcolor"	"25 25 25 255"
 			"image_armedcolor"	"White"
