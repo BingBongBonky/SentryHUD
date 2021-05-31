@@ -89,7 +89,9 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultBgColor_override" "0 0 0 0"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"S_Blue"
+			"depressedBgColor_override"	"S_Blue"
 		}
 	}
 	
@@ -239,7 +241,7 @@
 		
 		"attriblabel"
 		{
-			"font"			"KCFont12"
+			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -251,7 +253,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"61 61 61 255"
+			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -260,7 +262,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"HSFont12"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -412,7 +413,7 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"61 61 61 255"
+		"bgcolor_override"		"45 45 45 255"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -458,21 +459,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		// default style
- 		"defaultBgColor_override"	"14 14 14 255"
- 		"defaultFgColor_override"	"235 235 235 255"
-		"defaultimage_drawcolor"	"235 235 235 255"
-	
- 		// armed style
- 		"armedBgColor_override"		"45 121 121 255"
- 		"armedFgColor_override" 	"235 235 235 255"
-		"defaultimage_drawcolor"	"235 235 235 255"
-	
- 		// depressed style    
- 		"depressedBgColor_override"	"45 121 121 255"
- 		"depressedFgColor_override" "235 235 235 255"
-		"defaultimage_drawcolor"	"235 235 235 255"
-
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -486,6 +472,18 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_items"
+
+			// default style
+ 			"defaultBgColor_override"	"S_MenuShader"
+ 			"defaultFgColor_override"	"25 25 25 255"
+
+ 			// armed style
+ 			"armedBgColor_override"		"S_Blue"
+ 			"armedFgColor_override" 	"White"
+
+ 			// depressed style    
+ 			"depressedBgColor_override"	"S_Blue"
+ 			"depressedFgColor_override" "White"
 		}
 	}
 
@@ -525,6 +523,18 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"../hud/ico_reel"
+
+			// default style
+ 			"defaultBgColor_override"	"S_MenuShader"
+ 			"defaultFgColor_override"	"25 25 25 255"
+		
+ 			// armed style
+ 			"armedBgColor_override"		"S_Blue"
+ 			"armedFgColor_override" 	"White"
+		
+ 			// depressed style    
+ 			"depressedBgColor_override"	"S_Blue"
+ 			"depressedFgColor_override" "White"
 		}
 	}
 
