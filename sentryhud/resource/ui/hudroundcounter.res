@@ -105,6 +105,5 @@
 		"enabled"		"1"
 		"bgcolor_override"		"S_Menu"
 		"proportionaltoparent"	"1"
-		"paintbackgroundtype"	"2"
 	}
 }
