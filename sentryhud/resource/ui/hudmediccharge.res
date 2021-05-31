@@ -10,11 +10,7 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"enabled"		"0"			
 	}
 	
 	"ChargeLabel"
@@ -68,7 +64,7 @@
 		"font"			"Default"
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"TransparentLightBlack"
-		"border"				"MainMenuButtonBorder"
+		"border"				"MedigunBorder"
 		"xpos"			"0"
 		"ypos"			"85"
 		"zpos"			"2"
