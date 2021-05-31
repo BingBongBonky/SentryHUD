@@ -3625,48 +3625,8 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
-
-		S_MeterBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "1 1"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "0 0"
-				}
-			}
-		}
 		
-		MainMenuButtonBorder
+		MedigunBorder
 		{
 		    "inset" "0 0 1 1"
 		    Left
@@ -3701,6 +3661,66 @@ Scheme
 		            "offset" "0 0"
 		        }
 		    }
+		}
+
+		MainMenuButtonBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "2 2"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "1 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "1 2"
+				}
+			}
 		}
 
 		TFThinLineBorder
