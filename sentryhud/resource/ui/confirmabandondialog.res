@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmDialogOptOut.res"
+"Resource/UI/ConfirmAbandonDialog.res"
 {
 	"ConfirmDialog"
 	{
@@ -7,7 +7,7 @@
 		"xpos"			"c-150"
 		"ypos"			"140"
 		"wide"			"300"
-		"tall"			"250"
+		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -15,13 +15,15 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"S_Menu"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HSFont24"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -33,26 +35,27 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "235 235 235 255"
 	}
 	
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont18"
 		"labelText"		"%text%"
-		"textAlignment"	"center"
+		"textAlignment"	"north"
 		"xpos"			"40"
-		"ypos"			"45"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"220"
-		"tall"			"130"
+		"tall"			"170"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "235 235 235 255"
 	}
 		
 	"CancelButton"
@@ -60,7 +63,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"190"
-		"ypos"			"185"
+		"ypos"			"165"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
@@ -69,17 +72,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"labelText"		"#GameUI_CancelBold"
+		"font"			"HSFont18"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		"defaultBgColor_override"	"S_MenuShader"
+		"defaultFgColor_override"	"White"
+		"armedBgColor_override"		"S_SBRed"
+		"armedFgColor_override"		"White"
+		"depressedBgColor_override"	"S_SBRed"
+		"depressedFgColor_override"	"White"
+	}
+	
 	"CancelButtonHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -92,14 +101,14 @@
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_cancel"
-	}
+	}		
 
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ConfirmButton"
 		"xpos"			"10"
-		"ypos"			"185"
+		"ypos"			"165"
 		"zpos"			"20"
 		"wide"			"175"
 		"tall"			"25"
@@ -110,7 +119,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont18"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -118,8 +127,14 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"defaultBgColor_override"	"S_MenuShader"
+		"defaultFgColor_override"	"White"
+		"armedBgColor_override"		"S_Blue"
+		"armedFgColor_override"		"White"
+		"depressedBgColor_override"	"S_Blue"
+		"depressedFgColor_override"	"White"
 	}
-
+	
 	"ConfirmButtonHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -132,28 +147,5 @@
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_select"
-	}
-	
-	"OptOutCheckbox"
-	{
-		"ControlName"	"CheckButton"
-		"fieldName"		"OptOutCheckbox"
-		"xpos"			"0"
-		"ypos"			"217"
-		"zpos"			"2"
-		"wide"			"300"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Confirm_Opt_Out"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
-		"font"			"HudFontSmallest"
-		"selected_fgcolor_override" "255 0 0 255"
-	}
+	}	
 }

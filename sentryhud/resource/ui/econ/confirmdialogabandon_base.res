@@ -1,4 +1,4 @@
-"Resource/UI/Econ/ConfirmDialogAbandonbase.res"
+"Resource/UI/Econ/ConfirmDialogAbandon_base.res"
 {
 	"ConfirmDialog"
 	{
@@ -17,7 +17,6 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"S_Menu"
-		"border"			"MainMenuButtonBorder"
 	}
 	
 	"TitleLabel"
