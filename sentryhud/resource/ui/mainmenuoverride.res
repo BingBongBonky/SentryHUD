@@ -498,7 +498,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
+		"xpos"			"c184"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -576,9 +576,23 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"paintbackground"	"1"
+			"paintborder"		"0"
+			// default
+			"defaultBgColor_override" 	 "S_SBRed"
+			"border_default"			"MainMenuButtonBorder"
+
+			// armed
+			"armedBgColor_override"		 "S_Blue"
+			"border_armed"			"MainMenuButtonBorder"
+
+			// depressed
+			"depressedBgColor_override"  "S_Blue"
+			"border_depressed"			"MainMenuButtonBorder"
+
+			"image_drawcolor"	"25 25 25 255"
+			"image_armedcolor"	"White"
+
 			
 			"SubImage"
 			{
@@ -2628,7 +2642,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-85"
+		"xpos"			"c-115"
 		"ypos"			"r50"
 		"zpos"			"13"
 		"wide"			"32"
