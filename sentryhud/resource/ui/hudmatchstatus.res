@@ -219,7 +219,7 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"bgcolor_override"			"S_MenuTransparent"
+		"bgcolor_override"			"0 0 0 0"
 		"paintbackgroundtype"		"2"
 
 		if_match
