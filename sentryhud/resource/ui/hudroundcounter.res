@@ -97,29 +97,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TimerBG"
 		"xpos"			"c-45"
-		"ypos"			"12"
+		"ypos"			"13"
 		"zpos"			"1"
 		"wide"			"91"
-		"tall"			"13"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"S_MenuTransparent"
-		"proportionaltoparent"	"1"
-	}
-
-	"GradientBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"GradientBG"
-		"xpos"			"c-1"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"3"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"S_MenuTransparent"
 		"proportionaltoparent"	"1"
 	}
-
 }
