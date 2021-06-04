@@ -417,15 +417,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudTournamentBG"
-		"xpos"			"-9999"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"55"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"bgcolor_override"		"S_MenuTransparent"
 		"paintbackground"		"1"
 		"proportionaltoparent"	"1"
@@ -443,43 +443,6 @@
 		if_readymode
 		{
 			"visible"		"0"
-		}		
-	}
-
-	"HudTournamentBGNew"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudTournamentBGNew"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"S_MenuTooltip"
-		"paintbackground"		"1"
-		"proportionaltoparent"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-		
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"12"
-			"tall"			"20"
-			"visible"		"1"
-		}
-		
-		if_readymode
-		{
-			"xpos"			"195"
-			"visible"		"1"
 		}		
 	}
 
