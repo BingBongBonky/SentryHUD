@@ -307,7 +307,7 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-10"
 		"ypos"		"0"	
 		"wide"		"640"
 		"tall"		"480"
@@ -320,12 +320,12 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-10"
 		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudMannVsMachineStatus
