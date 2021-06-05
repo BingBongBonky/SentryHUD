@@ -65,92 +65,126 @@ Scheme
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"TFTanLightDark"	// the lit side of a control
-		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
-		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
+		Border.Bright					"S_Border"	// the lit side of a control
+		Border.Dark						"S_Border"	// the dark/unlit side of a control
+		Border.Selection				"S_Border"	// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TFDarkBrown"
-		Button.BgColor					"TFTanLight"
-		Button.ArmedTextColor			"TFDarkBrown"
-		Button.ArmedBgColor				"TFTanBright"
-		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
-		Button.FocusBorderColor			"TransparentBlack"
+		// Buttons and tabs
+		Button.TextColor				"S_ButtonText"
+		Button.BgColor					"S_ButtonBg"
+		Button.ArmedTextColor			"S_ButtonHoverText"
+		Button.ArmedBgColor				"S_ButtonHoverBg"
+		Button.DepressedTextColor		"S_ButtonHoverText"
+		Button.DepressedBgColor			"S_ButtonHoverBg"	
+		Button.FocusBorderColor			"S_ButtonHoverBg"
 		
-		CheckButton.TextColor			"TFTextBright"
-		CheckButton.SelectedTextColor		"TFTextBright"
-		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
+		// Tab texts
+		PropertySheet.TextColor			"S_ButtonText"
+		PropertySheet.SelectedTextColor	"S_ButtonText"
+		
+		// Console background
+		RichText.BgColor				"S_ConsoleBg"
+		
+		// Progress bar
+		ProgressBar.FgColor				"S_Text"
+		ProgressBar.BgColor				"S_ListBg"
+		
+		// Checkboxes
+		CheckButton.TextColor			"S_Text"
+		CheckButton.SelectedTextColor	"S_SelectedText"
+		CheckButton.BgColor				"S_InputBg"
+		CheckButton.HighlightFgColor	"S_SelectedText"
 		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.DepressedBgColor	"Blank"
+		CheckButton.Border1  			"Border.Dark" 	// the left checkbutton border
+		CheckButton.Border2  			"Border.Bright"	// the right checkbutton border
+		CheckButton.Check				"S_Highlight"	// color of the check itself
+		CheckButton.DisabledBgColor	    "S_InputBg"
 
-		ToggleButton.SelectedTextColor	"TFTextBright"
+		ToggleButton.SelectedTextColor	"S_Text"
 		
-		ComboBoxButton.ArrowColor		"TFTanLight"
-		ComboBoxButton.ArmedArrowColor	"TFTanBright"
+		// Dropdowns
+		ComboBoxButton.ArrowColor		"S_Text"
+		ComboBoxButton.ArmedArrowColor	"S_SelectedText"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 		
-		RadioButton.TextColor		"TFTextBright"
-		RadioButton.SelectedTextColor	"TFTextBright"
-		RadioButton.ArmedTextColor	"TFTextMedium"
+		// Radio buttons
+		RadioButton.TextColor			"S_Text"
+		RadioButton.SelectedTextColor	"S_SelectedText"
+		RadioButton.ArmedTextColor		"S_SelectedText"
 		
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
-		FrameGrip.Color1				"TFTanMedium"
-		FrameGrip.Color2				"TFDarkBrown"
-		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
-		FrameTitleBar.TextColor			"TFTanBright"
-		FrameTitleBar.DisabledTextColor	"TFTanLight"
+		// Frames
+		Frame.BgColor					"S_ActiveWindow"
+		Frame.OutOfFocusBgColor			"S_InctiveWindow"
+		FrameGrip.Color1				"S_Light"
+		FrameGrip.Color2				"S_Dark"
+		FrameTitleButton.FgColor		"S_TitleText"
+
+		// Frame titles
+		FrameTitleBar.Font				"S_DefaultSmall"
+		FrameTitleBar.TextColor			"S_TitleText"
+		FrameTitleBar.DisabledTextColor	"S_TitleText"
+		FrameTitleBar.BgColor			"S_TitleBg"
 		
+		// Labels
 		Label.TextDullColor				"TFTextDull"
-		Label.TextColor					"TFTextBright"
-		Label.TextBrightColor			"TFTextBright"
-		Label.SelectedTextColor			"TFTextBright"
+		Label.TextColor					"S_Text"
+		Label.TextBrightColor			"S_SelectedText"
+		Label.SelectedTextColor			"S_SelectedText"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
-		Label.DisabledFgColor2			"Blank"	
+		Label.DisabledFgColor1			"S_DisabledText"	
+		Label.DisabledFgColor2			"Blank"
 		
-		ListPanel.TextColor					"TFTextBright"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
+		// List panels
+		ListPanel.TextColor					"S_Text"
+		ListPanel.SelectedTextColor			"S_HighlightText"
+		ListPanel.BgColor					"S_ListBg"
+		ListPanel.SelectedBgColor			"S_Highlight"
+		ListPanel.SelectedOutOfFocusBgColor	"S_Highlight"
 		
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
+		MainMenu.TextColor			"S_Text"			[$WIN32]
+		MainMenu.ArmedTextColor		"S_SelectedText"	[$WIN32]
 		MainMenu.Inset				"32"
 		
-		Menu.TextInset					"6"
-		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
-		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
+		Menu.TextInset			"6"
+		Menu.TextColor			"S_Text"
+		Menu.BgColor			"S_ListBg"
+		Menu.ArmedTextColor		"S_HighlightText"
+		Menu.ArmedBgColor		"S_Highlight"
 		Menu.DividerColor		"BorderDark"
 		
-		ScrollBarButton.FgColor				"TFDarkBrown"
-		ScrollBarButton.BgColor				"TFTanLight"
-		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
-		ScrollBarButton.ArmedBgColor		"TFTanBright"
-		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
+		ScrollBarButton.FgColor				"S_ButtonText"
+		ScrollBarButton.BgColor				"S_ButtonBg"
+		ScrollBarButton.ArmedFgColor		"S_ButtonHoverText"
+		ScrollBarButton.ArmedBgColor		"S_ButtonHoverBg"
+		ScrollBarButton.DepressedFgColor	"S_ButtonHoverText"
+		ScrollBarButton.DepressedBgColor	"S_ButtonHoverBg"
 
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		ScrollBarSlider.BgColor				"S_Dark"		// this isn't really used
+		ScrollBarSlider.FgColor				"S_ButtonBg"	// handle with which the slider is grabbed
 		
-		Slider.NobColor				"TFTanLight"		
-		Slider.TextColor			"TFTextBright"
-		Slider.TrackColor			"ListBG"
+		Slider.NobColor				"S_ButtonBg"		
+		Slider.TextColor			"S_ButtonText"
+		Slider.TrackColor			"S_Dark"
 		Slider.DisabledTextColor1	"TFTextMediumDark"
         Slider.DisabledTextColor2	"Blank"
 		
-		TextEntry.TextColor			        "TFTextBright"
-		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		// Text fields
+		TextEntry.TextColor				"S_Text"
+		TextEntry.SelectedTextColor		"S_HighlightText"
+		TextEntry.DisabledTextColor		"S_DisabledText"
+		TextEntry.SelectedBgColor		"S_Highlight"
+		TextEntry.BgColor				"S_InputBg"
+		
+		// Selection list (options)
+		SectionedListPanel.TextColor			"S_Text"
+		SectionedListPanel.BrightTextColor		"S_Text"
+		SectionedListPanel.BgColor				"S_ListBg"
+		SectionedListPanel.SelectedTextColor	"S_HighlightText"
+		SectionedListPanel.SelectedBgColor		"S_Highlight"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"S_HighlightText"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"S_Highlight"
 	}
 	
 	Fonts
