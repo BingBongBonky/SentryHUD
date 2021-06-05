@@ -6,12 +6,14 @@
 		"fieldName"		"NotificationsPresentPanel"
 		"xpos"			"c80"
 		"ypos"			"25"
-		"zpos"			"10000"
+		"zpos"			"11"
 		"wide"			"220"
 		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"bgcolor_override"	"S_MenuTooltip"
 	}
 
 	"TextLabel"

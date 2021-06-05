@@ -6,20 +6,19 @@
 		"fieldName"		"NotificationToastControl"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"12"
 		"wide"			"190"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"NotificationDefault"
 		"if_high_priority"
 		{
 			"border"		"NotificationHighPriority"
 		}
-		"paintborder"			"1"
-		"paintbackground"		"0"
-		"PaintBackgroundType"	"0"
-		"defaultbgcolor_override"		"208 193 162 255"
+		"paintborder"			"0"
+		"paintbackground"		"1"
+		"PaintBackgroundType"	"2"
+		"defaultbgcolor_override"		"S_MenuTooltip"
 	}
 
 	"DeleteButton"
@@ -46,17 +45,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"delete"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"S_Menu"
+		"armedBgColor_override" "S_Menu"
+		"depressedBgColor_override" "S_Menu"
 
-		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"	"172 52 52 255"
+		"image_armedcolor"	"209 8 8 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -101,17 +97,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"trigger"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
-		"defaultBgColor_override"	"0 90 85 255"
-		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"S_Menu"
+		"armedBgColor_override" "S_Menu"
+		"depressedBgColor_override" "S_Menu"
 
-		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"	"150 150 150 255"
+		"image_armedcolor"	"235 235 235 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -156,17 +149,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"accept"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"S_Menu"
+		"armedBgColor_override" "S_Menu"
+		"depressedBgColor_override" "S_Menu"
 
-		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"	"200 200 200 255"
+		"image_armedcolor"	"235 235 235 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -207,17 +197,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"decline"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"S_Menu"
+		"armedBgColor_override" "S_Menu"
+		"depressedBgColor_override" "S_Menu"
 
-		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"	"172 52 52 255"
+		"image_armedcolor"	"209 8 8 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
