@@ -208,6 +208,7 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate PlayerStatusHealthValue			fgcolor		"64 174 254 255"	Linear 0.0 0.1
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -222,6 +223,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"235 235 235 255"	Linear 0.0 0.1
 }
 
 //===========================================
