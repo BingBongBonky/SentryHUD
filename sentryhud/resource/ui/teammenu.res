@@ -77,8 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&1"
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -105,8 +104,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"&4"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&3"
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -133,8 +131,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&0"
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -159,8 +156,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"&2"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&2"
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -226,16 +222,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"c-280" [$WIN32] 
-		"xpos"			"c-276" [$X360]
-		"xpos_lodef"			"c-255"
-		"xpos_hidef"			"c-260"
+		"xpos"			"c-280"
 		"ypos"			"55"
-		"ypos_lodef"			"72"
-		"ypos_hidef"			"65"
 		"zpos"			"1"
-		"wide"			"102" [$WIN32] 
-		"wide"			"94" [$X360]
+		"wide"			"102"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -255,13 +245,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"c-112"
-		"xpos_lodef"			"c-125"
-		"xpos_hidef"			"c-109"
 		"ypos"			"255"
-		"ypos_lodef"	"292"
 		"zpos"			"1"
 		"wide"			"44"
-		"wide_lodef"	"70"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -273,7 +259,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"MenuSmallestFont"
-		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
 
@@ -288,8 +273,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -309,25 +294,19 @@
 	
 	"ShadedBar"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
-		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
-		"zpos"			"5"
+		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
+		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"S_MenuTransparent"
 	}		
 	
 	"BlueCount"
@@ -335,10 +314,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c5"
-		"xpos_lodef"			"c8"
 		"ypos"			"53"
-		"ypos_lodef"			"72"
-		"ypos_hidef"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
@@ -359,10 +335,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c193"
-		"xpos_lodef"			"c176"
 		"ypos"			"53"
-		"ypos_lodef"			"72"
-		"ypos_hidef"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
