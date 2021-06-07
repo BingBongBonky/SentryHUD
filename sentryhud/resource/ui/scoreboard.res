@@ -812,7 +812,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"CVFont32"
+		"font"			"RGFont32"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"15"
