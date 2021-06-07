@@ -434,7 +434,7 @@
 		"wide"			"260"
 		"tall"			"150"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"S_Menu"
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
@@ -534,7 +534,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HSFont12"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"16"
@@ -706,7 +706,7 @@
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 
@@ -1472,13 +1472,12 @@
 		"fieldname"		"BookmarkContainer"
 		"xpos"			"c-380"
 		"ypos"			"206"
-		"zpos"			"2"
+		"zpos"			"0"
 		"wide"			"215"
 		"tall"			"123"
 		"visible"		"1"
-
-		"border"		"MainMenuBGBorder"
 		"bgcolor_override"	"S_Menu"
+		"paintbackgroundtype"	"2"
 
 		"TitleLabel"
 		{
@@ -2969,7 +2968,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		"border_default"	"MainMenuButtonBorder"
 		"image_drawcolor"	"5 5 5 255"
 
