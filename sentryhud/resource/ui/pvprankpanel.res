@@ -191,7 +191,7 @@
 		"wide"			"260"
 		"tall"			"f40"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
 
 		if_mini
