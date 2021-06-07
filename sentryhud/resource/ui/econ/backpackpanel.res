@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"S_EconBG"
+		"infocus_bgcolor_override" 		"S_EconBG"
+		"outoffocus_bgcolor_override" 	"S_EconBG"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -46,7 +46,7 @@
 			"tall"			"10"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"61 61 61 255"
+			"noitem_textcolor"		"30 30 30 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 
@@ -63,7 +63,7 @@
 				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
-				"font"				"HSFont12"
+				"font"				"KCFont12"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -210,7 +210,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HSFont12"
 		"wrap"				"0"
 		"xpos"				"c-85"
 		"ypos"				"37"
@@ -228,12 +228,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"235 235 235 255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "235 235 235 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "235 235 235 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
@@ -255,6 +255,10 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"White"
+		"fgcolor_override"	"235 235 235 255"
+		"disabledFgColor_override" "235 235 235 255"
+		"selectionTextColor_override" "235 235 235 255"
 	}
 
 	"NameFilterLabel"
@@ -302,7 +306,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HSFont14"
 		"xpos"				"c137"
 		"ypos"				"37"
 		"zpos"				"1"
@@ -363,7 +367,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"S_MenuTooltip"
 			"centerwrap"	"1"
 		}
 	}

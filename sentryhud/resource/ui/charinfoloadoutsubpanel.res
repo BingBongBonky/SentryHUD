@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"S_EconBG"
+		"infocus_bgcolor_override" 		"S_EconBG"
+		"outoffocus_bgcolor_override" 	"S_EconBG"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -31,7 +31,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"200 80 60 255"
+		"itemcountcolor"			"S_SBRed"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	
@@ -263,7 +263,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
-		"ShowBackpackButton"
+	"ShowBackpackButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
@@ -500,7 +500,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont18"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -517,7 +517,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"HudFontSmall"
+		"font"			"HSFont14"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -529,7 +529,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor"		"S_SBRed"
 		"centerwrap"	"1"
 	}
 	

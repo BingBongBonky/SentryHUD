@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"S_Menu"
-		"infocus_bgcolor_override" 		"S_Menu"
-		"outoffocus_bgcolor_override" 	"S_Menu"
+		"bgcolor_override"				"S_EconBG"
+		"infocus_bgcolor_override" 		"S_EconBG"
+		"outoffocus_bgcolor_override" 	"S_EconBG"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
