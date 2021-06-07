@@ -23,7 +23,7 @@ Scheme
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"TFOrange"			"172 52 52 255"
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
@@ -89,9 +89,12 @@ Scheme
 		"S_RedTransparent"			"255 0 0 200"
 
 		// Scoreboard
-		"S_SBBlue"			"88 133 162 255"
+		"S_SBBlue"			"66 135 227 255"
 		"S_SBRed"			"172 52 52 255"
 		"S_SBBG"			"11 11 11 150"
+
+		// Econ Menus
+		"S_EconBG"			"20 20 20 255"
 
 		"CreditsGreen"		"94 150 49 255"
 		
@@ -119,7 +122,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"235 235 235 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -128,7 +131,7 @@ Scheme
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
 		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
+		"ProgressBackground"	"235 235 235 51"
 		"HealthBgGrey"		"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
@@ -252,32 +255,32 @@ Scheme
 		
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
+		Econ.Button.FgColor									"White"
 		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
+		Econ.Button.ArmedFgColor							"White"
 		Econ.Button.DepressedBgColor						"TFOrange"
 		Econ.Button.DepressedFgColor						"Black"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"White"
+		Econ.Button.PresetArmedColorFg						"White"
+		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"S_SBBlue"
+		Econ.Button.PresetArmedColorBg						"S_Blue"
+		Econ.Button.PresetDepressedColorBg					"S_SBBlue"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.TextColor				"White"
+		Button.BgColor					"S_Menu"
+		Button.ArmedTextColor			"White"
+		Button.ArmedBgColor				"S_Blue"
+		Button.SelectedTextColor		"White"
+		Button.SelectedBgColor			"S_Blue"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"S_Blue"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -294,10 +297,8 @@ Scheme
 
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0" // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0" // time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -345,8 +346,8 @@ Scheme
 
 		HTML.BgColor					"Blank"
 
-		ProgressBar.FgColor				"ProgressOffWhite"
-		ProgressBar.BgColor				"ProgressBackground"
+		ProgressBar.FgColor				"White"
+		ProgressBar.BgColor				"S_MenuTransparent"
 
 		CircularProgressBar.FgColor		"White"
 		CircularProgressBar.BgColor		"White"
@@ -1050,8 +1051,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"11"
+				"name"		"Hakuna Sans"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3255,62 +3256,92 @@ Scheme
 			}
 		}
 
-		"CVFont60"
+		"RGFont60"
 		{
 			"1"
 			{
-				"name"		"Coolvetica Rg"
+				"name"		"Renogare Soft"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		"CVFont48"
+		"RGFont48"
 		{
 			"1"
 			{
-				"name"		"Coolvetica Rg"
+				"name"		"Renogare Soft"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		"CVFont32"
+		"RGFont32"
 		{
 			"1"
 			{
-				"name"		"Coolvetica Rg"
+				"name"		"Renogare Soft"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		"CVFont24"
+		"RGFont24"
 		{
 			"1"
 			{
-				"name"		"Coolvetica Rg"
+				"name"		"Renogare Soft"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		"CVFont18"
+		"RGFont18"
 		{
 			"1"
 			{
-				"name"		"Coolvetica Rg"
+				"name"		"Renogare Soft"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
-		"CVFont12"
+		"RGFont14"
 		{
 			"1"
 			{
-				"name"		"Coolvetica Rg"
+				"name"		"Renogare Soft"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"RGFont12"
+		{
+			"1"
+			{
+				"name"		"Renogare Soft"
 				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"RGFont10"
+		{
+			"1"
+			{
+				"name"		"Renogare Soft"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"RGFont8"
+		{
+			"1"
+			{
+				"name"		"Renogare Soft"
+				"tall"		"8"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -6236,8 +6267,8 @@ Scheme
 		}
 		"10"
 		{
-			"font"	"resource/fonts/coolvetica rg.ttf"
-			"name" 	"Coolvetica Rg"
+			"font"	"resource/fonts/renogare.ttf"
+			"name" 	"Renogare Soft"
 		}
 	}
 }
