@@ -96,7 +96,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 
-		"NonInteractiveHeaders"
+				"NonInteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"NonInteractiveHeaders"
@@ -249,6 +249,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"S_MenuShader"
+			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
 		{
@@ -1350,19 +1351,20 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"		
-			"bgcolor_override"	S_MenuShader"
+			"enabled"		"1"	
+			"bgcolor_override"	"S_MenuShader"
+			"PaintBackgroundType"	"2"
 		}
 		"RecordsLabel1"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"HSFont24"
+			"font"			"HSFont18"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
-			"ypos"			"170" [$WINDOWS]
-			"ypos"			"180" [!$WINDOWS]
+			"ypos"			"170" [!$OSX]
+			"ypos"			"180" [$OSX]
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -1375,16 +1377,16 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RecordsSubBG1"
 			"xpos"			"c+124"
-			"ypos"			"217"
+			"ypos"			"-9999" // 217
 			"zpos"			"2"
 			"wide"			"167"
 			"tall"			"157"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 0"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"
@@ -1443,6 +1445,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1460,6 +1463,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1579,6 +1583,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1698,6 +1703,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1902,7 +1908,6 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
 			"font"			"ScoreboardVerySmall"
-			"font_hidef"	"Default"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1942,6 +1947,8 @@
 		"zpos"			"12"
 		"wide"			"350"
 		"tall"			"48"
+		"tall_hidef"	"60"
+		"tall_lodef"	"60"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1972,7 +1979,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c120"
+		"xpos"			"c130"
 		"ypos"			"270"
 		"zpos"			"6"
 		"wide"			"150"

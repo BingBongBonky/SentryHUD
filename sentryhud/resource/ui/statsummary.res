@@ -123,7 +123,7 @@
 			"wide"			"300"
 			"tall"			"100"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 	
 			"BG"
 			{
@@ -187,7 +187,7 @@
 			"ypos"			"135"
 			"zpos"			"2"
 			"wide"			"275"
-			"tall"			"30"
+			"tall"			"0" // 30
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -225,12 +225,12 @@
 			"ypos"			"230"
 			"zpos"			"2"
 			"wide"			"275"
-			"tall"			"30"
+			"tall"			"0" // 30
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor_override" "137 191 60 0" // A 255
+			"fgcolor_override" "137 191 60 0"
 		}
 	}
 
@@ -456,6 +456,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"S_MenuShader"
+			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
 		{
@@ -1557,18 +1558,20 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"		
-			"bgcolor_override"	S_MenuShader"
+			"enabled"		"1"	
+			"bgcolor_override"	"S_MenuShader"
+			"PaintBackgroundType"	"2"
 		}
 		"RecordsLabel1"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"HSFont24"
+			"font"			"ScoreboardMediumSmall"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
-			"ypos"			"170"
+			"ypos"			"170" [!$OSX]
+			"ypos"			"180" [$OSX]
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -1581,16 +1584,16 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RecordsSubBG1"
 			"xpos"			"c+124"
-			"ypos"			"217"
+			"ypos"			"-9999" // 217
 			"zpos"			"2"
 			"wide"			"167"
 			"tall"			"157"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 0"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"
@@ -1649,6 +1652,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1666,6 +1670,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1785,6 +1790,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1904,6 +1910,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
 			"font"			"ScoreboardVerySmall"
+			"font_hidef"	"Default"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -2108,7 +2115,6 @@
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
 			"font"			"ScoreboardVerySmall"
-			"font_hidef"	"Default"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -2126,7 +2132,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
-		"xpos"			"c-85"
+		"xpos"			"c-285"
 		"ypos"			"412"
 		"zpos"			"12"
 		"wide"			"35"
@@ -2144,7 +2150,7 @@
 		"font_hidef"	"Default"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
-		"xpos"			"c-45"
+		"xpos"			"c-245"
 		"ypos"			"405"
 		"zpos"			"12"
 		"wide"			"350"
