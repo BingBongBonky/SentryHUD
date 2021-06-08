@@ -13,13 +13,13 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"S_EconBG"
+		"infocus_bgcolor_override" 		"S_EconBG"
+		"outoffocus_bgcolor_override" 	"S_EconBG"
 		
-		"thumbnail_bgcolor"			"51 47 46 255"
-		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
-		"thumbnail_bgcolor_selected"	"176 166 148 255"
+		"thumbnail_bgcolor"				"S_MenuShader"
+		"thumbnail_bgcolor_mouseover"	"S_Menu"
+		"thumbnail_bgcolor_selected"	"S_Menu"
 		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
@@ -56,6 +56,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"  "1" // High quality item image
 			}
 		}
 	}
@@ -76,13 +77,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HSFont24"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -101,6 +102,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
 		"font"			"HudFontSmallestBold"
+		"fgcolor"		"White"
 		"labelText"		"#Store_FilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -274,8 +276,9 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
+			"inventory_image_type"  "1"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 	
@@ -294,7 +297,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -307,7 +310,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont18"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-80"
@@ -319,7 +322,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "S_SBRed"
 	}
 	
 	"NextPageButton"
@@ -337,7 +340,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -411,7 +414,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Store"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
