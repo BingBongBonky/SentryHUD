@@ -2,43 +2,51 @@
 {
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
-		"ypos"			"2"
+		"ypos"			"-9999"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"S_MenuTransparent"
+	}
+
+	"BackgroundNew"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BackgroundNew"
+		"xpos"			"c-226"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"bgcolor_override"	"S_MenuTransparent"
+		"PaintBackgroundType"	"2"
 	}
-	
+
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
+		"font"			"KCFont12"
+		"fgcolor"		"White"
 		"xpos"			"200"
-		"ypos"			"6"
+		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"	"110"
-		"wide_minmode"	"-300"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
 	
@@ -67,8 +75,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
+		"font"			"HSFont12"
+		"fgcolor"		"White"
 		"xpos"			"55"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -90,13 +98,10 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
 		"xpos"			"211"
-		"ypos"			"20"
+		"ypos"			"15"
 		"zpos"			"3"
 		"wide"			"178"
 		"tall"			"10"
-		"xpos_minmode"	"231"
-		"ypos_minmode"	"8"
-		"wide_minmode"	"138"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
@@ -113,7 +118,7 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
 		"xpos"			"210"
-		"ypos"			"19"
+		"ypos"			"14"
 		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"

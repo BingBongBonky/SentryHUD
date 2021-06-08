@@ -40,7 +40,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"White"
 	}
 	
 	"EnemyCountCritImageBG"
@@ -56,10 +56,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		//"bgcolor" "Yellow"
-		//"bgcolor_override"	"Yellow"
-		//"fgcolor_override"	"Yellow"
-		//"PaintBackgroundType" "2"
 		"image"			"../hud/leaderboard_class_critical"
 	}
 	
@@ -67,10 +63,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"font"			"KCFont12"
+		"fgcolor"		"White"
 		"xpos"			"0"
-		"ypos"			"18"
+		"ypos"			"20"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"14"
