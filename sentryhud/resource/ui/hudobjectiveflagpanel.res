@@ -236,15 +236,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r37"
+		"xpos"			"c-30"
+		"ypos"			"r110"
 		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
+		"alpha"			"240"
 		
 		"if_hybrid"
 		{
@@ -262,7 +263,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"
-		"ypos"			"r108"
+		"ypos"			"r38"
 		"zpos"			"4"
 		"wide"			"140"
 		"tall"			"30"
@@ -272,8 +273,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"font"			"HSFont18"
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
@@ -293,22 +294,19 @@
 			
 	"PlayingToBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
-		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"xpos"			"c-65"
+		"ypos"			"r45"
+		"zpos"			"-3"
+		"wide"			"130"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"bgcolor_override"	"S_Menu"
+		"paintbackgroundtype"	"2"
 		"scaleImage"	"1"	
+		"alpha"			"240"
 		
 		"if_hybrid"
 		{
@@ -470,7 +468,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_red"
+		"image"			"../hud/objectives_flagpanel_carried_blue"
 		"scaleImage"	"1"
 	}			
 }
