@@ -255,10 +255,9 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
-		"fgcolor_override"	"235 235 235 255"
-		"disabledFgColor_override" "235 235 235 255"
-		"selectionTextColor_override" "235 235 235 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" "White"
+		"depressedTextColor_override" "White"
 	}
 
 	"NameFilterLabel"
@@ -540,7 +539,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
-
 
 	"ShowExplanationsButton"
 	{
