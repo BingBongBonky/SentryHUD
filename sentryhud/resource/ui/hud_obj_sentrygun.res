@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BuildingStatusItem"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"60"
@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 	
 	"Background"
@@ -39,12 +38,33 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"57"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"S_MenuTransparent"
+	}
+
+	"TeamColoredLine"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColoredBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"		
+		"wide"			"4"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/objectives_timepanel_red_bg"
+		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
+		"src_corner_height"		"3"
+		"src_corner_width"		"3"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	
 	"Icon_Sentry_1"
@@ -185,12 +205,11 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"114"
-			"ypos"			"0"
-			"ypos"			"0"
+			"xpos"			"116"
+			"ypos"			"-3"
 			"zpos"			"-2"
 			"wide"			"44"
-			"tall"			"60"
+			"tall"			"66"
 			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background_tall"
