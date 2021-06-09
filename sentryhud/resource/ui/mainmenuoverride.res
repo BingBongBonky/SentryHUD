@@ -2672,7 +2672,7 @@
 		"labelText"					"#MMenu_Shop"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"Command"		"OpenOptionsDialog"
+		"Command"		"engine open_store"
 		"navUp"			"CharacterSetupButton"
 		"navLeft"		"SettingsButton"
 		"navRight"		"TF2SettingsButton"
