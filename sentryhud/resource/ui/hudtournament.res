@@ -260,12 +260,48 @@
 				"xpos"			"30"
 				"ypos"			"6"
 				"zpos"			"-1"
+				"wide"			"0"
+				"tall"			"0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"bgcolor_override"	"S_Menu"
+				"proportionaltoparent"	"1"
+
+				if_mvm
+				{
+					"visible"		"1"
+				}
+				
+				if_competitive
+				{
+					"xpos"			"28"
+					"ypos"			"5"
+					"wide"			"p0.3"
+					"tall"			"p0.45"
+					"proportionaltoparent" "1"
+					"visible"		"1"
+				}
+				
+				if_readymode
+				{
+					"visible"		"1"
+				}		
+			}
+
+			"ReadyBGNew"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"ReadyBGNew"
+				"xpos"			"30"
+				"ypos"			"6"
+				"zpos"			"-1"
 				"wide"			"16"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
-				"bgcolor_override"	"S_Menu"
+				"bgcolor_override"	"S_MenuTransparent"
 				"proportionaltoparent"	"1"
 
 				if_mvm
@@ -433,16 +469,19 @@
 		if_mvm
 		{
 			"visible"		"0"
+			"wide"			"0"
 		}
 		
 		if_competitive
 		{
 			"visible"		"0"
+			"wide"			"0"
 		}
 		
 		if_readymode
 		{
 			"visible"		"0"
+			"wide"			"0"
 		}		
 	}
 
@@ -744,10 +783,11 @@
 
 		if_readymode
 		{
-			"xpos"			"285"
-			"ypos"			"26"
+			"xpos"			"195"
+			"ypos"			"15"
 			"visible"		"1"
 			"font"			"TFFontMedium"
+			"textAlignment"		"center"
 		}
 	}
 
