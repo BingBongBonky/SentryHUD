@@ -13,10 +13,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
+		"teambg_2"		"../hud/objectives_timepanel_red_bg"
+		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
+		"src_corner_height"		"3"
+		"src_corner_width"		"3"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	"SwitchLabel"
 	{	
@@ -25,8 +29,6 @@
 		"font"			"TFFontMedium"
 		"xpos"			"80"
 		"ypos"			"58"
-		"ypos_hidef"	"40"
-		"ypos_lodef"	"36"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"55"
@@ -48,8 +50,7 @@
 		"ypos_hidef"	"23"
 		"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"230"
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
