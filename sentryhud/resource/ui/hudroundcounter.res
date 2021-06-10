@@ -48,22 +48,23 @@
 		}
 	}	
 
-	"Background"
+	"Background" // Sorry but this was the only way it would look nice...
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
+		"xpos"			"c-45"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"0"
-		"tall"			"0"
-
-		"backgroundtype"		"2"
+		"wide"			"91"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
 		"proportionaltoparent"	"1"
 			
-		"image"					"../hud/comp_round_timer"
+		"image"					"../sprites/roundcounterbg"
 		"scaleimage"			"1"
 	}
+
 	"BlueTeamBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -71,9 +72,9 @@
 		"xpos"			"c-45"
 		"ypos"			"1"
 		"wide"			"45"
-		"tall"			"p0.5"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"S_Blue"
 		"proportionaltoparent"	"1"
 	}
@@ -85,9 +86,9 @@
 		"xpos"			"c1"
 		"ypos"			"1"
 		"wide"			"45"
-		"tall"			"p0.5"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"S_SBRed"
 		"proportionaltoparent"	"1"
 	}
@@ -100,9 +101,9 @@
 		"ypos"			"0"
 		"zpos"			"-21"
 		"wide"			"91"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"		"S_MenuTransparent"
 		"proportionaltoparent"	"1"
 	}
