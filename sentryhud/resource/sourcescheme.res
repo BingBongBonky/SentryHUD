@@ -143,8 +143,8 @@ Scheme
 		ListPanel.SelectedBgColor			"S_Highlight"
 		ListPanel.SelectedOutOfFocusBgColor	"S_Highlight"
 		
-		MainMenu.TextColor			"S_Text"			[$WIN32]
-		MainMenu.ArmedTextColor		"S_SelectedText"	[$WIN32]
+		MainMenu.TextColor			"S_Text"		
+		MainMenu.ArmedTextColor		"S_SelectedText"
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset			"6"
@@ -191,20 +191,13 @@ Scheme
 	{
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-		"MenuLarge"
-		{
-			"1"	[$X360]
-			{
-				"tall_hidef"		"24"
 			}
 		}
 
