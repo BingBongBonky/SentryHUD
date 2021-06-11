@@ -2,18 +2,17 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"45"
 		"zpos"			"0"
 		"wide"			"470"
-		"tall"			"170"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_SBBG"
+		"PaintBackgroundType"	"2"
 	}
 
 	"Divider"
@@ -24,8 +23,9 @@
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"456"
-		"tall"			"2"
+		"tall"			"0"
 		"fillcolor"		"255 222 208 255"
+		"enabled"		"0"
 	}
 
 	"IcoReelIcon"
@@ -37,8 +37,8 @@
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_taunt_menu_icon"
 		"iconColor"		"255 255 255 255"
@@ -48,11 +48,12 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"60"			// align me to the left edge of the first selection
-		"ypos"			"5"
-		"zpos"			"3"
-		"wide"			"360"
+		"font"			"HSFont48"
+		"fgcolor"		"White"
+		"xpos"			"13"			// align me to the left edge of the first selection
+		"ypos"			"35"
+		"zpos"			"2"
+		"wide"			"300"
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -68,11 +69,11 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"60"			// align me to the left edge of the first selection
-		"ypos"			"6"
-		"zpos"			"3"
+		"font"			"HSFont48"
+		"fgcolor"		"S_Shadow"
+		"xpos"			"15"			// align me to the left edge of the first selection
+		"ypos"			"37"
+		"zpos"			"1"
 		"wide"			"360"
 		"tall"			"38"
 		"autoResize"	"0"
@@ -89,9 +90,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntLabel"
-		"font"			"Default"
+		"font"			"SpectatorKeyHints"
 		"xpos"			"17"
-		"ypos"			"49"
+		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"350"
 		"tall"			"13"
@@ -109,9 +110,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"Default"
-		"xpos"			"250"
-		"ypos"			"49"
+		"font"			"SpectatorKeyHints"
+		"xpos"			"260"
+		"ypos"			"45"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
@@ -157,33 +158,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
 	"NumberBg1"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg1"
-		"xpos"			"32"
-		"ypos"			"140"
+		"xpos"			"34"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel1"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"32"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"34"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -229,33 +231,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
-	"NumberBg2"
+	"NumberBg2"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg2"
-		"xpos"			"87"
-		"ypos"			"140"
+		"xpos"			"89"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel2"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"87"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"89"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -283,7 +286,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
@@ -301,33 +304,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
-	
-	"NumberBg3"
+
+	"NumberBg3"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg3"
-		"xpos"			"142"
-		"ypos"			"140"
+		"xpos"			"144"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel3"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel3"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"142"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"144"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -355,7 +359,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
@@ -373,33 +377,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
-	"NumberBg4"
+	"NumberBg4"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg4"
-		"xpos"			"197"
-		"ypos"			"140"
+		"xpos"			"199"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel4"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"197"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"199"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -427,7 +432,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
@@ -445,33 +450,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
-	"NumberBg5"
+	"NumberBg5"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg5"
-		"xpos"			"252"
-		"ypos"			"140"
+		"xpos"			"254"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel5"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel5"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"252"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"254"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -499,7 +505,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
@@ -517,33 +523,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
-	"NumberBg6"
+	"NumberBg6"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg6"
-		"xpos"			"307"
-		"ypos"			"140"
+		"xpos"			"309"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel6"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"307"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"309"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -571,7 +578,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
@@ -589,33 +596,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
-	"NumberBg7"
+	"NumberBg7"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg7"
-		"xpos"			"362"
-		"ypos"			"140"
+		"xpos"			"364"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel7"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"362"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"364"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -643,7 +651,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
@@ -661,33 +669,34 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
-	"NumberBg8"
+	"NumberBg8"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NumberBg8"
-		"xpos"			"417"
-		"ypos"			"140"
+		"xpos"			"419"
+		"ypos"			"127"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"NumberLabel8"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"417"
-		"ypos"			"140"
+		"font"			"KCFont18"
+		"fgcolor"		"White"
+		"xpos"			"419"
+		"ypos"			"127"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
