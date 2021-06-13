@@ -111,8 +111,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -463,8 +463,8 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawcolor"	"235 235 235 255"
+				"image_armedcolor"	"45 121 221 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -613,14 +613,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"S_Red"
+			"defaultBgColor_override"	"S_SBRed"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -654,7 +654,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -672,14 +672,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"S_Red"
+			"defaultBgColor_override"	"S_SBRed"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -695,7 +695,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "White"
 			}
 		}
 
@@ -713,7 +713,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -731,13 +731,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"S_Blue"
+			"defaultBgColor_override"	"S_MenuTooltip"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -771,7 +771,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -789,13 +789,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"S_FindGameGreen"
+			"defaultBgColor_override"	"CreditsGreen"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
