@@ -82,6 +82,7 @@ Scheme
 		"S_Blue"			"45 121 221 255"
 		"S_Yellow"			"224 227 48 255"
 		"S_Red"				"209 8 8 255"
+		"S_FindGameGreen"	"109 191 42 255"
 
 		// Transparent
 		"S_MenuTransparent"			"14 14 14 200"
