@@ -204,16 +204,11 @@ event KeyHintMessageHide
 //===========================================
 
 //Health Bonus Pulse
-event HudHealthReset
-{
-	Animate	PlayerStatusHealthValue	FgColor		"White"		0.0
-}
-
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthValue	FgColor		"64 174 254 255"		Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate PlayerStatusHealthValue			fgcolor		"64 174 254 255"	Linear 0.0 0.1
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -228,7 +223,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	RunEvent HudHealthReset 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"235 235 235 255"	Linear 0.0 0.1
 }
 
 //===========================================
@@ -252,21 +247,14 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-
-	RunEvent HudHealthReset 0.0
 }
 
 //===========================================
 
-event HudAmmoReset
-{
-	Animate AmmoInClip					fgcolor		"White"	0.0
-	Animate AmmoInReserve				fgcolor		"White"	0.0
-	Animate AmmoNoClip					fgcolor		"White"	0.0
-}
-
 event HudLowAmmoPulse
 {
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
 	Animate AmmoInClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
 	Animate AmmoInReserve				fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
 	Animate AmmoNoClip					fgcolor		"HUDDeathWarning"	Linear 0.0 0.0
@@ -284,7 +272,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	RunEvent HudAmmoReset
+	Animate AmmoInClip					fgcolor		"White"	Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"White"	Linear 0.0 0.0
+	Animate AmmoNoClip					fgcolor		"White"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -343,7 +333,8 @@ event FlagOutline
 	Animate OutlineImage	Position	"c-200 140"		Linear 0.1 0.2
 	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
 
-	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2]
+	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
+	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$X360]
 	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
 	
 	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
@@ -352,7 +343,6 @@ event FlagOutline
 //===========================================
 
 // Spy Disguise
-// To enable Disguise Outline uncomment the lines below up until the = signs 
 event HudSpyDisguiseChanged
 {
 	// Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
@@ -394,19 +384,8 @@ event OvertimeShow
 
 event HudSnapShotReminderIn
 {
-	Animate ScreenshotPanel		Position	"c-383 -50"	Linear 0.0 0.001
-	Animate ScreenshotPanel		Position	"c-383 13"	Spline 0.001 0.2
-	// Fix for lingering animations
-	RunEvent HudHealthDyingPulseStop 7.0
-    RunEvent HudHealthBonusPulseStop 7.0
-    RunEvent HudLowAmmoPulseStop 7.0
-    RunEvent HudMedicChargedStop 7.0
-}
-
-event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
-{
-	Animate ReplayReminder		Position	"c-383 -50"	Linear 0.0 0.001
-	Animate ReplayReminder		Position	"c-383 13"	Spline 0.001 0.2
+	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
 	// Fix for lingering animations
 	RunEvent HudHealthDyingPulseStop 10.0
     RunEvent HudHealthBonusPulseStop 10.0
@@ -414,15 +393,16 @@ event HudReplayReminderIn	// Places the replay reminder in the same place as the
     RunEvent HudMedicChargedStop 10.0
 }
 
+event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
+{
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 13"	Spline 0.001 0.2
+}
+
 event HudReplayReminderIn2	// Puts the panel below the snapshot panel
 {
-	Animate ReplayReminder		Position	"c-383 -50"	Linear 0.0 0.001
-	Animate ReplayReminder		Position	"c-383 53"	Spline 0.001 0.2
-	// Fix for lingering animations
-	RunEvent HudHealthDyingPulseStop 5.0
-    RunEvent HudHealthBonusPulseStop 5.0
-    RunEvent HudLowAmmoPulseStop 5.0
-    RunEvent HudMedicChargedStop 5.0
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 53"	Spline 0.001 0.2
 }
 
 event HudReplayTipIn
