@@ -71,7 +71,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"39"
 		"ypos_minmode"			"18"
 		"ypos"					"20"
 		"zpos"					"2"
@@ -82,7 +82,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"KCFont24"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"27"
+		"xpos"					"41"
 		"ypos_minmode"			"20"
 		"ypos"					"22"
 		"zpos"					"2"
@@ -104,10 +104,41 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"KCFont24"
 		"fgcolor"				"S_Shadow"
+	}
+
+	"KillStreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"26"
+		"ypos"			"24"
+		"zpos"			"12"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"
+	}
+
+	"KillStreakIconShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"27"
+		"ypos"			"25"
+		"zpos"			"12"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"
+		"drawcolor"		"S_Shadow"
 	}
 }
