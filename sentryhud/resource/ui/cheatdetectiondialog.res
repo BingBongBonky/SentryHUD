@@ -30,7 +30,7 @@
 		"wrap"			"0"
 		"labelText"		"ur a fucking cheater get pwnd noob"
 		"textAlignment"		"North"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "255 0 0 255"
 	}
 	"ExplanationLabel"
 	{	
