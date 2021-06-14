@@ -109,6 +109,22 @@
 		"font"			"MenuMainTitle"
 	}
 
+	"teamshader0"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"teamshader0"
+		"xpos"			"c-516"
+		"ypos"			"c-84"
+		"zpos"			"-8"
+		"wide"			"550"
+		"tall"			"52"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"Black"
+	}
+
 	"teambutton1"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -133,6 +149,22 @@
 		"font"			"HSFont32"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"teamshader1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"teamshader1"
+		"xpos"			"c-34"
+		"ypos"			"c-32"
+		"zpos"			"-8"
+		"wide"			"550"
+		"tall"			"52"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"Black"
 	}
 
 	"teambutton2"
