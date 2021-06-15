@@ -89,7 +89,7 @@
 			"ypos"			"r100"
 			"zpos"			"2"
 			"wide"			"f0"
-			"tall"			"50"
+			"tall"			"100"
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -154,8 +154,8 @@
 				"tall"			"55"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"centerwrap"	"1"
 				"wrap"			"1"
 			}					
@@ -274,7 +274,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"KCFont32"
+		"font"			"KCFont24"
 		"fgcolor"		"White"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
