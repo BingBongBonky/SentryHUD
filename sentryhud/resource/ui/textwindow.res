@@ -33,7 +33,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"HSFont24"
 		"fgcolor"		"White"
 	}	
 
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
+		"font"			"HSFont14"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"
@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 	}
 
 	"HTMLMessage"
@@ -102,7 +102,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HSFont18"
 	}
 	
 	"MenuBG"
@@ -116,8 +116,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -132,6 +132,55 @@
 			"origin_z" "-39"
 		}
 	}
+
+	"MenuBGNew"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MenuBGNew"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"bgcolor_override"	"S_MenuTransparent"
+	}
+
+	"MapInfoNew"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MapInfoNew"
+		"xpos"			"200"
+		"ypos"			"60"
+		"zpos"			"0"		
+		"wide"			"480"
+		"tall"			"360"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_MenuTooltip"
+	}
+
+	"MapInfoNewBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MapInfoNewBorder"
+		"xpos"			"190"
+		"ypos"			"50"
+		"zpos"			"-1"		
+		"wide"			"500"
+		"tall"			"380"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"87 117 156 255"
+		"PaintBackgroundType"	"2"
+	}
 	
 	"ShadedBar"
 	{
@@ -144,11 +193,11 @@
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"tileImage"		"0"
 		"PaintBackgroundType"	"0"
 	}						
 	
