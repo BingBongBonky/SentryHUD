@@ -140,7 +140,6 @@
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
 		"ypos"				"9"
-		"ypos_minmode"		"-4"
 		"zpos"				"1"
 		"wide"				"78"
 		"tall"				"33"
