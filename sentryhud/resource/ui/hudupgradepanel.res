@@ -48,6 +48,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"  "1" // High quality item image
 			}
 		}
 	}
@@ -66,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 210"
+		"bgcolor_override"	"S_MenuTransparent"
 	}
 	
 	"SelectWeaponPanel"
@@ -82,7 +83,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"63 59 55 0"
+		"bgcolor_override"	"S_MenuShader"
 		
 		"OutterPanelBG"
 		{
@@ -92,11 +93,11 @@
 			"ypos"			"0"
 			"zpos"			"-8"
 			"wide"			"500"
-			"tall"			"310"
+			"tall"			"0" // 310
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
@@ -104,9 +105,7 @@
 			
 			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" "8"	
-
 		}
-		
 		"InnerPanelRim"
 		{
 			"ControlName"	"Panel"
@@ -122,7 +121,7 @@
 			"enabled"		"1"
 			
 			"PaintBackgroundType" "2"
-			"bgcolor_override"	"142 132 121 255"
+			"bgcolor_override"	"Gray"
 		}
 		
 		"InnerBGPanel"
@@ -134,7 +133,7 @@
 			"zpos"			"0"
 			"wide"			"470"
 			"tall"			"220"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"MainMenuBGBorder"
 		}
@@ -143,26 +142,6 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"PlayerUpgradeButton"
-			"xpos"			"15"
-			"ypos"			"10"
-			"zpos"			"-2"
-			"wide"			"70"
-			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"PLAYER"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"PlayerUpgrade"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			//"bgcolor_override"	"142 132 121 255"
 			"alpha"	"0"
 		}
 		
@@ -212,7 +191,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"142 132 121 255"
+			"bgcolor_override"	"S_SBRed"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -230,7 +209,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
+			"bgcolor_override"	"172 52 52 155" // Transparent SBRed
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -241,15 +220,15 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"10"
-			"wide"			"157"
-			"tall"			"47"
+			"wide"			"158"
+			"tall"			"48"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"239 128 73 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel1"
@@ -266,7 +245,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -284,7 +263,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -302,7 +281,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -320,7 +299,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -338,7 +317,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -356,7 +335,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -365,10 +344,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InactiveSeparatorPanel"
 			"xpos"			"10"
-			"ypos"			"48"
+			"ypos"			"49"
 			"zpos"			"-4"
 			"wide"			"480"
-			"tall"			"5"
+			"tall"			"1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -462,14 +441,15 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"52 48 45 255"
+			"bgcolor_override"	"40 40 40 255"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsDescriptionLabel"
-			"font"			"ItemFontAttribLarge"
+			"font"			"KCFont12"
+			"fgcolor"		"White"
 			"labelText"		"%upgrade_description%"
 			"textAlignment"	"center"
 			"wrap"			"1"
@@ -499,7 +479,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"97 94 84 255"
+			"bgcolor_override"	"40 40 40 255"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -516,14 +496,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"72 68 63 255"
+			"bgcolor_override"	"S_Menu"
 		}
 		
 		"UpgradeItemsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsLabel"
-			"font"			"HudFontSmall"
+			"font"			"KCFont12"
 			"labelText"		"%upgrade_label%"
 			"textAlignment"	"center"
 			"xpos"			"25"
@@ -560,7 +540,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"KCFont18"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -578,7 +558,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HSFont18"
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
 			"xpos"			"250"
@@ -704,12 +684,28 @@
 			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" "8"	
 		}
+
+		"TipPanelBGNew"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"TipPanelBGNew"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-3"
+			"wide"			"500"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"S_MenuTooltip"
+		}
 		
 		"TipText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipText"
-			"font"			"HudFontSmallest"
+			"font"			"HSFont14"
 			"labelText"		"%tiptext%"
 			"textAlignment" "west"
 			"xpos"			"10"
@@ -722,7 +718,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 		
 		"NextTipButton"

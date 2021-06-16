@@ -10,8 +10,8 @@
 		"tall"			"45"		
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		
 		"upgradebutton_xpos"	"37"
@@ -22,7 +22,7 @@
 			"wide"			"16"
 			"tall"			"16"
 			"textAlignment"	"center"
-			"font"			"HudFontSmallest"
+			"font"			"HSFont14"
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"	
 			
@@ -52,8 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"97 94 85 255"
+		"bgcolor_override"			"S_MenuTooltip"
 	}
 	
 	"IconBorder"
@@ -70,8 +69,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"235 226 202 255"
+		"bgcolor_override"	"White"
 	}
 	
 	"Icon"
@@ -111,7 +109,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"KCFont14"
 	}
 	
 	"ShortDescriptionLabel"
@@ -132,7 +130,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center-west"
-		"font"			"HudFontSmallest"
+		"font"			"KCFont8"
 	}
 	
 	"BuySellBG"
@@ -148,9 +146,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"117 114 103 255"
+		"bgcolor_override"	"S_MenuShader"
 	}
 	
 	"IncrementButton"
