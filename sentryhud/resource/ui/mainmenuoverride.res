@@ -662,7 +662,7 @@
 			"paintbackground"	"1"
 			"paintborder"		"0"
 			// default
-			"defaultBgColor_override" 	 "235 235 235 255"
+			"defaultBgColor_override" 	 "Gray"
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
@@ -764,7 +764,7 @@
 			"paintbackground"	"1"
 			"paintborder"		"0"
 			// default
-			"defaultBgColor_override" 	 "235 235 235 255"
+			"defaultBgColor_override" 	 "Gray"
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
@@ -849,7 +849,7 @@
 			"paintbackground"	"1"
 			"paintborder"		"0"
 			// default
-			"defaultBgColor_override" 	 "235 235 235 255"
+			"defaultBgColor_override" 	 "Gray"
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
@@ -1533,7 +1533,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"S_MenuShader"
+		"bgcolor_override"	"0 0 0 0"
 	}
 
 	"Bookmark_1"
@@ -1556,7 +1556,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
  		// armed style
  		"armedBgColor_override"		"S_Blue"
@@ -1586,7 +1586,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
  		// armed style
  		"armedBgColor_override"		"S_Blue"
@@ -1616,7 +1616,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
  		// armed style
  		"armedBgColor_override"		"S_Blue"
@@ -2559,6 +2559,7 @@
 		"navDown"		"GeneralStoreButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"image_drawcolor"	"5 5 5 255"
 
 		"SubImage"
 		{
@@ -2576,7 +2577,7 @@
 		}			
 	
  		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 		"defaultimage_drawcolor"	"Black"
 	
@@ -2590,51 +2591,6 @@
  		"depressedFgColor_override" "White"
 		 "defaultimage_drawcolor"	"White"
 
-	}
-
-	"CharacterSetupButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-375"
-		"ypos"			"110"
-		"wide"			"250"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"use_proportional_insets" "1"
-		"font"			"HSFont18"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"command"		"engine open_charinfo"
-		"labeltext"		"#MMenu_CharacterSetup"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"proportionaltoparent"	"1"
-			
-		"paintbackground"	"1"
-		"image_drawcolor"	"46 43 42 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
-		}		
 	}
 
 	"StoreHasNewItemsImage"
@@ -2678,8 +2634,7 @@
 		"navRight"		"TF2SettingsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"image_drawcolor"	"46 43 42 255"
+		"image_drawcolor"	"5 5 5 255"
 
 		"SubImage"
 		{
@@ -2697,7 +2652,7 @@
 		}			
 	
  		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -2735,7 +2690,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"image_drawcolor"	"46 43 42 255"
+		"image_drawcolor"	"5 5 5 255"
 
 		"SubImage"
 		{
@@ -2753,7 +2708,7 @@
 		}			
 	
  		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -2790,7 +2745,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"image_drawcolor"	"46 43 42 255"
+		"image_drawcolor"	"5 5 5 255"
 
 		"SubImage"
 		{
@@ -2808,7 +2763,7 @@
 		}			
 	
  		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -2853,7 +2808,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -2913,7 +2868,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -2973,7 +2928,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -3033,7 +2988,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -3093,7 +3048,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -3153,7 +3108,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -3213,7 +3168,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -3273,7 +3228,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
@@ -3333,7 +3288,7 @@
 		"image_drawcolor"	"5 5 5 255"
 
 		// default style
- 		"defaultBgColor_override"	"White"
+ 		"defaultBgColor_override"	"Gray"
  		"defaultFgColor_override"	"Black"
 	
  		// armed style
