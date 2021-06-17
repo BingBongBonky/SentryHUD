@@ -4,30 +4,12 @@
 {
 	"ConfirmApplyStrangifierDialog"
 	{
-		"xpos"					"c-200"
-		"ypos"					"c-200"
-		"wide"					"400"
 		"tall"					"300"
 	}
 
 	"ConfirmLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#ToolStrangifierConfirm"
-		"textAlignment"	"center"
-		"xpos"			"20"
-		"ypos"			"40"
-		"zpos"			"0"
-		"wide"			"360"
-		"tall"			"100"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-		"centerwrap"	"1"
 	}
 
 	"PreviewLabel"
@@ -133,6 +115,5 @@
 	{
 		"ypos"			"r30"
 		"proportionaltoparent"	"1"
-
 	}
 }
