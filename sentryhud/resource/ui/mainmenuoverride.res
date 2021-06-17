@@ -1270,8 +1270,8 @@
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"bgcolor_override"	"S_MenuTooltip"
 
 		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
@@ -1335,7 +1335,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -1346,7 +1346,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"White"
 			"wrap"			"1"
 		}
 		
