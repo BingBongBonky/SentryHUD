@@ -1271,7 +1271,9 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
+		"paintborder"		"1"
 		"bgcolor_override"	"S_MenuTooltip"
+		"border"			"MainMenuButtonBorder"
 
 		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
