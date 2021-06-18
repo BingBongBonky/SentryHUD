@@ -298,13 +298,13 @@
 			"xpos"					"cs-0.5"
 			"wide"					"130"
 			"ypos_minmode"			"0"
-			"delta_item_x"			"35"
+			"delta_item_x"			"23"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"KCFont18"
+			"delta_item_font"		"KCFont12"
 		}
 		
 		"TimePanelValue"
