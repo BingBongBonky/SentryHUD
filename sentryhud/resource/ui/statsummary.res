@@ -41,16 +41,16 @@
 		"bgcolor_override"	"S_Menu"
 	}	
 
-	"MapInfo"
+	"MapInfo" // Duel wins
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"MapInfo"
-		"xpos"		"0"
+		"xpos"		"-9999"
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"	"0"
-		"enabled"	"1"
+		"enabled"	"0"
 		"bgcolor_override"	"S_Menu"
 	
 		"Background"
@@ -278,7 +278,7 @@
 		"fgcolor"		"White"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
-		"xpos"			"c-25"
+		"xpos"			"c-175"
 		"ypos"			"80"
 		"zpos"			"50"
 		"wide"			"350"
