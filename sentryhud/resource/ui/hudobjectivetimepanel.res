@@ -279,27 +279,25 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"1"
-			"ypos"					"24"
+			"ypos"					"22"
 			"wide"					"p1"
-			"font"					"HSFont12"
+			"font"					"KCFont8"
 			"fgcolor_override"		"White"
 			"visible"				"1"
 		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"
-		"ypos"			"31"
+		"xpos"			"43"
+		"ypos"			"26"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
-		"tall_minmode"	"0"
+		"wide"			"46"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"
+		"bgcolor_override"	"S_MenuTransparent"
 		
 		if_match
 		{
