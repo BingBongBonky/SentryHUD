@@ -1566,7 +1566,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"ScoreboardMediumSmall"
+			"font"			"HSFont18"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
