@@ -224,7 +224,7 @@
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"20"
 			"ypos"			"77"
-			"zpos"			"9999"
+			"zpos"			"1"
 			"wide"			"40"
 			"tall"			"40"
 			"autoResize"	"0"
