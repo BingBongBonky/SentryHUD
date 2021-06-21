@@ -80,7 +80,7 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"20"
+		"tabheight"		"19"
 		"transition_time" "0"
 		"yoffset"	"14"
 		
@@ -103,12 +103,11 @@
 		{
 			"textinsetx"		"40"
 			"font"				"HSFont18"
-			"selectedcolor"		"235 235 235 255"
-			"unselectedcolor"	"200 200 180 255"	
-			"defaultBgColor_override"	"24 24 24 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"selectedcolor"		"White"
+			"unselectedcolor"	"Gray"	
+			"defaultBgColor_override"	"S_Menu"
+			"paintbackground"	"1"
+			"PaintBackgroundType"	"2"
 		}
 	}
 	
@@ -117,7 +116,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-295"
-		"ypos"			"487"
+		"ypos"			"500"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"25"
@@ -128,7 +127,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
 		"font"			"HSFont18"
-		"fgcolor_override"	"235 235 235 255"
+		"fgcolor_override"	"White"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
