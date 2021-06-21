@@ -2,6 +2,10 @@
 
 SentryHUD is a little project I'm doing since I got bored and really don't like how my old HUD worked. It is a HUD from Scratch. I won't have a proper release for a while but if you have an issue you can make one on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
 
+## Screeenshots
+"Soon" has arrived :D
+https://imgur.com/a/PlZ2Zm1
+
 ## Installation
 1. Click [here](https://github.com/BingBongBonky/SentryHud/archive/refs/heads/release.zip) to download the file. 
 2. Extract or open up the zip and copy the folder inside named "sentryhud".
