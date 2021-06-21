@@ -460,9 +460,45 @@
 		"tall"			"55"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"bgcolor_override"		"S_MenuTransparent"
+		"paintbackground"		"1"
+		"proportionaltoparent"	"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+			"wide"			"0"
+		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+			"wide"			"0"
+		}
+		
+		if_readymode
+		{
+			"visible"		"0"
+			"wide"			"0"
+		}		
+	}
+
+	"HudTournamentBGNew"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudTournamentBGNew"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"250"
+		"tall"			"55"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"S_MenuTransparent"
+		"bgcolor_override"		"S_MenuTooltip"
 		"paintbackground"		"1"
 		"proportionaltoparent"	"1"
 		
@@ -826,10 +862,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"KCFont24"
+		"font"			"KCFont14"
 		"fgcolor_override"	"White"
 		"xpos"			"0"
-		"ypos"			"56"
+		"ypos"			"58"
 		"wide"			"250"
 		"tall"			"30"
 		"zpos"			"1"
