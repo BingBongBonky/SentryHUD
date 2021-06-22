@@ -2642,7 +2642,7 @@
 		"zpos"			"9999"
 		"wide"			"32"
 		"tall"			"32"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../vgui/new"
 		"scaleImage"	"1"
