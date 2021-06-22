@@ -144,8 +144,8 @@
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"bgcolor_override"	"S_MenuTransparent"
 	}
 
@@ -169,17 +169,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapInfoNewBorder"
-		"xpos"			"190"
-		"ypos"			"50"
+		"xpos"			"198"
+		"ypos"			"58"
 		"zpos"			"-1"		
-		"wide"			"500"
-		"tall"			"380"
+		"wide"			"484"
+		"tall"			"364"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"87 117 156 255"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"Black"
 	}
 	
 	"ShadedBar"
