@@ -550,7 +550,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"15 15 15 255"
+		"bgcolor_override"	"S_Menu"
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"2"
 
