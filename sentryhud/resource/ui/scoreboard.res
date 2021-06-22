@@ -649,11 +649,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
-		"xpos"			"22"
+		"xpos"			"-9999" // 22
 		"ypos"			"350"
 		"zpos"			"3"
 		"wide"			"92"
-		"tall"			"92"
+		"tall"			"0" // 92
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
