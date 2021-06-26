@@ -32,11 +32,11 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c120"
-		"xpos_minmode"	"c0"
+		"xpos_minmode"	"c120"
 		"ypos"	"c94"
-		"ypos_minmode"	"c0"
-		"wide"	"200"
-		"tall"	"90"
+		"ypos_minmode"	"r80"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 	
 	HudObjectiveStatus
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"xpos"			"c105"
 		"ypos"			"c54"
-		"ypos_minmode"	"c0"
+		"ypos_minmode"	"r119"
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -105,14 +105,12 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"r0"
+		"xpos_minmode"	"r2"
+		"ypos"			"r21"
+		"ypos_minmode"	"r40"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
@@ -126,12 +124,10 @@
 		"fieldName"		"HudFlameRocketCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"r80"
+		"xpos_minmode"	"r52"
+		"ypos"			"r21"
+		"ypos_minmode"	"r40"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"

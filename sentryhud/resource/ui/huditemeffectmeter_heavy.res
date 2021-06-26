@@ -6,14 +6,15 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"381"
-		"ypos_minmode"	"r68"
+		"ypos"			"365"
+		"ypos_minmode"	"r95"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ypos"			"19"	
-	}
+		"ypos_minmode"	"20"
+	}	
 	
 	"ItemEffectMeterLabel"
 	{

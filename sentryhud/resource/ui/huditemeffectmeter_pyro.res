@@ -7,7 +7,12 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"ypos"			"357"
-		"ypos_minmode"	"r70"
+		"ypos"			"365"
+		"ypos_minmode"	"r95"
+	}
+
+	"ItemEffectMeterBG"
+	{
+		"ypos_minmode"	"26"
 	}
 }

@@ -11,6 +11,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
+		"tall_minmode"	"0"
 		"visible"		"1"
 		"enabled"		"1"		
 	}

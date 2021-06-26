@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c-187"
 		"ypos"			"380"
-		"xpos_minmode"	"r70"
-		"ypos_minmode"	"r130"
+		"xpos_minmode"	"c-285"
+		"ypos_minmode"	"r85"
 		"wide"			"100"
 		"tall"			"60"
 		"MeterFG"		"White"
@@ -17,7 +17,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"14"
 		"ypos"			"0"
@@ -26,7 +26,8 @@
 		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"S_Shadow"			
+		"bgcolor_override"		"0 0 0 150"
+		"paintbackgroundtype"	"2"		
 	}
 	
 	"ItemEffectIcon"
