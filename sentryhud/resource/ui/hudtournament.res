@@ -907,7 +907,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"KCFont24"
+		"font"			"KCFont14"
 		"xpos"			"1"
 		"ypos"			"57"
 		"wide"			"250"
