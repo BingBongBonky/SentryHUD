@@ -16,8 +16,8 @@
 		"border"		"QuickplayBorder"
 
 		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontSmall"
-		"log_font_large"			"HudFontSmall"
+		"log_font_medium"			"HudFontMediumSmallSecondary"
+		"log_font_large"			"HudFontMediumSecondary"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallest"
 		
 		"bgcolor_override"	"0 0 0 50"
 
@@ -62,7 +62,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"White"
 			}
 		
 			"UpButton"
