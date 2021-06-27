@@ -83,29 +83,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"S_MenuShader"
+		"bgcolor_override"	"0 0 0 0"
 		
-		"OutterPanelBG"
+		"OuterPanelBG"
 		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"OutterPanelBG"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"OuterPanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-8"
 			"wide"			"500"
-			"tall"			"0" // 310
+			"tall"			"310"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"23"	// pixels inside the image
-			"src_corner_width"	"23"
-			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"S_MenuShader"
 		}
+		
 		"InnerPanelRim"
 		{
 			"ControlName"	"Panel"
@@ -119,9 +114,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
-			"PaintBackgroundType" "2"
-			"bgcolor_override"	"Gray"
+			"bgcolor_override"	"S_Menu"
 		}
 		
 		"InnerBGPanel"
@@ -133,15 +126,36 @@
 			"zpos"			"0"
 			"wide"			"470"
 			"tall"			"220"
-			"visible"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"bgcolor_override"		"S_Menu"
 		}
 	
 		"PlayerUpgradeButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"PlayerUpgradeButton"
+			"xpos"			"15"
+			"ypos"			"10"
+			"zpos"			"-2"
+			"wide"			"70"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"PLAYER"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"textinsetx"	"50"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"PlayerUpgrade"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			//"bgcolor_override"	"0 0 0 0"
 			"alpha"	"0"
 		}
 		
@@ -191,7 +205,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"S_SBRed"
+			"bgcolor_override"	"S_Blue"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -209,7 +223,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"172 52 52 155" // Transparent SBRed
+			"bgcolor_override"	"S_Blue"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -217,8 +231,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MouseOverUpgradePanel"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"10"
 			"wide"			"158"
 			"tall"			"48"
@@ -227,7 +241,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
+			"bgcolor_override"	"S_Blue"
 			"PaintBackgroundType"	"0"
 		}
 		
@@ -344,10 +358,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InactiveSeparatorPanel"
 			"xpos"			"10"
-			"ypos"			"49"
+			"ypos"			"48"
 			"zpos"			"-4"
 			"wide"			"480"
-			"tall"			"1"
+			"tall"			"5"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -360,13 +374,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GreyedOutLabel"
-			"font"			"HudFontSmall"
+			"font"			"HSFont14"
 			"labelText"		"%powerup_hint%"
 			"textAlignment"	"north"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"xpos"			"190"
-			"ypos"			"95"
+			"ypos"			"85"
 			"zpos"			"2"
 			"wide"			"240"
 			"tall"			"140"
@@ -441,7 +455,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"S_MenuTooltip"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
@@ -449,7 +463,6 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsDescriptionLabel"
 			"font"			"KCFont12"
-			"fgcolor"		"White"
 			"labelText"		"%upgrade_description%"
 			"textAlignment"	"center"
 			"wrap"			"1"
@@ -479,7 +492,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"S_MenuTooltip"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -496,7 +509,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"S_Menu"
+			"bgcolor_override"	"S_MenuTransparent"
 		}
 		
 		"UpgradeItemsLabel"
@@ -542,28 +555,28 @@
 			"fieldName"		"CreditsLabel"
 			"font"			"KCFont18"
 			"labelText"		"%credits%"
-			"textAlignment"	"east"
-			"xpos"			"0"
-			"ypos"			"280"
+			"textAlignment"	"west"
+			"xpos"			"255"
+			"ypos"			"278"
 			"wide"			"245"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"121 195 58 255"
+			"fgcolor"		"S_FindGameGreen"
 		}
 		
 		"CreditsTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HSFont18"
+			"font"			"HSFont14"
 			"labelText"		"#TF_PVE_UpgradeAmount"
-			"textAlignment"	"west"
-			"xpos"			"250"
-			"ypos"			"280"
-			"wide"			"500"
+			"textAlignment"	"east"
+			"xpos"			"140"
+			"ypos"			"278"
+			"wide"			"100"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -665,7 +678,7 @@
 		
 		"TipPanelBG"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"TipPanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -676,36 +689,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"23"	// pixels inside the image
-			"src_corner_width"	"23"
-			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
-		}
-
-		"TipPanelBGNew"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"TipPanelBGNew"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-3"
-			"wide"			"500"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"bgcolor_override"	"S_MenuTooltip"
+			"bgcolor_override"	"S_Menu"
 		}
 		
 		"TipText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipText"
-			"font"			"HSFont14"
+			"font"			"KCFont12"
 			"labelText"		"%tiptext%"
 			"textAlignment" "west"
 			"xpos"			"10"
@@ -718,7 +709,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 		
 		"NextTipButton"

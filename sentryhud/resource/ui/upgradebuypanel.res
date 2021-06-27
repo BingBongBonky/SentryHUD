@@ -61,7 +61,7 @@
 		"fieldName"		"IconBorder"
 		"xpos"			"2"
 		"ypos"			"2"
-		"zpos"			"0"
+		"zpos"			"10"
 		"wide"			"30"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -69,7 +69,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"bgcolor_override"	"White"
+		"bgcolor_override"	"238 127 74 255"
 	}
 	
 	"Icon"
@@ -144,8 +144,8 @@
 		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"	"S_MenuShader"
 	}
 	
