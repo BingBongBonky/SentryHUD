@@ -2579,6 +2579,7 @@
  		"font"						"HSFont18"
  		"textAlignment"				"west"
  		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"border_default"	"MainMenuButtonBorder"
 		"textinsetx"				"25"
 		"use_proportional_insets" "1"
 		"labelText"					"#MMenu_CharacterSetup"
@@ -2653,6 +2654,7 @@
  		"font"						"HSFont18"
  		"textAlignment"				"west"
  		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"border_default"	"MainMenuButtonBorder"
 		"textinsetx"				"25"
 		"use_proportional_insets" "1"
 		"labelText"					"#MMenu_Shop"
@@ -2708,6 +2710,7 @@
  		"font"						"HSFont18"
  		"textAlignment"				"west"
  		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"border_default"	"MainMenuButtonBorder"
 		"textinsetx"				"25"
 		"use_proportional_insets" "1"
 		"labelText"					"#GameUI_GameMenu_Options"
@@ -2764,6 +2767,7 @@
  		"font"						"HSFont18"
  		"textAlignment"				"west"
  		"paintbackground"			"1" // this needs to be 1 for bgcolor
+		"border_default"	"MainMenuButtonBorder"
 		"textinsetx"				"25"
 		"use_proportional_insets" "1"
 		"labelText"					"Advanced Options"
