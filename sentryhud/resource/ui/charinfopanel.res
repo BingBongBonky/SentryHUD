@@ -42,21 +42,20 @@
 		"tall"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"24 24 24 255"
+		"bgcolor_override"	"S_MenuTooltip"
 	}				
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"1"
+		"ypos"			"0"
+		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"tall"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_MenuTooltip"
 	}				
 	"FooterLine"
 	{
@@ -93,8 +92,8 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
@@ -105,9 +104,9 @@
 			"font"				"HSFont18"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"Gray"	
-			"defaultBgColor_override"	"S_Menu"
+			"defaultBgColor_override"	"S_EconBG"
 			"paintbackground"	"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 	}
 	
@@ -115,8 +114,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
-		"ypos"			"500"
+		"xpos"			"c-300"
+		"ypos"			"515"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"25"
@@ -146,7 +145,7 @@
 		"zpos"			"10000"
 		"wide"			"190"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 	}
 }
