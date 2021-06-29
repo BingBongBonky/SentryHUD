@@ -144,7 +144,7 @@
 		"ypos"			"10"
 		"zpos"			"10000"
 		"wide"			"190"
-		"tall"			"50"
+		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
 	}
