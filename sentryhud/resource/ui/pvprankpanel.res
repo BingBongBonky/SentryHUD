@@ -402,6 +402,7 @@
 				"wide"			"f0"
 				"tall"			"p0.45"
 				"visible"		"0"
+				"enabled"		"0"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
 
