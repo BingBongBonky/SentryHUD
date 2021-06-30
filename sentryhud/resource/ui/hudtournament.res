@@ -135,9 +135,9 @@
 				{
 					"xpos"				"4"
 					"ypos"				"25"
-					"wide"			"48"
+					"wide"				"60"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"RGFont12"
 				}
 
 				if_competitive
@@ -862,7 +862,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"KCFont14"
+		"font"			"KCFont24"
 		"fgcolor_override"	"White"
 		"xpos"			"0"
 		"ypos"			"58"
