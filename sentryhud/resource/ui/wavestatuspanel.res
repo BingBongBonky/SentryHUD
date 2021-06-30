@@ -58,6 +58,7 @@
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"1"
+		"wide_minmode"	"0"
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
@@ -90,6 +91,7 @@
 		if_verbose
 		{
 			"visible"		"1"
+			"ypos_minmode"	"13"
 		}		
 	}
 	
@@ -122,9 +124,6 @@
 		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"
-		"xpos_minmode"	"230"
-		"ypos_minmode"	"7"
-		"wide_minmode"	"140"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
