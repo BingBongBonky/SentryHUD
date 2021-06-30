@@ -862,7 +862,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"KCFont24"
+		"font"			"HSFont24"
 		"fgcolor_override"	"White"
 		"xpos"			"0"
 		"ypos"			"58"
@@ -907,7 +907,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"KCFont14"
+		"font"			"HSFont24"
 		"xpos"			"1"
 		"ypos"			"57"
 		"wide"			"250"
