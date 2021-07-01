@@ -12,6 +12,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		
+		"if_mvm"
+		{
+			"wide"		"80"
+			"tall"		"80"
+		}
 	}
 	"Briefcase"
 	{
@@ -26,7 +32,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
-		
+
 		"if_mvm"
 		{
 			"xpos"			"62"
