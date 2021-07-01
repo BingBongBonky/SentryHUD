@@ -3337,6 +3337,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"RGFont9"
+		{
+			"1"
+			{
+				"name"		"Renogare Soft"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		"RGFont8"
 		{
 			"1"
@@ -3347,7 +3357,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 	}
 	
 	//
