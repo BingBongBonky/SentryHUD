@@ -13,17 +13,17 @@
 
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
-		"team1_player_delta_x"				"-47"
+		"team1_player_delta_x"				"-73"
 		"team1_player_delta_y"				"0"
 		"team2_player_base_offset_x"		"25"
 		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
+		"team2_player_delta_x"				"70"
 		"team2_player_delta_y"				"0"
 		"teams_player_delta_x_comp"			"42"
 
 		"avatar_width"	"63"
 		"spacer"		"5"
-		"name_width"	"57"
+		"name_width"	"70"
 		"horiz_inset"	"2"
 
 		if_mvm
@@ -35,7 +35,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"73"
 		}
 		
 		if_competitive
@@ -59,7 +59,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"70"
 			"team2_player_base_offset_x"	"5"
 		}
 
@@ -89,29 +89,28 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"50"
-			"tall"			"33"
+			"wide"			"70"
+			"tall"			"43"
 			"zpos"			"1"
+			"paintborder"	"0"
 			
-			"color_ready"	"0 255 0 220"
+			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
-			if_mvm
+			"Background"
 			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-						
-			if_competitive
-			{
-				"wide"		"45"
-				"tall"		"29"
-			}
-
-			if_readymode
-			{
-				"wide"		"55"
-				"tall"		"35"
+				"ControlName"				"EditablePanel"
+				"fieldName"					"Background"
+				"xpos"						"-2"
+				"ypos"						"-3"
+				"zpos"						"-1"
+				"wide"						"9999"
+				"tall"						"9999"
+				"visible"					"1"
+				"enabled"					"1"
+				"paintbackground"			"1"
+				"paintbackgroundType"		"0"
+				"bgcolor_override"			"25 25 25 255"
 			}
 			
 			"playername"
@@ -122,22 +121,20 @@
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"70"
+				"tall"			"14"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
-				"textAlignment"	"north-west"
+				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
 					
 				if_mvm
 				{
-					"xpos"				"4"
 					"ypos"				"25"
-					"wide"				"60"
-					"textAlignment"		"center"
-					"font"				"RGFont12"
+					"wide"				"70"
+					"font"				"RGFont9"
 				}
 
 				if_competitive
@@ -146,8 +143,7 @@
 					"ypos"				"21"
 					"wide"				"p0.9"
 					"tall"				"p0.22"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"RGFont10"
 					"proportionaltoparent" "1"
 				}
 
@@ -156,8 +152,7 @@
 					"xpos"				"4"
 					"ypos"				"25"
 					"wide"				"48"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"RGFont10"
 				}
 			}
 			
@@ -880,9 +875,9 @@
 		
 		if_mvm
 		{
-			"xpos"			"155"
+			"xpos"			"c-125"
 			"ypos"			"105"
-			"wide"			"190"
+			"wide"			"250"
 			"zpos"			"3"
 		}
 
@@ -924,9 +919,9 @@
 		
 		if_mvm
 		{
-			"xpos"			"156"
+			"xpos"			"c-124"
 			"ypos"			"106"
-			"wide"			"190"
+			"wide"			"250"
 			"visible"		"1"
 			"fgcolor"		"S_Shadow"
 		}

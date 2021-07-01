@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"S_MenuTooltip"
+		"bgcolor_override"		"S_Menu"
 		"paintbackgroundtype"	"2"
 	}
 
