@@ -2261,7 +2261,7 @@
 			"paintbackground"	"1"
 
 			// default
-			"defaultBgColor_override" 	 "235 235 235 255"
+			"defaultBgColor_override" 	 "178 178 178 255"
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
@@ -2337,7 +2337,7 @@
 			"paintbackground"	"1"
 			
 			// default
-			"defaultBgColor_override" 	 "235 235 235 255"
+			"defaultBgColor_override" 	 "178 178 178 255"
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
@@ -2412,7 +2412,7 @@
 			"paintbackground"	"1"
 			
 			// default
-			"defaultBgColor_override" 	 "235 235 235 255"
+			"defaultBgColor_override" 	 "178 178 178 255"
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
@@ -2489,7 +2489,7 @@
 			"paintbackground"	"1"
 			
 			// default
-			"defaultBgColor_override" 	 "235 235 235 255"
+			"defaultBgColor_override" 	 "178 178 178 255"
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
