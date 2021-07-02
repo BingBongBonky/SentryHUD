@@ -1023,6 +1023,11 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
+
+		"if_mvm"
+		{
+			"ypos"		"50"
+		}
 	}
 	
 	"CountdownLabelShadow"
@@ -1030,7 +1035,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"KCFont32"
-		"fgcolor_override"		"White"
+		"fgcolor"		"S_Shadow"
 		"xpos"			"211"
 		"ypos"			"r56"
 		"wide"			"80"
@@ -1043,7 +1048,6 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 	}
 }
