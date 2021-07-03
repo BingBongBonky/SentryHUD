@@ -1174,7 +1174,7 @@
 			"font"			"HSFont12"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"center"
-			"xpos"			"105"
+			"xpos"			"85"
 			"ypos"			"27"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1186,6 +1186,7 @@
 			"fgcolor"		"White"
 			if_mvm
 			{
+				"xpos"			"105
 				"visible"		"1"
 			}
 		}						
