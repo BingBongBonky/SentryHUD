@@ -74,12 +74,12 @@
 		"fieldName"		"PlayerListBackground"
 		"xpos"			"25"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-10"
 		"wide"			"550"
 		"tall"			"400"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"S_SBBG"
+		"bgcolor_override"		"11 11 11 220"
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -97,17 +97,33 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"23"
+		"linespacing"	"20"
 		"textcolor"		"White"
+	}
+	
+	"PlayerStatsBackground"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"PlayerStatsBackgroundNew"
+		"xpos"			"35"
+		"ypos"			"235"
+		"zpos"			"-6"
+		"wide"			"160"
+		"tall"			"135"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"0 0 0 190"
 	}
 	
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
-		"wide"			"400"
+		"xpos"			"200"
+		"ypos"			"235"
+		"wide"			"360"
 		"tall"			"205"
 		"visible"		"1"
 		
@@ -129,8 +145,8 @@
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		"CreditStatsBackgroundNew"
@@ -146,7 +162,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"0 0 0 153"
+			"bgcolor_override"		"0 0 0 190"
 		}
 		
 		"CreditsLabel"

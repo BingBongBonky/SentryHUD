@@ -176,7 +176,7 @@
 	}
 	"ScoreboardBackground"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"c-426"
 		"ypos"			"5"
@@ -186,7 +186,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"11 11 11 220"
+		"bgcolor_override"		"11 11 11 220"
 
 		if_mvm
 		{
@@ -394,8 +394,8 @@
 		
 		if_mvm
 		{
-			"xpos"			"220"
-			"ypos"			"215"
+			"xpos"			"280"
+			"ypos"			"220"
 			"visible"		"1"
 		}
 	}
@@ -828,7 +828,11 @@
 		"enabled"		"1"
 		if_mvm
 		{
-			"visible"		"0"
+			"xpos"			"55"
+			"ypos"			"205"
+			"font"			"RGFont24"
+			"visible"		"1"
+			"zpos"			"1000"
 		}
 	}
 	"ServerLabelNew"
@@ -1128,13 +1132,18 @@
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
 		"ypos"			"335"
-		"zpos"			"3"
+		"zpos"			"9999"
 		"wide"			"600"
 		"tall"			"448"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		"if_mvm"
+		{
+			"xpos"		"20"
+			"ypos"		"230"
+		}
 
 		"KillsLabel"
 		{
@@ -1155,7 +1164,7 @@
 			"fgcolor"	"White"
 			if_mvm
 			{
-			"visible"		"0"
+				"visible"		"1"
 			}
 		}						
 		"DeathsLabel"
@@ -1165,7 +1174,7 @@
 			"font"			"HSFont12"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"center"
-			"xpos"			"85"
+			"xpos"			"105"
 			"ypos"			"27"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1177,7 +1186,7 @@
 			"fgcolor"		"White"
 			if_mvm
 			{
-			"visible"		"0"
+				"visible"		"1"
 			}
 		}						
 		"AssistsLabel"
@@ -1198,7 +1207,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"-15"
+				"ypos"			"40"
+				"visible"		"1"
 			}
 		}
 		"DestructionLabel"
@@ -1220,7 +1231,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"65"
+				"ypos"			"40"
+				"visible"		"1"
 			}
 		}												
 		"Kills"
@@ -1242,7 +1255,10 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"textAlignment"	"west"
+				"xpos"			"57"
+				"wide"			"70"
+				"visible"		"1"
 			}
 		}						
 		"Deaths"
@@ -1264,7 +1280,8 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"120"
+				"visible"		"1"
 			}
 		}	
 		"GameType"
@@ -1285,7 +1302,7 @@
 			"enabled"		"0"
 			if_mvm
 			{
-			"visible"		"0"
+				"visible"		"0"
 			}
 		}							
 		"Assists"
@@ -1307,7 +1324,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"82"
+				"ypos"			"40"
+				"visible"		"1"
 			}
 		}						
 		"Destruction"
@@ -1328,7 +1347,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"162"
+				"ypos"			"40"
+				"visible"		"1"
 			}
 		}						
 		"CapturesLabel"
@@ -1370,7 +1391,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"-20"
+				"ypos"			"50"
+				"visible"		"1"
 			}
 		}						
 		"DominationLabel"
@@ -1454,7 +1477,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"82"
+				"ypos"			"50"
+				"visible"		"1"
 			}
 		}						
 		"Domination"
@@ -1517,7 +1542,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"-15"
+				"ypos"			"60"
+				"visible"		"1"
 			}
 		}						
 		"InvulnLabel"
@@ -1538,7 +1565,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"65"
+				"ypos"			"50"
+				"visible"		"1"
 			}
 		}						
 		"TeleportsLabel"
@@ -1559,7 +1588,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"65"
+				"ypos"			"60"
+				"visible"		"1"
 			}
 		}						
 		"HeadshotsLabel"
@@ -1580,7 +1611,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"-15"
+				"ypos"			"70"
+				"visible"		"1"
 			}
 		}						
 		"Healing"
@@ -1601,7 +1634,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"82"
+				"ypos"			"60"
+				"visible"		"1"
 			}
 		}						
 		"Invuln"
@@ -1622,7 +1657,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"162"
+				"ypos"			"50"
+				"visible"		"1"
 			}
 		}						
 		"Teleports"
@@ -1643,7 +1680,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"162"
+				"ypos"			"60"
+				"visible"		"1"
 			}
 		}						
 		"Headshots"
@@ -1664,7 +1703,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"82"
+				"ypos"			"70"
+				"visible"		"1"
 			}
 		}						
 		"BackstabsLabel"
@@ -1685,7 +1726,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"65"
+				"ypos"			"70"
+				"visible"		"1"
 			}
 		}
 		"Backstabs"
@@ -1706,7 +1749,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"162"
+				"ypos"			"70"
+				"visible"		"1"
 			}
 		}		
 		"BonusLabel"
@@ -1728,7 +1773,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"-15"
+				"ypos"			"80"
+				"visible"		"1"
 			}
 		}
 		"Bonus"
@@ -1749,7 +1796,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"82"
+				"ypos"			"80"
+				"visible"		"1"
 			}
 		}
 		"SupportLabel"
@@ -1770,7 +1819,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"65"
+				"ypos"			"80"
+				"visible"		"1"
 			}
 		}
 		"Support"
@@ -1791,7 +1842,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"162"
+				"ypos"			"80"
+				"visible"		"1"
 			}
 		}
 		"DamageLabel"
@@ -1812,7 +1865,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"-15"
+				"ypos"			"90"
+				"visible"		"1"
 			}
 		}
 		"Damage"
@@ -1833,7 +1888,9 @@
 			"enabled"		"1"
 			if_mvm
 			{
-			"visible"		"0"
+				"xpos"			"82"
+				"ypos"			"90"
+				"visible"		"1"
 			}
 		}
 	}
