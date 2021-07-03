@@ -28,7 +28,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"221 182 72 250"	
+		"bgcolor_override"	"S_Menu"	
 		"border"			"MedigunBorder"
 	}
 	
@@ -69,7 +69,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"KCFont14"
-		"fgcolor"		"Black"
+		"fgcolor"		"S_SBRed"
 		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"4"
