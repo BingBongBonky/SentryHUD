@@ -56,10 +56,10 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"8"
-			"ypos"			"160"
+			"xpos"			"5"
+			"ypos"			"157"
 			"zpos"			"1"
-			"wide"			"31"
+			"wide"			"45"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
@@ -67,14 +67,14 @@
 			"HealthDeathWarning"	"0.49"
 			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"		"HudOffWhite"
+			"TextColor"		"White"
 		}	
 
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
+			"font"			"RGFont14"
 			"xpos"			"61"
 			"ypos"			"173"
 			"zpos"			"5"
@@ -247,7 +247,7 @@
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"166"
-		"tall"			"40"
+		"tall"			"0"
 		"visible"		"0"
 			
 		"ScreenshotPanelBG"
