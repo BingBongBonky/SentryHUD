@@ -385,7 +385,7 @@ event OvertimeShow
 event HudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-283 -50"	Linear 0.0 0.001
-	Animate ScreenshotPanel		Position	"c-283 13"	Spline 0.001 0.2
+	Animate ScreenshotPanel		Position	"c-283 -49"	Spline 0.001 0.2
 	// Fix for lingering animations
 	RunEvent HudHealthDyingPulseStop 10.0
     RunEvent HudHealthBonusPulseStop 10.0
@@ -396,13 +396,13 @@ event HudSnapShotReminderIn
 event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
 {
 	Animate ReplayReminder		Position	"c-283 -50"	Linear 0.0 0.001
-	Animate ReplayReminder		Position	"c-283 13"	Spline 0.001 0.2
+	Animate ReplayReminder		Position	"c-283 -49"	Spline 0.001 0.2
 }
 
 event HudReplayReminderIn2	// Puts the panel below the snapshot panel
 {
 	Animate ReplayReminder		Position	"c-283 -50"	Linear 0.0 0.001
-	Animate ReplayReminder		Position	"c-283 53"	Spline 0.001 0.2
+	Animate ReplayReminder		Position	"c-283 -49"	Spline 0.001 0.2
 }
 
 event HudReplayTipIn
