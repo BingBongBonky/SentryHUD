@@ -6,10 +6,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r95"	[$WIN32]
-		"xpos_minmode"	"r77"	[$WIN32]
-		"ypos"			"r105"	[$WIN32]
-		"ypos_minmode"	"r120"	[$WIN32]
+		"xpos"			"r95"
+		"xpos_minmode"	"r77"
+		"ypos"			"r105"
+		"ypos_minmode"	"r120"
 		"wide"			"94"
 		"tall"			"45"
 	}
@@ -25,15 +25,8 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"45"
-		"visible"		"1"
-		"visible_minmode""0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"				"../hud/ammo_blue_bg"
-		"teambg_2"			"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"			"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"					
+		"visible"		"0"
+		"enabled"		"0"			
 	}
 
 	"ItemEffectIcon"
@@ -47,7 +40,6 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
-		"visible_minmode""1"
 		"enabled"		"1"
 		"image"			"../hud/pyro_jetpack_off2"
 		"scaleImage"	"1"	
@@ -73,8 +65,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
-		"fgcolor"		"178 0 0 255"
+		"font"			"HSFont12"
+		"fgcolor"		"White"
 	}
 
 	"ItemEffectMeter"
