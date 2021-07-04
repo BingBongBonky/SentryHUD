@@ -1186,7 +1186,7 @@
 			"fgcolor"		"White"
 			if_mvm
 			{
-				"xpos"			"105
+				"xpos"			"105"
 				"visible"		"1"
 			}
 		}						
