@@ -133,22 +133,6 @@
 		}
 	}
 
-	"MenuBGNew"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MenuBGNew"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"S_MenuTransparent"
-	}
-
 	"MapInfoNew"
 	{
 		"ControlName"	"EditablePanel"
@@ -192,11 +176,11 @@
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
-		"tileImage"		"0"
+		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}						
 	
