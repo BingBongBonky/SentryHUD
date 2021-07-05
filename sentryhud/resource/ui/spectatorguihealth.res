@@ -30,11 +30,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"-9999" // 0
+		"xpos"			"0" // 0
 		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"28"
-		"tall"			"0" // 28
+		"tall"			"28" // 28
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
