@@ -16,6 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
+		"paintborder"			"0"
 		"bgcolor_override"	"S_MenuShader"
 	}
 	
