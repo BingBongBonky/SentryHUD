@@ -2281,7 +2281,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2292,7 +2292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2303,7 +2303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2314,7 +2314,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2325,7 +2325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Hakuna Sans"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2346,7 +2346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Hakuna Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2357,9 +2357,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
+				"name"		"Hakuna Sans"
+				"tall"		"10"
+				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2368,7 +2368,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Hakuna Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3990,24 +3990,37 @@ Scheme
 
 		LoadoutItemMouseOverBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"loadout_rect_mouseover"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"inset" "0 0 0 0"
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "QualityColorNormal"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "QualityColorNormal"
+					"offset" "1 1"
+				}
+			}	
 		}
+
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"color"					"S_MenuTooltip"
+			"image"					"replay/thumbnails/button_holder_central"
+			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"4"
 			"draw_corner_height" 	"4"	
 		}
 		
