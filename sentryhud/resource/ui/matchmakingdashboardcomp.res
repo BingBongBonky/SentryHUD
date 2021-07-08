@@ -22,12 +22,12 @@
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
+		"tall"		"22"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"font"			"HSFont32"
+		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -47,7 +47,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -64,7 +64,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"5"
-		"ypos"			"40"
+		"ypos"			"42"
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"
@@ -119,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HSFont18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -133,7 +133,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"armedBgColor_override"		"S_FindGameGreen"
+		"defaultBgColor_override"	"CreditsGreen"
 	}
 }
