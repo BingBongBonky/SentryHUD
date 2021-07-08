@@ -8,7 +8,7 @@
 		"wide"		"f0"
 		"tall"		"17"
 		"proportionaltoparent"	"1"
-		"resize_time"	"0.2"
+		"resize_time"	"0.1"
 	}
 
 	"Container"
@@ -41,7 +41,7 @@
 			"defaultBgColor_override"	"0 0 0 0"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"235 226 202 20"
+			"armedBgColor_override"	"S_MenuTransparent"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -61,8 +61,8 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Win"
-			"font"				"HudFontSmallestBold"
-			"fgcolor_override"	"95 164 44 255"
+			"font"				"HSFont12"
+			"fgcolor_override"	"S_FindGameGreen"
 			"textAlignment"		"west"
 		}
 
@@ -79,8 +79,8 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Loss"
-			"font"				"HudFontSmallestBold"
-			"fgcolor_override"	"141 63 63 255"
+			"font"				"HSFont12"
+			"fgcolor_override"	"S_SBRed"
 			"textAlignment"		"west"
 		}
 
@@ -97,8 +97,8 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"%match_date%"
-			"font"				"MMenuPlayListDesc"
-			"fgcolor_override"	"TanLight"
+			"font"				"HSFont8"
+			"fgcolor_override"	"White"
 			"textAlignment"		"west"
 		}
 
@@ -106,7 +106,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MapNameLabel"
-			"xpos"			"p0.60"
+			"xpos"			"p0.58"
 			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -115,8 +115,8 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"%map_name%"
-			"font"				"MMenuPlayListDesc"
-			"fgcolor_override"	"TanLight"
+			"font"				"HSFont12"
+			"fgcolor_override"	"White"
 			"textAlignment"		"west"
 		}
 
@@ -133,8 +133,8 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"%kd_ratio%"
-			"font"				"MMenuPlayListDesc"
-			"fgcolor_override"	"TanLight"
+			"font"				"KCFont12"
+			"fgcolor_override"	"White"
 			"textAlignment"		"west"
 		}
 	}
@@ -158,14 +158,15 @@
 			"fieldName"		"InnerShadow"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
+			"wide"			"0"
 			"tall"			"f0"
 			"zpos"			"1"
+			"enabled"		"0"
 			"proportionaltoparent"	"1"	
 			"autoresize"		"2"
 			"pincorner"			"3"
 			
-			"border"			"InnerShadowBorder"	
+			"border"			"NoBorder"	
 		}
 
 		"SlidingStatsContainer"
@@ -211,7 +212,7 @@
 			{
 				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"KillsMedal"
-				"xpos"			"p0.2-10"
+				"xpos"			"p0.2-7"
 				"ypos"			"2"
 				"wide"			"o1"
 				"tall"			"10"
@@ -224,7 +225,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"KillsLabel"
-				"xpos"			"p0.2"
+				"xpos"			"p0.2+3"
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"15"
@@ -233,8 +234,8 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_kills%"
-				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"font"				"HSFont8"
+				"fgcolor_override"	"White"
 				"textAlignment"		"west"
 			}
 
@@ -242,7 +243,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"DeathsLabel"
-				"xpos"			"p0.2"
+				"xpos"			"p0.2+3"
 				"ypos"			"10"
 				"wide"			"f0"
 				"tall"			"15"
@@ -251,8 +252,8 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_deaths%"
-				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"font"				"HSFont8"
+				"fgcolor_override"	"White"
 				"textAlignment"		"west"
 			}
 
@@ -260,7 +261,7 @@
 			{
 				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"DamageMedal"
-				"xpos"			"p0.2-10"
+				"xpos"			"p0.2-7"
 				"ypos"			"22"
 				"wide"			"o1"
 				"tall"			"10"
@@ -273,7 +274,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"DamageLabel"
-				"xpos"			"p0.2"
+				"xpos"			"p0.2+3"
 				"ypos"			"20"
 				"wide"			"f0"
 				"tall"			"15"
@@ -282,8 +283,8 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_damage%"
-				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"font"				"HSFont8"
+				"fgcolor_override"	"White"
 				"textAlignment"		"west"
 			}
 
@@ -314,8 +315,8 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_healing%"
-				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"font"				"HSFont8"
+				"fgcolor_override"	"White"
 				"textAlignment"		"west"
 			}
 
@@ -345,8 +346,8 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_support%"
-				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"font"				"HSFont8"
+				"fgcolor_override"	"White"
 				"textAlignment"		"west"
 			}
 
@@ -378,8 +379,8 @@
 				"pincorner"			"3"
 			
 				"labeltext"			"%stat_score%"
-				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"font"				"HSFont8"
+				"fgcolor_override"	"White"
 				"textAlignment"		"west"
 			}
 
