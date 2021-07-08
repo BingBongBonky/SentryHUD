@@ -353,7 +353,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"c111"
-		"ypos"			"60"
+		"ypos"			"90"
 		"zpos"			"-1"
 		"wide"			"8"
 		"tall"			"8"
