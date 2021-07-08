@@ -388,8 +388,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-365"
-		"ypos"			"57"
+		"xpos"			"c-133"
+		"ypos"			"90"
 		"zpos"			"-99"
 		"wide"			"260"
 		"tall"			"100"
@@ -400,8 +400,8 @@
 		"textinsetx"	"40"
 		"textinsety"	"10"
 
-		"font"			"KCFont12"
-		"fgcolor_override"	"RedSolid"
+		"font"			"HSFont12"
+		"fgcolor_override"	"S_SBRed"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"textAlignment"	"north-west"
 		"use_proportional_insets"	"1"
@@ -411,8 +411,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-360"
-		"ypos"			"60"
+		"xpos"			"c-125"
+		"ypos"			"105"
 		"zpos"			"-99"
 		"wide"			"30"
 		"tall"			"30"
