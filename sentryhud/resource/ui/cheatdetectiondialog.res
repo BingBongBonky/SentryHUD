@@ -17,7 +17,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"KCFont12"
+		"font"			"HSFont12"
 		"xpos"			"0"
 		"ypos"			"13"
 		"zpos"			"1"
@@ -36,7 +36,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"ExplanationLabel"
-		"font"			"KCFont12"
+		"font"			"HSFont12"
 		"xpos"			"20"
 		"ypos"			"35"
 		"zpos"			"1"
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"click if virgin"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
