@@ -3256,27 +3256,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-		"RGFont60"
-		{
-			"1"
-			{
-				"name"		"Renogare Soft"
-				"tall"		"60"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		"RGFont48"
-		{
-			"1"
-			{
-				"name"		"Renogare Soft"
-				"tall"		"48"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
 		"RGFont32"
 		{
 			"1"
@@ -5455,8 +5434,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"button_holder_central"
+			"color"					"S_Menu"
+			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
