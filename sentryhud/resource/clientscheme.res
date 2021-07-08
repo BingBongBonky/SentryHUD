@@ -1851,50 +1851,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
-		"TargetID"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"0"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"0"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"0"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"0"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"0"
-			}
-		}
+
 		"ChatFont"
 		{
 			"1"
@@ -5434,7 +5391,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"S_Menu"
+			"color"					"S_MenuTooltip"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -5491,8 +5448,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"store/innershadow_border"
+			"color"					"0 0 0 0"
+			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -5864,8 +5821,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"inner_shadow_border"
+			"color"					"0 0 0 0"
+			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -5876,8 +5833,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"inner_shadow_border"
+			"color"					"0 0 0 0"
+			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -5888,8 +5845,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"outer_shadow_border"
+			"color"					"0 0 0 0"
+			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"8"				// pixels inside the image
 			"src_corner_width"		"8"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -5900,8 +5857,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"outer_shadow_border"
+			"color"					"0 0 0 0"
+			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"8"				// pixels inside the image
 			"src_corner_width"		"8"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
