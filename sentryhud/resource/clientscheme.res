@@ -90,7 +90,7 @@ Scheme
 		"S_RedTransparent"			"255 0 0 200"
 
 		// Scoreboard
-		"S_SBBlue"			"66 135 227 255"
+		"S_SBBlue"			"78 126 178 255"
 		"S_SBRed"			"172 52 52 255"
 		"S_SBBG"			"11 11 11 150"
 
