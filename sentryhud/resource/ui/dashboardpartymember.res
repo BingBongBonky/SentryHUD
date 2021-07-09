@@ -97,7 +97,7 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
-		"drawcolor"	"OrangeDim"
+		"drawcolor"	"RedSolid"
 	}
 
 	"StatusDimmer"
@@ -142,8 +142,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"235 226 202 2"
-		"armedBgColor_override"	"94 150 49 20"
+		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"94 150 49 20"
 
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"FriendHighlightBorderThick"

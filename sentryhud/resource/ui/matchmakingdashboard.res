@@ -63,7 +63,10 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
+			"paintbackground"		"1"
+			"paintborder"			"0"
 			"border"		"ReplayDefaultBorder"
+			"bgcolor_override"		"S_Menu"
 			"proportionaltoparent"	"1"
 		}
 
@@ -110,6 +113,8 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"	"S_Menu"
 
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"

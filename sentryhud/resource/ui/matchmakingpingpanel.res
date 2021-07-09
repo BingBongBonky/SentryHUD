@@ -44,8 +44,8 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBold"
-		"fgcolor_override"	"TanDark"
+		"font"			"HSFont24"
+		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -62,9 +62,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_InviteMode"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"smallcheckimage"	"1"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"White"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -80,16 +80,16 @@
 		"wide"			"200"
 		"tall"			"15"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
 		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"235 226 202 255"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"fgcolor_override"			"White"
+		"disabledFgColor_override" 	"White"
+		"disabledBgColor_override" 	"0 0 0 0"
+		"selectionColor_override" 	"0 0 0 0"
+		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 
@@ -105,8 +105,16 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont14"
 		"smallcheckimage"	"1"
+
+		"bgcolor_override"						"0 0 0 255"
+		"fgcolor_override"						"White"
+		"disabledFgColor_override" 				"White"
+		"disabledBgColor_override" 				"0 0 0 0"
+		"selectionColor_override" 				"0 0 0 0"
+		"selectionTextColor_override" 			"White"
+		"defaultSelectionBG2Color_override" 	"0 0 0 0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -118,16 +126,17 @@
 	{
 		"ControlName"		"CvarToggleCheckButton"
 		"fieldName"		"KeepPartyOnSameTeam"
-		"xpos"		"23"
+		"xpos"		"9999" // 23
 		"ypos"		"95"
 		"zpos"		"3"
-		"wide"		"250"
+		"wide"		"0" // 250
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont14"
 		"smallcheckimage"	"1"
+		"visible"	"0"
 		"enabled"	"0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
@@ -138,16 +147,18 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"KeepPartyOnSameTeamLabel"
-		"xpos"		"42"
+		"xpos"		"9999" // 42
 		"ypos"		"95"
 		"zpos"		"3"
-		"wide"		"250`"
+		"wide"		"0" // 250
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_PartySameTeam"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
+		"visible"			"0"
+		"enabled"			"0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -159,14 +170,14 @@
 		"ControlName"		"CvarToggleCheckButton"
 		"fieldName"		"CustomPingCheckButton"
 		"xpos"		"23"
-		"ypos"		"110"
+		"ypos"		"95"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
@@ -183,7 +194,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"CheckLabel"
 		"xpos"		"42"
-		"ypos"		"110"
+		"ypos"		"95"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
@@ -202,16 +213,16 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"DescLabel"
 		"xpos"		"43"
-		"ypos"		"127"
+		"ypos"		"115"
 		"zpos"		"3"
 		"wide"		"p0.81"
 		"tall"		"45"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"	"north-west"
-		"font"			"HudFontSmallest"
+		"font"			"HSFont8"
 		"wrap"		"1"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor"		"White"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -229,7 +240,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont14"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -299,7 +310,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"White"
 				}
 		
 				"UpButton"
@@ -346,7 +357,7 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"ReplayDefaultBorder"
+			"border"		"MainMenuBGBorder"
 		}
 	}
 }
