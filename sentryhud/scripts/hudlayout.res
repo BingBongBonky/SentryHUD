@@ -1020,26 +1020,26 @@
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"xpos"					"c-160"
-		"ypos"					"65"
+		"ypos"					"-9999" // 65
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"0" // 100
 	}
 
 
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"xpos"					"c-160"
-		"ypos"					"15"
+		"ypos"					"-9999" // 15
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"300"
+		"tall"					"0" // 300
 	}
 
 	HudTeamSwitch
