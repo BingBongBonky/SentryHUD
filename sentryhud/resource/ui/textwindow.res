@@ -164,6 +164,23 @@
 		"enabled"		"1"
 		"bgcolor_override"	"Black"
 	}
+
+	"Shader"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Shader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-9999"		
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_MenuTransparent"
+	}
+
 	
 	"ShadedBar"
 	{
@@ -176,8 +193,8 @@
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
