@@ -463,8 +463,8 @@
 			{
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Blocked"
-				"xpos"				"13"
-				"ypos"				"13"
+				"xpos"				"15"
+				"ypos"				"22"
 				"zpos"				"1"
 				"wide"				"25"
 				"tall"				"25"
