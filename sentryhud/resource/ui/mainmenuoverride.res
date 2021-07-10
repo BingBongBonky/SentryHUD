@@ -3421,14 +3421,14 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
-	"CPCapMask"
+	"CPIconWhite"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"CPCapMask"
+		"fieldName"			"CPIconWhite"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_mask"
+		"image"				"../sprites/obj_icons/icon_obj_white"
 	}
 	"CPIconBlu1"
 	{
