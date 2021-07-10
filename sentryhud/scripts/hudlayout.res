@@ -475,11 +475,11 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"LineSpacing"	  "2"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
@@ -487,7 +487,7 @@
 		"TeamBlue"		"87 145 242 255"
 		"TeamRed"		"236 83 83 255"
 		"IconColor"		"255 255 255 255"
-		"LocalPlayerColor"	"HUDBlack"
+		"LocalPlayerColor"	"Black"
 
 		"BaseBackgroundColor"	"0 0 0 122"	
 		"LocalBackgroundColor"	"235 235 235 240"
