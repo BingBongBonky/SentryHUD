@@ -79,7 +79,7 @@
 		"tall"			"400"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"11 11 11 220"
+		"bgcolor_override"		"S_SBBG"
 		"PaintBackgroundType"	"2"
 	}
 	

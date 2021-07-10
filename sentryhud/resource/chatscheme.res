@@ -4,14 +4,15 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"				"255 255 255 255"
-		"OffWhite"			"255 255 255 255"
+		"White"				"235 235 235 255"
+		"OffWhite"			"235 235 235 255"
 		"DullWhite"			"12 12 12 255"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"	"0 0 0 0"
 		"Black"				"0 0 0 255"
 		"Green"				"63 185 73 255"
 		"Blank"				"0 0 0 0"
+		"ChatBG"			"44 44 44 220"
 	}
 
 	BaseSettings
@@ -51,9 +52,9 @@ Scheme
 		Frame.FocusTransitionEffectTime	"0.2"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.2"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"46 43 42 220"
+		FrameGrip.Color1				"ChatBG"
 		FrameGrip.Color2				"0 0 0 196"
-		FrameTitleButton.FgColor		"46 43 42 220"
+		FrameTitleButton.FgColor		"ChatBG"
 		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledFgColor	"255 255 255 192"
 		FrameTitleButton.DisabledBgColor	"Blank"
@@ -88,13 +89,13 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
-		Menu.BgColor					"46 43 42 220"
+		Menu.BgColor					"ChatBG"
 		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"Orange"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"Blank"
-		Panel.BgColor					"46 43 42 220"
+		Panel.BgColor					"ChatBG"
 
 		ProgressBar.FgColor				"White"
 		ProgressBar.BgColor				"TransparentBlack"
@@ -134,7 +135,7 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
-		Slider.NobColor				"G_DarkRed"
+		Slider.NobColor				"Red"
 		Slider.TextColor			"180 180 180 255"
 		Slider.TrackColor			"31 31 31 255"
 		Slider.DisabledTextColor1	"117 117 117 255"

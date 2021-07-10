@@ -7,24 +7,24 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-		"S_ActiveWindow"			"30 30 30 255" // Active window bg color
-		"S_InctiveWindow"			"25 25 25 255" // Inactive window bg color
-		"S_TitleBg"					"45 121 221 255" // Title bg color
-		"S_TitleText"				"255 255 255 255" // Title text color
-		"S_Highlight"				"45 121 221 255" // Highlight color
-		"S_ConsoleBg"				"20 20 20 255" // Console bg color
-		"S_ListBg"					"13 13 13 255" // List bg color
-		"S_Border"					"0 0 0 0" // Border color
-		"S_Text"					"228 228 228 255" // Text color
-		"S_HighlightText"			"255 255 255 255" // Highlight text color
-		"S_SelectedText"			"255 255 255 255" // Selected text color
-		"S_DisabledText"			"227 214 208 150" // Disabled text color
-		"S_ButtonBg"				"96 83 73 255" // Button bg color
-		"S_ButtonText"				"255 255 255 255" // Button text color
-		"S_ButtonHoverBg"			"45 121 221 255" // Button hover bg color
-		"S_ButtonHoverText"			"255 255 255 255" // Button hover text color
-		"S_InputBg"					"11 11 11 255" // Input bg color
-		"S_Light"					"255 255 255 50"
+		"S_ActiveWindow"			"25 25 25 255" 			// Active window bg color
+		"S_InctiveWindow"			"25 25 25 255" 			// Inactive window bg color
+		"S_TitleBg"					"45 121 221 255" 		// Title bg color
+		"S_TitleText"				"235 235 235 255" 		// Title text color
+		"S_Highlight"				"45 121 221 255" 		// Highlight color
+		"S_ConsoleBg"				"13 13 13 255" 			// Console bg color
+		"S_ListBg"					"13 13 13 255" 			// List bg color
+		"S_Border"					"0 0 0 0" 				// Border color
+		"S_Text"					"235 235 235 255" 		// Text color
+		"S_HighlightText"			"235 235 235 255" 		// Highlight text color
+		"S_SelectedText"			"235 235 235 255" 		// Selected text color
+		"S_DisabledText"			"178 178 178 150" 		// Disabled text color
+		"S_ButtonBg"				"20 20 20 255" 			// Button bg color
+		"S_ButtonText"				"235 235 235 255" 		// Button text color
+		"S_ButtonHoverBg"			"45 121 221 255" 		// Button hover bg color
+		"S_ButtonHoverText"			"235 235 235 255" 		// Button hover text color
+		"S_InputBg"					"11 11 11 255" 			// Input bg color
+		"S_Light"					"235 235 235 50"
 		"S_Dark"					"0 0 0 50"
 
 

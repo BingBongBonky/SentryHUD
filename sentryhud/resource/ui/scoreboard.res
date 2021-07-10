@@ -186,7 +186,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"11 11 11 220"
+		"bgcolor_override"		"S_SBBG"
 
 		if_mvm
 		{

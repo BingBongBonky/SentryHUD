@@ -74,7 +74,7 @@ Scheme
 		// Custom Colors
 		"S_Shadow"			"0 0 0 220"
 		"S_Lime"			"18 241 19 255"
-		"S_Overheal"		"120 255 255 255"
+		"S_Overheal"		"64 174 254 255"
 		"S_Menu"			"14 14 14 255"
 		"S_MenuShader"		"9 9 9 255"
 		"S_MenuTooltip"		"35 35 35 255"
@@ -90,9 +90,9 @@ Scheme
 		"S_RedTransparent"			"255 0 0 200"
 
 		// Scoreboard
-		"S_SBBlue"			"78 126 178 255"
-		"S_SBRed"			"172 52 52 255"
-		"S_SBBG"			"11 11 11 150"
+		"S_SBBlue"			"87 145 242 255"
+		"S_SBRed"			"236 83 83 255"
+		"S_SBBG"			"11 11 11 220"
 
 		// Econ Menus
 		"S_EconBG"			"20 20 20 255"
