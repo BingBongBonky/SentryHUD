@@ -6259,12 +6259,12 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/KeepCalm-Medium.ttf"
+			"font" "resource/fonts/KeepCalm-Medium.ttf"
 			"name" "Keep Calm Medium"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/Hakuna-Sans.ttf"
+			"font" "resource/fonts/Hakuna-Sans.ttf"
 			"name" "Hakuna Sans"
 		}
 		"10"
