@@ -2919,7 +2919,7 @@
 		"fieldName"		"NewUserForumsButton"
 		"xpos"			"c-155"
 		"ypos"			"328"
-		"zpos"			"100"
+		"zpos"			"1"
 		"wide"			"22"
 		"tall"			"20"
 		"autoResize"	"0"
