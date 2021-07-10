@@ -1,6 +1,8 @@
 # SentryHUD
 
-SentryHUD is a little project I'm doing since I got bored and really don't like how my old HUD worked. It is a HUD from Scratch. I won't have a proper release for a while but if you have an issue you can make one on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
+SentryHUD is a HUD from scratch made by me with the help of others. 
+
+If you have an issue you can make one on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
 
 ## Screenshots
 https://imgur.com/a/PlZ2Zm1
