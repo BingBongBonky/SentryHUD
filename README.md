@@ -2,8 +2,7 @@
 
 SentryHUD is a little project I'm doing since I got bored and really don't like how my old HUD worked. It is a HUD from Scratch. I won't have a proper release for a while but if you have an issue you can make one on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
 
-## Screeenshots
-"Soon" has arrived :D
+## Screenshots
 https://imgur.com/a/PlZ2Zm1
 
 ## Installation
@@ -18,12 +17,13 @@ tf
 └── custom
     └── sentryhud
         ├── cfg
+        ├── customizations
         ├── materials
         ├── resource
         ├── scripts
         └── info.vdf
 ```
 ## Contact me
-If you have any issues, contact me here. Discord is the best way to reach me but I will usually not be available during most of the day so please be patient.
+If you have any issues, contact me here. Discord is the best way to reach me and I am usually on there most of the time.
 * Discord: King Stupid#7555
 * Steam: https://steamcommunity.com/id/HealingSentry/
