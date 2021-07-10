@@ -253,8 +253,8 @@
 		"tall"			"155"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
-		"bgcolor_override"	"S_Menu"
+		"paintborder"		"0"
+		"bgcolor_override"	"S_MenuTransparent"
 		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
@@ -387,7 +387,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"S_MenuShader"
+		"fillcolor"		"S_MenuShaderTransparent"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
