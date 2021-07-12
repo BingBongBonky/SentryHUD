@@ -120,7 +120,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"FilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HSFont14"
 		"xpos"				"c-240"
 		"ypos"				"32"
 		"zpos"				"1"
@@ -137,13 +137,13 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"51 47 46 255"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "51 47 46 255"
-		"selectionColor_override" "51 47 46 255"
-		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "51 47 46 255"
+		"fgcolor_override"					"White"
+		"bgcolor_override"					"S_MenuShader"
+		"disabledFgColor_override" 			"White"
+		"disabledBgColor_override" 			"S_MenuShader"
+		"selectionColor_override" 			"S_MenuShader"
+		"selectionTextColor_override" 		"White"
+		"defaultSelectionBG2Color_override" "S_MenuShader"
 	}
 	
 	"DataPanel"

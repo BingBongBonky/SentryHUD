@@ -296,8 +296,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"12 12 12 255"
-		"bgcolor_override"	"235 235 235 255"
+		"fgcolor_override"	"Black"
+		"bgcolor_override"	"White"
 		"paintbackgroundtype" "2"
 		"font"		"KCFont12"
 	}

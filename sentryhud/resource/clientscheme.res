@@ -852,9 +852,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -865,9 +864,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -880,7 +878,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -901,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -914,7 +911,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -935,7 +931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -946,7 +942,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -959,8 +955,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -995,7 +989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1006,7 +1000,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1017,7 +1011,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1063,7 +1057,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1074,7 +1068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1085,7 +1079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Keep Calm Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1096,7 +1090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Keep Calm Medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1107,7 +1101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1118,7 +1112,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Keep Calm Medium"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1131,8 +1125,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1149,38 +1141,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		GameUIButtons
-		{
-			"1"	//[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
-			}
-		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
-			}
-		}
 		GameUIButtonsSteamController
 		{
 			"1"
@@ -1188,9 +1148,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -1219,8 +1177,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1232,8 +1188,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1267,8 +1221,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1280,7 +1232,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1301,8 +1252,7 @@ Scheme
 			"2"
 			{
 				"name"		"TF2"
-				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
+				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1339,20 +1289,13 @@ Scheme
 		}
 		DebugOverlay
 		{
-			"1"	[$WIN32]
+			"1"
 			{
 				"name"		"Courier New"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
 			}
 		}		
 		TFTypeDeath
@@ -2077,7 +2020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2087,7 +2030,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2173,7 +2116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2380,7 +2323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2391,7 +2334,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2843,7 +2786,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2854,7 +2797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2878,7 +2821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2906,7 +2849,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2917,7 +2860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2954,7 +2897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2965,7 +2908,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2978,7 +2921,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -6182,7 +6125,7 @@ Scheme
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
+			"name" "Hakuna Sans"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
