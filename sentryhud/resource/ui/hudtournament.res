@@ -783,7 +783,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"TFFontSmall"
+		"font"			"HSFont12"
 		"fgcolor"		"White"
 		"xpos"			"8"
 		"ypos"			"42"
@@ -809,7 +809,6 @@
 			"ypos"			"18"
 			"tall"			"35"
 			"visible"		"1"
-			"font"			"TFFontMedium"
 		}
 
 		if_readymode
@@ -817,7 +816,6 @@
 			"xpos"			"195"
 			"ypos"			"15"
 			"visible"		"1"
-			"font"			"TFFontMedium"
 			"textAlignment"		"center"
 		}
 	}
