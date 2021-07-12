@@ -90,8 +90,8 @@ Scheme
 		"S_RedTransparent"			"255 0 0 200"
 
 		// Scoreboard
-		"S_SBBlue"			"87 145 242 255"
-		"S_SBRed"			"236 83 83 255"
+		"S_SBBlue"			"78 126 178 255"
+		"S_SBRed"			"172 52 52 255"
 		"S_SBBG"			"11 11 11 220"
 
 		// Econ Menus
