@@ -41,7 +41,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HSFont14"
 		"fgcolor_override"	"White"
 		"xpos"			"67"
 		"ypos"			"28"
@@ -95,7 +95,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"
+		"fillcolor"	"11 11 11 255"
 		"scaleImage"	"1"
 	}
 

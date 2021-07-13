@@ -446,38 +446,8 @@
 
 	"HudTournamentBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudTournamentBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"bgcolor_override"		"S_MenuTransparent"
-		"paintbackground"		"1"
-		"proportionaltoparent"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-			"wide"			"0"
-		}
-		
-		if_competitive
-		{
-			"visible"		"0"
-			"wide"			"0"
-		}
-		
-		if_readymode
-		{
-			"visible"		"0"
-			"wide"			"0"
-		}		
+		"enabled"		"0"		
 	}
 
 	"HudTournamentBGNew"
@@ -493,7 +463,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"S_MenuTooltip"
+		"bgcolor_override"		"S_Menu"
 		"paintbackground"		"1"
 		"proportionaltoparent"	"1"
 		
@@ -833,7 +803,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"S_MenuTransparent"
+		"bgcolor_override"	"S_Menu"
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"2"
 		if_mvm
@@ -855,10 +825,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"HSFont24"
+		"font"			"HSFont12"
 		"fgcolor_override"	"White"
-		"xpos"			"0"
-		"ypos"			"58"
+		"xpos"			"8"
+		"ypos"			"46"
 		"wide"			"250"
 		"tall"			"30"
 		"zpos"			"1"
@@ -868,7 +838,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"proportionaltoparent"	"1"
 		
 		if_mvm
