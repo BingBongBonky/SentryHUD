@@ -188,6 +188,12 @@
 			"labelText"		""
 			"image"			"../hud/cart_blue"
 			"scaleImage"	"1"
+
+			"if_multiple_trains"
+			{
+				"xpos"			"23"
+				"ypos"			"66"
+			}	
 			
 			"if_team_blue"
 			{
@@ -217,6 +223,12 @@
 			"labelText"		""
 			"image"			"../hud/cart_blue"
 			"scaleImage"	"1"
+
+			"if_multiple_trains"
+			{
+				"xpos"			"23"
+				"ypos"			"66"
+			}
 			
 			"if_team_blue"
 			{
@@ -282,7 +294,7 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"33"
-			"ypos"			"80"
+			"ypos"			"-9999"
 			"zpos"			"3"
 			"wide"			"6"
 			"tall"			"12"
@@ -311,14 +323,10 @@
 			"dulltext"		"0"
 			"brighttext"	"0"		
 			
-			"if_multiple_trains_top"
+			"if_multiple_trains"
 			{
-				"ypos"			"46"
-			}										
-			
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"82"
+				"xpos"			"5"
+				"ypos"			"67"
 			}	
 		}
 		
