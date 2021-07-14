@@ -582,15 +582,15 @@
 			"border_default"			"MainMenuButtonBorder"
 
 			// armed
-			"armedBgColor_override"		 "S_Blue"
+			"armedBgColor_override"		 "S_Red"
 			"border_armed"			"MainMenuButtonBorder"
 
 			// depressed
-			"depressedBgColor_override"  "S_Blue"
+			"depressedBgColor_override"  "S_Red"
 			"border_depressed"			"MainMenuButtonBorder"
 
 			"image_drawcolor"	"5 5 5 255"
-			"image_armedcolor"	"White"
+			"image_armedcolor"	"5 5 5 255"
 
 			
 			"SubImage"
@@ -1262,17 +1262,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c150"
-		"ypos"			"170"
+		"xpos"			"r275"
+		"ypos"			"168"
 		"zpos"			"10"
-		"wide"			"210"
+		"wide"			"200"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"paintborder"		"1"
-		"bgcolor_override"	"S_MenuTooltip"
-		"border"			"MainMenuButtonBorder"
+		"paintborder"		"0"
+		"bgcolor_override"	"S_Menu"
 
 		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
@@ -1284,7 +1283,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
-			"xpos"			"186"
+			"xpos"			"176"
 			"ypos"			"8"
 			"zpos"			"10"
 			"wide"			"14"
@@ -1295,7 +1294,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1310,12 +1309,12 @@
 
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" 	"Gray"
+			"armedFgColor_override" 	"White"
+			"depressedFgColor_override" "White"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"74 74 74 255"
+			"image_armedcolor"	"235 235 235 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1339,7 +1338,7 @@
 			"font"			"HSFont14"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
-			"xpos"			"12"
+			"xpos"			"15"
 			"ypos"			"8"
 			"wide"			"250"
 			"tall"			"20"

@@ -8,7 +8,7 @@
 		"ypos"			"25"
 		"zpos"			"11"
 		"wide"			"220"
-		"tall"			"26"
+		"tall"			"24"
 		"visible"		"0"
 		"enabled"		"1"
 		"paintbackground"	"1"
