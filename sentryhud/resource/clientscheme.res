@@ -266,9 +266,9 @@ Scheme
 		Econ.Button.PresetArmedColorFg						"White"
 		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"S_SBBlue"
+		Econ.Button.PresetDefaultColorBg					"S_Blue"
 		Econ.Button.PresetArmedColorBg						"S_Blue"
-		Econ.Button.PresetDepressedColorBg					"S_SBBlue"
+		Econ.Button.PresetDepressedColorBg					"S_Blue"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
