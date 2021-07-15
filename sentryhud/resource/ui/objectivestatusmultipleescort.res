@@ -6,6 +6,7 @@
 		"fieldName"			"ObjectiveStatusMultipleEscort"
 		"xpos"				"0"
 		"ypos"				"20"
+		"ypos_minmode"		"30"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"

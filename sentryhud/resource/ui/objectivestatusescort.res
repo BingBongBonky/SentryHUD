@@ -191,7 +191,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"23"
+				"xpos"			"24"
 				"ypos"			"66"
 			}	
 			
@@ -226,7 +226,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"23"
+				"xpos"			"24"
 				"ypos"			"66"
 			}
 			
