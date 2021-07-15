@@ -366,8 +366,8 @@
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 			}				
 		}
 		"InteractiveHeaders"	
@@ -1600,7 +1600,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"#StatSummary_Records"
 			"textAlignment"		"west"
 			"xpos"			"c-265"
@@ -1611,7 +1611,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 		}	
 		"OverallRecord1Label"
 		{

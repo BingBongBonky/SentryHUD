@@ -1393,7 +1393,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"#StatSummary_Records"
 			"textAlignment"		"west"
 			"xpos"			"c-265"
