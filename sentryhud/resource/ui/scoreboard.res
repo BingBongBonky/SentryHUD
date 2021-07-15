@@ -820,7 +820,7 @@
 		"xpos"			"15"
 		"ypos"			"304"
 		"zpos"			"3"
-		"wide"			"300"
+		"wide"			"400"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
