@@ -395,7 +395,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"KCFont12"
 		"labelText"		"%selectionprice%"
 		"textAlignment"	"east"
 		"xpos"			"c20"
@@ -765,8 +765,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c300"
-		"ypos"			"0"
+		"xpos"			"c268"
+		"ypos"			"10"
 		"zpos"			"100"
 		"wide"			"19"
 		"tall"			"19"

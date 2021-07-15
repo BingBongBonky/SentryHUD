@@ -142,9 +142,9 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"HSFont14"
+			"font"			"KCFont8"
 			"textAlignment"	"north-east"
-			"xpos"			"c-61"
+			"xpos"			"c-64"
 			"ypos"			"32"
 			"zpos"			"15"
 			"wide"			"16"
