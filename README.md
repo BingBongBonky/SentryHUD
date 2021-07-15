@@ -5,7 +5,7 @@ SentryHUD is a HUD from scratch made by me with the help of others.
 If you have an issue you can make one on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
 
 ## Screenshots
-https://imgur.com/a/PlZ2Zm1
+https://imgur.com/a/4WnjYox
 
 ## Installation
 1. Click [here](https://github.com/BingBongBonky/SentryHud/archive/refs/heads/release.zip) to download the file. 
