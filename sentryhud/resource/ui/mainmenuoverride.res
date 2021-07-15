@@ -2812,7 +2812,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"reloadscheme"
+		"Command"		"engine hud_reloadscheme"
 
 		"navUp"			"Bookmark_3"
 		"navLeft"		"ReportBugButton"
