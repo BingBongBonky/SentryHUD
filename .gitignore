@@ -1,10 +1,1 @@
-sentryhud/sound
-sentryhud/particles
-sentryhud/scripts/surfaceproperties.txt
-sentryhud/scripts/tf_weapon_cannon.txt
-sentryhud/scripts/tf_weapon_grenadelauncher.txt
-sentryhud/scripts/tf_weapon_particle_cannon.txt
-sentryhud/scripts/tf_weapon_pipebomblauncher.txt
-sentryhud/scripts/tf_weapon_rocketlauncher.txt
-sentryhud/scripts/tf_weapon_rocketlauncher_airstrike.txt
-sentryhud/scripts/tf_weapon_rocketlauncher_directhit.txt
+sentryhud/sound/sound.cache
