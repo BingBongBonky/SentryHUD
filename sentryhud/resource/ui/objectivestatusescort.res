@@ -16,6 +16,7 @@
 		
 		"if_multiple_trains"
 		{
+			"xpos"				"c-120"
 			"ypos"				"r200"
 			"tall"				"200"
 		}
@@ -50,7 +51,7 @@
 		"ypos"			"114"
 		"zpos"			"6"
 		"wide"			"250"
-		"tall"			"12"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
@@ -82,13 +83,13 @@
 		"if_multiple_trains_red"
 		{
 			"image"			"../hud/cart_point_red"
-			"ypos"			"114"
+			"ypos"			"113"
 		}
 		
 		"if_multiple_trains_blue"
 		{
 			"image"			"../hud/cart_point_blue"
-			"ypos"			"114"
+			"ypos"			"113"
 		}
 	}
 	
@@ -132,7 +133,6 @@
 		{
 			"ypos"			"48"
 			"zpos"			"8"
-			"wide"			"52"
 			"tall"			"170"
 		}
 		
@@ -157,12 +157,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"67"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"67"
 			}
 		}
 		
@@ -186,7 +186,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"18"
+				"xpos"			"0"
 				"ypos"			"66"
 			}	
 			
@@ -208,7 +208,7 @@
 			"xpos"			"-2"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"12"
+			"wide"			"254"
 			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -221,7 +221,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"18"
+				"xpos"			"0"
 				"ypos"			"66"
 			}
 			
@@ -273,14 +273,9 @@
 			"image"			"../hud/cart_arrow_left"
 			"scaleImage"	"1"	
 			
-			"if_multiple_trains_top"
+			"if_multiple_trains"
 			{
-				"ypos"			"46"
-			}	
-			
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"83"
+				"ypos"			"68"
 			}	
 		}
 		
@@ -320,7 +315,6 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"5"
 				"ypos"			"67"
 			}	
 		}
@@ -336,7 +330,7 @@
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
