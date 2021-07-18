@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
-		"xpos"				"cs-0.5"
+		"xpos"				"c-200"
 		"ypos"				"r140"
 		"zpos"				"1"
 		"wide"				"400"
@@ -25,9 +25,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
-		"xpos"			"73"
+		"xpos"			"0"
 		"ypos"			"119"
-		"zpos"			"0"
+		"zpos"			"-1"
 		"wide"			"254"
 		"tall"			"12"
 		"visible"		"1"
@@ -46,30 +46,25 @@
 	{
 		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
-		"xpos"			"73"
+		"xpos"			"-9999"
 		"ypos"			"114"
 		"zpos"			"6"
-		"wide"			"254"
+		"wide"			"250"
 		"tall"			"12"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"scaleImage"	"1"
-		
-		"if_multiple_trains"
-		{
-			"visible"		"1"
-		}
 	}		
 	
 	"HomeCPIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"71"	
-		"ypos"			"119"
+		"xpos"			"0"	
+		"ypos"			"118"
 		"zpos"			"1"
 		"wide"			"4"
-		"tall"			"12"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -128,7 +123,7 @@
 		"xpos"			"0"
 		"ypos"			"119"
 		"zpos"			"2"
-		"wide"			"80"		
+		"wide"			"500"		
 		"tall"			"115"		
 		"visible"		"1"
 		"enabled"		"1"
@@ -146,7 +141,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"KCFont12"				
-			"xpos"			"21"			
+			"xpos"			"230"			
 			"ypos"			"1"			
 			"zpos"			"2"
 			"wide"			"20"
@@ -175,10 +170,10 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"			"31"
+			"xpos"			"-2"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"12"
+			"wide"			"254"
 			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -191,7 +186,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"24"
+				"xpos"			"18"
 				"ypos"			"66"
 			}	
 			
@@ -210,7 +205,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageBottom"	
-			"xpos"			"31"
+			"xpos"			"-2"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"12"
@@ -226,7 +221,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"24"
+				"xpos"			"18"
 				"ypos"			"66"
 			}
 			
@@ -264,7 +259,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
-			"xpos"			"33"
+			"xpos"			"240"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"8"
@@ -309,7 +304,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"KCFont12"
-			"xpos"			"12"
+			"xpos"			"220"
 			"ypos"			"1"
 			"zpos"			"4"
 			"wide"			"30"
