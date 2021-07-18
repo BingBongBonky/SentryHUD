@@ -1118,9 +1118,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-170"
-		"ypos"					"18"
-		"wide"					"155"
+		"xpos"					"c-80"
+		"ypos"					"22"
+		"wide"					"160"
 		"tall"					"70"
 	}
 	

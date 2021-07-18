@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
-		"xpos"				"c-200"
+		"xpos"				"c-120"
 		"ypos"				"r140"
 		"zpos"				"1"
 		"wide"				"400"
@@ -16,7 +16,6 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"				"c-120"
 			"ypos"				"r200"
 			"tall"				"200"
 		}

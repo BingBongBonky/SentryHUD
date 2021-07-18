@@ -562,7 +562,7 @@ event ActiveTimerDim
 
 event OvertimeLabelPulseRed
 {
-	Animate	OvertimeLabel 	FgColor		TanLight	Linear 0.0 0.3
+	Animate	OvertimeLabel 	FgColor		White	Linear 0.0 0.3
 	Animate	OvertimeLabel 	FgColor		RedSolid	Linear 0.3 0.3
 
 	RunEvent OvertimeLabelPulseRed 0.6
