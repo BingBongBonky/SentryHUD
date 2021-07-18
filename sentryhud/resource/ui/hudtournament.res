@@ -866,7 +866,8 @@
 
 		if_readymode
 		{
-			"xpos"			"225"
+			"font"			"HSFont18"
+			"xpos"			"cs-0.5+25"
 			"ypos"			"110"
 			"wide"			"190"
 			"zpos"			"3"
@@ -877,9 +878,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"HSFont24"
-		"xpos"			"1"
-		"ypos"			"57"
+		"font"			"HSFont12"
+		"xpos"			"9"
+		"ypos"			"47"
 		"wide"			"250"
 		"tall"			"30"
 		"zpos"			"2"
@@ -903,7 +904,7 @@
 
 		if_competitive
 		{
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.5+1"
 			"ypos"			"111"
 			"wide"			"190"
 			"visible"		"1"
@@ -912,7 +913,8 @@
 
 		if_readymode
 		{
-			"xpos"			"226"
+			"font"			"HSFont18"
+			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
 			"visible"		"1"
