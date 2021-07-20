@@ -14,7 +14,7 @@ Scheme
 	    "TFTanMedium"               	"235 235 235 255"
 	    
 	    "TFTanLightBright"          	"235 235 235 90"
-	    "TFTanLightDark"            	"9 9 9 255"
+	    "TFTanLightDark"            	"9 9 9 0"
 	    
 	    "TFOrangeBright"            	"45 121 221 255"
 	    
