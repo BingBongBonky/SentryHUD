@@ -91,7 +91,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-190"
+		"xpos"			"c-80"
 		"ypos"			"r88"
 		"zpos"			"-999"
 		"wide"			"0"
@@ -107,11 +107,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ProgressBarBlue"	
-		"xpos"			"c-150"
-		"ypos"			"r68"
+		"xpos"			"c-80"
+		"ypos"			"r71"
 		"zpos"			"-10"
-		"wide"			"150"
-		"tall"			"10"
+		"wide"			"80"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"S_SBBlue"
@@ -122,10 +122,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ProgressBarRed"	
 		"xpos"			"c0"
-		"ypos"			"r68"
+		"ypos"			"r71"
 		"zpos"			"-10"
-		"wide"			"150"
-		"tall"			"10"
+		"wide"			"80"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"S_SBRed"
@@ -137,7 +137,7 @@
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-152"
+		"xpos"			"c-80"
 		"ypos"			"r64"
 		"visible"		"0"
 	}
@@ -148,7 +148,7 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c152"
+		"xpos"			"c80"
 		"ypos"			"r64"
 		"visible"		"0"
 	}	
@@ -310,19 +310,8 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		"font"					"RGFont14"
-		"visible"				"1"
-		"enabled"				"1"
-		"zpos"					"2"
-		"xpos"					"c-75"
-		"ypos"					"r53"
-		"wide"					"150"
-		"tall"					"16"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"1"
-		"fgcolor_override"		"White"
-		"labelText"				"NameOfCarrier"
+		"visible"				"0"
+		"enabled"				"0"
 	}
 
 	"BallPowerCluster" 

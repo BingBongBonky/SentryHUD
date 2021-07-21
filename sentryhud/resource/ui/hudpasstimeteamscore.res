@@ -156,7 +156,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayingTo"
 			"xpos"			"c-70"
-			"ypos"			"r57"
+			"ypos"			"r48"
 			"zpos"			"4"
 			"wide"			"140"
 			"tall"			"30"
