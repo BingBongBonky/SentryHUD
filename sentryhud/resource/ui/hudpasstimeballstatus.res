@@ -32,7 +32,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"HudFontBiggerBold"
+		"font"			"HSFont18"
 		"xpos"			0
 		"ypos"			c100
 		"zpos"			"3"
@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"224 217 197 255"
+		fgcolor_override	"White"
 	}
 
 	"EventBonusLabel"
