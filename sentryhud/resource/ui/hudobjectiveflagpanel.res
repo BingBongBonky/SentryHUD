@@ -304,7 +304,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"S_Menu"
-		"scaleImage"	"1"	
 		"alpha"			"240"
 		
 		"if_hybrid"
