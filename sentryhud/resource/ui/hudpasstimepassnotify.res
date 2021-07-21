@@ -56,7 +56,7 @@ Resource/UI/HudPasstimePassNotify.res
 			centerwrap				1
 			textAlignment 			center
 			labelText 				#Msg_PasstimeInPassRange
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"White"
 		}
 
 		TextLockedOn
@@ -74,7 +74,7 @@ Resource/UI/HudPasstimePassNotify.res
 			centerwrap				1
 			textAlignment 			center
 			labelText 				#Msg_PasstimeLockedOn
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"White"
 		}
 
 		TextPassIncoming
@@ -92,7 +92,7 @@ Resource/UI/HudPasstimePassNotify.res
 			centerwrap				1
 			textAlignment 			center
 			labelText 				#Msg_PasstimePassIncoming
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"White"
 		}
 
 		TextPlayerName
@@ -109,7 +109,7 @@ Resource/UI/HudPasstimePassNotify.res
 			enabled 				1
 			textAlignment 			center
 			labelText 				"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"White"
 		}	
 	}
 

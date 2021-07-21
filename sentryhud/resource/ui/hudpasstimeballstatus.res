@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HSFont18"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
@@ -60,7 +60,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		""
-		fgcolor_override	"255 235 35 200"
+		fgcolor_override	"White"
 		pin_to_sibling			EventTitleLabel
 		pin_corner_to_sibling	6
 		pin_to_sibling_corner	4
@@ -93,14 +93,42 @@
 		"fieldName"		"ProgressLevelBar"	
 		"xpos"			"c-190"
 		"ypos"			"r88"
-		"zpos"			"0"
-		"wide"			"380"
+		"zpos"			"-999"
+		"wide"			"0"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_ballcontrol_bar"
 		"scaleImage"	"1"
+	}
+
+	"ProgressBarBlue"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ProgressBarBlue"	
+		"xpos"			"c-150"
+		"ypos"			"r68"
+		"zpos"			"-10"
+		"wide"			"150"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_SBBlue"
+	}
+
+	"ProgressBarRed"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ProgressBarRed"	
+		"xpos"			"c0"
+		"ypos"			"r68"
+		"zpos"			"-10"
+		"wide"			"150"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_SBRed"
 	}
 
 	"BlueProgressEnd"
@@ -282,24 +310,20 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		//font					TargetID
+		"font"					"RGFont14"
 		"visible"				"1"
 		"enabled"				"1"
-		"zpos"					"-400"
-		"xpos"					"0"
-		"ypos"					"0"
+		"zpos"					"2"
+		"xpos"					"c-75"
+		"ypos"					"r53"
 		"wide"					"150"
 		"tall"					"16"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
+		"fgcolor_override"		"White"
 		"labelText"				"NameOfCarrier"
-		pin_to_sibling			ProgressLevelBar
-		pin_corner_to_sibling	4
-		pin_to_sibling_corner	6
 	}
-
-
 
 	"BallPowerCluster" 
 	{
