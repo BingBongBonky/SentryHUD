@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"40"
+		"xpos"			"35"
 		"ypos"			"14"
 		"zpos"			"-1"
-		"wide"			"80"
+		"wide"			"91"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
