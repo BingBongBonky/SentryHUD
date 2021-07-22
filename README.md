@@ -25,7 +25,13 @@ tf
         ├── scripts
         └── info.vdf
 ```
+
+## Having Issues?
+Check out the GitHub wiki [here](https://github.com/BingBongBonky/SentryHUD/wiki) and see if it has the answers you need.
+
 ## Contact me
-If you have any issues, contact me here. Discord is the best way to reach me and I am usually on there most of the time.
+If you still have issues, contact me here. Discord is the best way to reach me and I am usually on there most of the time.
 * Discord: King Stupid#7555
 * Steam: https://steamcommunity.com/id/HealingSentry/
+
+If you want help editing the HUD or making your own HUD, check out the [HUDs.TF Discord](https://discord.gg/HqexTr7Tas) (Discord invite) and they can help you.
