@@ -112,7 +112,7 @@
 												
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
+			"ypos"			"113"
 		}
 	}
 
