@@ -23,7 +23,7 @@ Scheme
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"172 52 52 255"
+		"TFOrange"			"45 121 221 255"
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
