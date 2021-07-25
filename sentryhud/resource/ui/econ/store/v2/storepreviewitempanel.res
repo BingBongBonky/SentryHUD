@@ -141,7 +141,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"bgcolor_override" "S_Menu"
 		}
@@ -537,7 +537,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"80"
+		"fov"			"40"
 		"allow_rot"		"1"
 
 		"paintbackground" "1"		
@@ -549,7 +549,7 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "170"
+			"angles_y" "190"
 			"angles_z" "0"
 			"origin_x" "190"
 			"origin_y" "0"
