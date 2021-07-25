@@ -3948,15 +3948,80 @@ Scheme
 		
 		BackpackItemGrayedOut
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Black"
-			
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"inset" "0 0 0 0"
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+			}
+			Left
+			{
+				"1"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+			}	
+			Right
+			{
+				"1"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_MenuShader"
+					"offset" "0 0"
+				}
+			}	
 		}
 		
 		BackpackItemGrayedOut_Selected
@@ -3977,7 +4042,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"S_MenuShader"
+			"color"					"S_Menu"
 			"image"					"replay/thumbnails/button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
