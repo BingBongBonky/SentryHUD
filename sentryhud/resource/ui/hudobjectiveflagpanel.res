@@ -254,7 +254,7 @@
 		"if_specialdelivery"
 		{
 			"ypos"		"r85"
-			"visible"	"r142"
+			"visible"	"r142" // What the fuck does this mean
 		}
 	}		
 	
