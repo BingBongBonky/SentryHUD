@@ -45,7 +45,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"		"S_MenuShader"
-			"paintborder"	"0"
+			"paintborder"	"1"
 			
 			"model_center_x"	"1"
 			"model_ypos"		"4"			
