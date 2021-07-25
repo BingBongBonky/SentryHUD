@@ -169,7 +169,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "235 235 235 255"
+		"fgcolor_override" "White"
 	}
 	"ClassLabel"
 	{
