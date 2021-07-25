@@ -48,48 +48,31 @@
 		}
 	}	
 
-	"Background" // Sorry but this was the only way it would look nice...
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"c-45"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"91"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-			
-		"image"					"../sprites/roundcounterbg"
-		"scaleimage"			"1"
-	}
-
 	"BlueTeamBackground"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueTeamBackground"
 		"xpos"			"c-45"
 		"ypos"			"1"
 		"wide"			"45"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"S_Blue"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"S_SBBlue"
 		"proportionaltoparent"	"1"
 	}
 
 	"RedTeamBackground"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedTeamBackground"
-		"xpos"			"c1"
+		"xpos"			"c0"
 		"ypos"			"1"
-		"wide"			"45"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"S_SBRed"
+		"wide"			"46"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"S_SBRed"
 		"proportionaltoparent"	"1"
 	}
 
@@ -98,12 +81,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TimerBG"
 		"xpos"			"c-45"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"-21"
 		"wide"			"91"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
 		"bgcolor_override"		"S_MenuTransparent"
 		"proportionaltoparent"	"1"
 	}

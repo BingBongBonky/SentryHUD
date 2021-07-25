@@ -4,33 +4,27 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-30"
-		"ypos"			"0"
-		"zpos"			"0"
+		"xpos"			"c-60"
+		"ypos"			"-7"
+		"zpos"			"9999"
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"background"
 			"xpos"			"5"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
+			"wide"			"60"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"bgcolor_override"	"S_SBBlue"
 		}
 		
 		"count"
