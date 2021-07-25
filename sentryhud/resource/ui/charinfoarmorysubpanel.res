@@ -310,7 +310,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HSFont18"
+		"font"			"KCFont14"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-80"
