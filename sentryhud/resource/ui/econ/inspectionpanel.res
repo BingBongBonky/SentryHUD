@@ -124,8 +124,8 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"p.7-16"
+		"xpos"				"cs-0.5-70"
+		"ypos"				"p.7-33"
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
@@ -155,10 +155,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
+			"fgcolor"					"Gray"
+			"defaultFgColor_override" 	"Gray"
+			"armedFgColor_override" 	"White"
+			"depressedFgColor_override" "White"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -443,7 +443,7 @@
 		{
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
-			"xpos"			"90"
+			"xpos"			"rs1-6"
 			"ypos"			"50"
 			"fixed_item"
 			{
