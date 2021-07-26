@@ -43,8 +43,8 @@
 			"visible"		"0"
 			"noitem_textcolor"		"235 235 235 255"
 			"PaintBackgroundType"	"0"
-			"paintbackground"		"1"
-			"bgcolor_override"		"S_MenuShader"
+			"paintbackground"		"0"
+			"bgcolor_override"		"0 0 0 0"
 			"paintborder"	"1"
 			
 			"model_center_x"	"1"
