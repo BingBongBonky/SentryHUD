@@ -1554,8 +1554,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1567,8 +1565,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1602,10 +1598,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
+				"name"		"Hakuna Sans"
+				"tall"		"18"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -2236,7 +2230,7 @@ Scheme
 			"1"
 			{
 				"name"		"Hakuna Sans"
-				"tall"		"9"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2247,7 +2241,7 @@ Scheme
 			"1"
 			{
 				"name"		"Hakuna Sans"
-				"tall"		"12"
+				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2269,7 +2263,7 @@ Scheme
 			"1"
 			{
 				"name"		"Hakuna Sans"
-				"tall"		"7"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3890,14 +3884,80 @@ Scheme
 		
 		EconItemBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"loadout_rect"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"inset" "0 0 0 0"
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+			}
+			Left
+			{
+				"1"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+			}	
+			Right
+			{
+				"1"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "S_Menu"
+					"offset" "0 0"
+				}
+			}	
 		}
 		Econ.Button.Border.Default
 		{
@@ -3912,26 +3972,14 @@ Scheme
 
 		LoadoutItemMouseOverBorder
 		{
-			"inset" "0 0 0 0"
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 0"
-					"offset" "1 1"
-				}
-				"2"
-				{
-					"color" "QualityColorNormal"
-					"offset" "1 1"
-				}
-				"3"
-				{
-					"color" "QualityColorNormal"
-					"offset" "1 1"
-				}
-			}	
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"S_Menu"
+			"image"					"replay/thumbnails/button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		LoadoutItemPopupBorder
