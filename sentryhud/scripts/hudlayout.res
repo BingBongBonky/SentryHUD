@@ -96,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-15"
-		"ypos"			"250"
+		"ypos"			"c19"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"30"
 		"tall"			"4"
@@ -1011,9 +1011,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-20"
-		"ypos"			"c0"
-		"wide"			"140"
+		"xpos"			"c-15"
+		"ypos"			"c15"
+		"wide"			"80"
 		"tall"			"50"
 	}	
 
