@@ -22,6 +22,24 @@
     	}
 
 		// CONTROL POINT ICONS
+		"CPCapMask"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"CPCapMask"
+			"xpos"				"9999"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../sprites/obj_icons/icon_obj_cap_mask"
+		}
+		"CPIconWhite"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"CPIconWhite"
+			"xpos"				"9999"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../sprites/obj_icons/icon_obj_white"
+		}
 		"CPIconBlu"
 		{
 			"ControlName"		"ImagePanel"
@@ -39,6 +57,24 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"image"				"../sprites/obj_icons/icon_obj_blu_locked"
+		}
+		"CPIconBluCap"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"CPIconBluCap"
+			"xpos"				"9999"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../sprites/obj_icons/icon_obj_cap_blu"
+		}
+		"CPIconBluCapUp"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"CPIconBluCapUp"
+			"xpos"				"9999"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../sprites/obj_icons/icon_obj_cap_blu_up"
 		}
 		"CPIconRed"
 		{
@@ -58,6 +94,24 @@
 			"enabled"			"1"
 			"image"				"../sprites/obj_icons/icon_obj_red_locked"
 		}
+		"CPIconRedCap"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"CPIconRedCap"
+			"xpos"				"9999"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../sprites/obj_icons/icon_obj_cap_red"
+		}
+		"CPIconRedCapUp"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"CPIconRedCapUp"
+			"xpos"				"9999"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../sprites/obj_icons/icon_obj_cap_red_up"
+		}
 		"CPIconNeutral"
 		{
 			"ControlName"		"ImagePanel"
@@ -76,15 +130,7 @@
 			"enabled"			"1"
 			"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
 		}
-		"CPIconWhite"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"CPIconWhite"
-			"xpos"				"9999"
-			"visible"			"1"
-			"enabled"			"1"
-			"image"				"../sprites/obj_icons/icon_obj_white"
-		}
+		
 		"CPIconBlu1"
 		{
 			"ControlName"	"ImagePanel"
@@ -94,7 +140,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_1_blu"
 		}
-
+		
 		"CPIconBlu1Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -104,7 +150,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_1_blu_locked"
 		}
-
+		
 		"CPIconRed1"
 		{
 			"ControlName"	"ImagePanel"
@@ -114,7 +160,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_1_red"
 		}
-
+		
 		"CPIconRed1Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -124,7 +170,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_1_red_locked"
 		}	
-
+		
 		"CPIconNeutral1"
 		{
 			"ControlName"	"ImagePanel"
@@ -134,7 +180,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_1_neutral"
 		}	
-
+		
 		"CPIconNeutral1Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -144,7 +190,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_1_neutral_locked"
 		}
-
+		
 		"CPIconBlu2"
 		{
 			"ControlName"	"ImagePanel"
@@ -154,7 +200,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_2_blu"
 		}
-
+		
 		"CPIconBlu2Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -164,7 +210,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_2_blu_locked"
 		}
-
+		
 		"CPIconRed2"
 		{
 			"ControlName"	"ImagePanel"
@@ -174,7 +220,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_2_red"
 		}
-
+		
 		"CPIconRed2Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -184,7 +230,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_2_red_locked"
 		}	
-
+		
 		"CPIconNeutral2"
 		{
 			"ControlName"	"ImagePanel"
@@ -194,7 +240,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_2_neutral"
 		}	
-
+		
 		"CPIconNeutral2Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -204,7 +250,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_2_neutral_locked"
 		}
-
+		
 		"CPIconBlu3"
 		{
 			"ControlName"	"ImagePanel"
@@ -214,7 +260,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_3_blu"
 		}
-
+		
 		"CPIconBlu3Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -224,7 +270,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_3_blu_locked"
 		}
-
+		
 		"CPIconRed3"
 		{
 			"ControlName"	"ImagePanel"
@@ -234,7 +280,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_3_red"
 		}
-
+		
 		"CPIconRed3Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -244,7 +290,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_3_red_locked"
 		}	
-
+		
 		"CPIconNeutral3"
 		{
 			"ControlName"	"ImagePanel"
@@ -254,7 +300,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_3_neutral"
 		}	
-
+		
 		"CPIconNeutral3Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -264,7 +310,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_3_neutral_locked"
 		}
-
+		
 		"CPIconBlu4"
 		{
 			"ControlName"	"ImagePanel"
@@ -274,7 +320,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_4_blu"
 		}
-
+		
 		"CPIconBlu4Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -284,7 +330,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_4_blu_locked"
 		}
-
+		
 		"CPIconRed4"
 		{
 			"ControlName"	"ImagePanel"
@@ -294,7 +340,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_4_red"
 		}
-
+		
 		"CPIconRed4Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -304,7 +350,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_4_red_locked"
 		}	
-
+		
 		"CPIconNeutral4"
 		{
 			"ControlName"	"ImagePanel"
@@ -314,7 +360,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_4_neutral"
 		}	
-
+		
 		"CPIconNeutral4Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -324,7 +370,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_4_neutral_locked"
 		}
-
+		
 		"CPIconBlu5"
 		{
 			"ControlName"	"ImagePanel"
@@ -334,7 +380,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_5_blu"
 		}
-
+		
 		"CPIconBlu5Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -344,7 +390,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_5_blu_locked"
 		}
-
+		
 		"CPIconRed5"
 		{
 			"ControlName"	"ImagePanel"
@@ -354,7 +400,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_5_red"
 		}
-
+		
 		"CPIconRed5Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -364,7 +410,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_5_red_locked"
 		}	
-
+		
 		"CPIconNeutral5"
 		{
 			"ControlName"	"ImagePanel"
@@ -374,7 +420,7 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_5_neutral"
 		}	
-
+		
 		"CPIconNeutral5Locked"
 		{
 			"ControlName"	"ImagePanel"
@@ -383,6 +429,61 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_5_neutral_locked"
+		}
+		
+		"CPIconA"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconA"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_a"
+		}
+		"CPIconB"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconB"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_b"
+		}
+		"CPIconC"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconC"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_c"
+		}
+		"CPIconD"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconD"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_d"
+		}
+		"CPIconE"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconE"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_e"
+		}
+		"CPIconSkull"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconSkull"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_skull_neutral"
 		}
 		"CPIconMannhattan"
 		{
@@ -393,7 +494,24 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
 		}
-
+		"CPIconMP"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconMP"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_mp"
+		}
+		"CPIconTimer"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CPIconTimer"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../sprites/obj_icons/icon_obj_timer"
+		}
 		// CART ICONS
 		"CartBlue"
 		{
