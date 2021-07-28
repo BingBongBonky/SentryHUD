@@ -10,20 +10,20 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
-		"team1_player_delta_x"				"-47"
-		"team1_player_delta_y"				"0"
-		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
+		"team1_player_base_offset_x"		"0"
+		"team1_player_base_y"				"210"
+		"team1_player_delta_x"				"0"
+		"team1_player_delta_y"				"-25"
+		"team2_player_base_offset_x"		"0"
+		"team2_player_base_y"				"245"
+		"team2_player_delta_x"				"0"
+		"team2_player_delta_y"				"25"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"50"
-			"tall"			"33"
+			"wide"			"150"
+			"tall"			"23"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
@@ -33,18 +33,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
+				"font"			"RGFont12"
+				"xpos"			"73"
+				"ypos"			"8"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"100"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				"fgcolor"		"White"
 					
 				if_mvm
 				{
@@ -104,10 +104,10 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
+				"xpos"				"25"
+				"ypos"				"2"
 				"zpos"				"3"
-				"wide"				"32"
+				"wide"				"80"
 				"tall"				"32"
 				"visible"			"1"
 				"enabled"			"1"	
@@ -171,12 +171,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"30"
-				"ypos"			"18"
+				"font"			"KCFont14"
+				"xpos"			"43"
+				"ypos"			"7"
 				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
+				"wide"			"27"
+				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -194,9 +194,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
+				"font"			"KCFont8"
+				"xpos"			"67"
+				"ypos"			"3"
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
@@ -205,7 +205,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"fgcolor"		"S_Lime"
 			}
 			
 			"specindex"
@@ -220,7 +220,7 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -239,8 +239,6 @@
 			"ypos"					"6"
 			"wide"					"500"
 			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
 		}		
 	}
 
@@ -378,7 +376,9 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"S_MenuTransparent"
+		"paintborder"			"0"
+		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -424,7 +424,7 @@
 			"brighttext"	"0"
 		}
 		
-		"attriblabel"
+		"attriblabel" // This causes bugs and isnt used normally
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
@@ -436,8 +436,8 @@
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"

@@ -90,6 +90,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusPlayerLevel"
+		"wide"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}							
