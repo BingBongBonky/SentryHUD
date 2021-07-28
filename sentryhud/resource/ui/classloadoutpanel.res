@@ -90,8 +90,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"defaultBgColor_override"	"0 0 0 0"
-			"armedBgColor_override"		"S_Blue"
-			"depressedBgColor_override"	"S_Blue"
+			"armedBgColor_override"		"0 0 0 0"
+			"depressedBgColor_override"	"0 0 0 0"
+			"armedFgColor_override"		"S_Blue"
+			"depressedFgColor_override"	"S_Blue"
 		}
 	}
 	
@@ -476,7 +478,7 @@
 
 			// default style
  			"defaultBgColor_override"	"S_MenuShader"
- 			"defaultFgColor_override"	"25 25 25 255"
+ 			"defaultFgColor_override"	"White"
 
  			// armed style
  			"armedBgColor_override"		"S_Blue"
@@ -528,7 +530,7 @@
 
 			// default style
  			"defaultBgColor_override"	"S_MenuShader"
- 			"defaultFgColor_override"	"25 25 25 255"
+ 			"defaultFgColor_override"	"White"
 		
  			// armed style
  			"armedBgColor_override"		"S_Blue"
