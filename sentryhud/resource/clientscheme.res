@@ -2241,7 +2241,7 @@ Scheme
 			"1"
 			{
 				"name"		"Hakuna Sans"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3863,11 +3863,11 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"S_Menu"
-			"image"					"replay/thumbnails/button_holder_central"
+			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreFreeTrialBorder
