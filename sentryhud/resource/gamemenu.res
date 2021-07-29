@@ -1,5 +1,30 @@
 "GameMenu"
 {
+	// Custom Tooltip Buttons
+	"ReloadHudButton"
+	{
+		"command" 	"engine hud_reloadscheme"
+		"tooltip"	"Reload HUD"
+	}
+
+	"ConsoleButton"
+	{
+		"Command"	"engine toggleconsole"
+		"tooltip"	"Open the console"
+	}
+
+	"FixPlayersButton"
+	{
+		"Command"	"engine exec everythingisfucked"
+		"tooltip"	"Fix invisible players"
+	}
+
+	"MinModeButton"
+	{
+		"Command"	"engine toggle cl_hud_minmode 0 1"
+		"tooltip"	"Toggle HUD Min Mode"
+	}
+
 	// These buttons are only visible in VR
 	"VRModeButton"
 	{

@@ -696,16 +696,16 @@ event HasMOTDBlinkStop
 
 event HasNotificationsBlink
 {
-	Animate	Notifications_ShowButtonPanel_SB 	BgColor		"172 52 52 255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	BgColor		"235 235 235 255"			Linear 0.2 0.1
-		
-	Animate	Notifications_ShowButtonPanel_SB 	BgColor		"172 52 52 255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	BgColor		"235 235 235 255"	Linear 0.6 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"50"		Linear 0.2 0.1
+
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"50"		Linear 0.6 0.1
 	
-	Animate	Notifications_ShowButtonPanel_SB 	BgColor		"172 52 52 255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	BgColor		"235 235 235 255"		Linear 1.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"50"		Linear 1.0 0.1
 	
-	Animate	Notifications_ShowButtonPanel_SB 	BgColor		"172 52 52 255"		Linear 1.2 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent HasNotificationsBlinkLoop		2.0
 }
