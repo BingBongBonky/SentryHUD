@@ -21,7 +21,7 @@
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
-		"item_ydelta"	"75"
+		"item_ydelta"	"80"
 		"item_mod_wide"	"40"
 		
 		"item_backpack_offcenter_x"		"-288"
@@ -39,7 +39,7 @@
 			"xpos"			"c-70"
 			"ypos"			"270"
 			"wide"			"140"
-			"tall"			"70"
+			"tall"			"73"
 			"visible"		"0"
 			"noitem_textcolor"		"235 235 235 255"
 			"PaintBackgroundType"	"0"
