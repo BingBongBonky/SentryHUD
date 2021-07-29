@@ -1,6 +1,5 @@
 "GameMenu"
 {
-
 	// These buttons are only visible in VR
 	"VRModeButton"
 	{
