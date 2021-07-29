@@ -2676,10 +2676,10 @@
  		"depressedFgColor_override" "White"
 	}
 
-	"NewSettingsButton"
+	"SettingsButton"
 	{
  		"ControlName"				"CExImageButton"
- 		"fieldName"					"NewSettingsButton"
+ 		"fieldName"					"SettingsButton"
  		"xpos"						"c-125"
  		"ypos"						"180"
 		"zpos"						"1"
@@ -2733,10 +2733,10 @@
  		"depressedFgColor_override" "White"
 	}
 
-	"AdvancedSettingsButton"
+	"TF2SettingsButton"
 	{
  		"ControlName"				"CExImageButton"
- 		"fieldName"					"AdvancedSettingsButton"
+ 		"fieldName"					"SettingsButton"
  		"xpos"						"c-125"
  		"ypos"						"210"
 		"zpos"						"1"
@@ -2854,7 +2854,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
 		"xpos"			"c-155"
-		"ypos"			"351"
+		"ypos"			"305"
 		"zpos"			"4"
 		"wide"			"22"
 		"tall"			"20"
@@ -3274,7 +3274,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
 		"xpos"			"c-155"
-		"ypos"			"305"
+		"ypos"			"351"
 		"zpos"			"4"
 		"wide"			"22"
 		"tall"			"20"
@@ -3294,7 +3294,6 @@
 		"navUp"			"VRModeButton"
 		"navLeft"		"CoachPlayersButton"
 		"navRight"		"SettingsButton"
-		"tooltip"		""
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
