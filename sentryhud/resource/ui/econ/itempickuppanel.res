@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"S_Menu"
-		"infocus_bgcolor_override" "S_Menu"
-		"outoffocus_bgcolor_override" "S_Menu"
+		"bgcolor_override"				"S_Menu"
+		"infocus_bgcolor_override" 		"S_Menu"
+		"outoffocus_bgcolor_override" 	"S_Menu"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -133,8 +133,8 @@
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"White"
 	}
 	"SelectedItemNumberLabel"
@@ -380,7 +380,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-	
+
 	"Wall"
 	{
 		"ControlName"	"EditablePanel"
