@@ -3684,8 +3684,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"11 11 11 200"
-			"image"					"replay/thumbnails/button_holder_central"
+			"color"					"S_Menu"
+			"image"					"replay/thumbnails/button_holder_central_transparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -3695,8 +3695,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"11 11 11 200"
-			"image"					"replay/thumbnails/button_holder_central"
+			"color"					"S_Menu"
+			"image"					"replay/thumbnails/button_holder_central_transparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -3706,8 +3706,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"11 11 11 200"
-			"image"					"replay/thumbnails/button_holder_central"
+			"color"					"S_Menu"
+			"image"					"replay/thumbnails/button_holder_central_transparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -7202,6 +7202,18 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+		}
+
+		InspectPanelBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"S_Menu"
+			"image"					"replay/thumbnails/button_holder_central_transparent"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		ReplayFatLineBorderRedBGOpaque
