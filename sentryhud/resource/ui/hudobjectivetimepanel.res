@@ -81,7 +81,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"proportionaltoparent"	"1"
-		"xpos"			"16"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"p1"
