@@ -15,7 +15,7 @@
 
 	"FixPlayersButton"
 	{
-		"Command"	"engine exec everythingisfucked"
+		"Command"	"engine record fix;stop"
 		"tooltip"	"Fix invisible players"
 	}
 
