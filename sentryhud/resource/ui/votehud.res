@@ -550,9 +550,8 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"S_Menu"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
+		"border"			"MainMenuBGBorder"
+		"paintbackground"	"0"
 
 		"header_font"		"HSFont18"
 		"header_fgcolor"	"White"
