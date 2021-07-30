@@ -10,10 +10,9 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"S_MenuTransparent"
-		"paintborder"			"0"
-		"paintbackground"		"1"
-		"PaintBackgroundType"	"0"
+		"border"		"InspectPanelBorder"
+		"paintborder"			"1"
+		"paintbackground"		"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
