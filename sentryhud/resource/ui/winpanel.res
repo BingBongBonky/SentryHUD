@@ -248,7 +248,7 @@
 		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"cs-0.5"
 		"ypos"			"105"
-		"zpos"			"0"
+		"zpos"			"-10"
 		"wide"			"p0.94"
 		"tall"			"155"
 		"visible"		"1"
