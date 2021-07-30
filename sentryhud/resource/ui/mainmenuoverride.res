@@ -2252,7 +2252,7 @@
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"c103"
 		"ypos"			"200"
-		"zpos"			"9999"
+		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"

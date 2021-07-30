@@ -283,7 +283,7 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
 				"border"		"OuterShadowBorderThin"
@@ -301,7 +301,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"border"		"MainMenuBGBorder"
 			}
 
 			"QueueLogoButton"
@@ -414,12 +414,12 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"S_Blue"
+				"depressedFgColor_override" "S_Blue"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawcolor"			"235 235 235 255"
+				"image_armedcolor"			"45 121 221 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
