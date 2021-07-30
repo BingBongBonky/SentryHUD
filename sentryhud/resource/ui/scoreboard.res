@@ -920,7 +920,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
-		"ypos"			"395"
+		"ypos"			"335"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -938,7 +938,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
-			"font"			"ScoreboardSmall"
+			"font"			"HSFont12"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
@@ -989,7 +989,8 @@
 				"zpos"			"-1"
 				"wide"			"36"
 				"tall"			"36"
-				"visible"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
@@ -1006,17 +1007,17 @@
 				"enabled"		"1"
 				"image"			""
 				"scaleImage"	"1"	
-				"color_outline"	"52 48 45 255"
+				"color_outline"	"76 76 76 255"
 			}
 			"AvatarTextLabel"
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
-				"xpos"			"50"
+				"fgcolor"		"White"
+				"xpos"			"10"
 				"ypos"			"7"
 				"zpos"			"2"
-				"wide"			"100"
+				"wide"			"140"
 				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -1025,7 +1026,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
+				"font"			"RGFont18"
 			}
 			"Score"
 			{
@@ -1042,7 +1043,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"KCFont24"
 			}
 		}
 
@@ -1068,9 +1069,10 @@
 				"zpos"			"-1"
 				"wide"			"36"
 				"tall"			"36"
-				"visible"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"117 107 94 255"
+				"bgcolor_override"	"S_MenuTooltip"
 			}
 			"AvatarImage"
 			{
@@ -1085,17 +1087,17 @@
 				"enabled"		"1"
 				"image"			""
 				"scaleImage"	"1"	
-				"color_outline"	"52 48 45 255"
+				"color_outline"	"172 52 52 255"
 			}
 			"AvatarTextLabel"
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"White"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
-				"wide"			"100"
+				"wide"			"150"
 				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -1104,7 +1106,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"RGFont18"
 			}
 			"Score"
 			{
@@ -1121,7 +1123,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"KCFont24"
 			}
 		}
 	}
