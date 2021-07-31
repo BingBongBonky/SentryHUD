@@ -9,15 +9,13 @@ https://imgur.com/a/4WnjYox
 
 ## Installation
 1. Click [here](https://github.com/BingBongBonky/SentryHud/archive/refs/heads/release.zip) to download the file. 
-2. Extract or open up the zip and copy the folder inside named "sentryhud".
-4. Navigate to `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
-5. Delete any other HUDs you may have installed.
-6. Paste the folder inside the custom folder.
-7. Ensure that the final file structure should resembles the following:
+2. Extract the ZIP folder into `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
+3. Delete any other HUDs you may have installed.
+4. Ensure that the final file structure should resembles the following:
 ```
 tf
 └── custom
-    └── sentryhud
+    └── SentryHUD-release
         ├── cfg
         ├── customizations
         ├── materials
@@ -25,6 +23,7 @@ tf
         ├── scripts
         └── info.vdf
 ```
+You can delete any files that aren't listed here.
 
 ## Having Issues?
 Check out the GitHub wiki [here](https://github.com/BingBongBonky/SentryHUD/wiki) and see if it has the answers you need.
