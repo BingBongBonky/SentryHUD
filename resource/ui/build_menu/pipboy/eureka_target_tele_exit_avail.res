@@ -16,9 +16,4 @@
 	{	
 		"labelText"		"2"
 	}
-
-	"NumberLabelShadow"
-	{	
-		"labelText"		"2"
-	}
 }

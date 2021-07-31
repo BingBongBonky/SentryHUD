@@ -15,16 +15,16 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"S_EconBG"
-		"infocus_bgcolor_override" 		"S_EconBG"
-		"outoffocus_bgcolor_override" 	"S_EconBG"
+		"bgcolor_override"	"46 43 42 255"
+		"infocus_bgcolor_override" "46 43 42 255"
+		"outoffocus_bgcolor_override" "46 43 42 255"
 		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
 		
 		"max_cart_model_panels"	"8"
 		
-		"item_ypos"		"60"
+		"item_ypos"		"40"
 		"item_mod_wide"	"40"
 		
 		"item_panels"			"12"
@@ -35,7 +35,7 @@
 		
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"S_MenuTooltip"
+		"item_backdrop_color"				"24 22 20 255"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -44,9 +44,9 @@
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"S_MenuShader"
-		"item_panel_bgcolor_mouseover"	"S_MenuTooltip"
-		"item_panel_bgcolor_selected"	"S_MenuTooltip"
+		"item_panel_bgcolor"			"51 47 46 255"
+		"item_panel_bgcolor_mouseover"	"156 146 128 255"
+		"item_panel_bgcolor_selected"	"176 166 148 255"
 		
 		"classicon_xdelta"		"5"
 
@@ -54,7 +54,7 @@
 		{
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
-			"ypos"			"290"
+			"ypos"			"270"
 			"zpos"			"5"
 			"wide"			"111"
 			"tall"			"62"
@@ -83,7 +83,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type" 	"1"
+				"inventory_image_type" "1"
 			}
 
 			"use_item_sounds" "1"		
@@ -91,7 +91,7 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HSFont14"
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -101,7 +101,8 @@
 			"autoResize"	"1"
 			"pinCorner"		"0"	
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
+			
 			"use_item_sounds" "1"
 		}
 		
@@ -134,7 +135,6 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type" 	"1"
 			}
 			
 			"use_item_sounds" "1"		
@@ -142,9 +142,9 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"KCFont8"
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
-			"xpos"			"c-64"
+			"xpos"			"c-61"
 			"ypos"			"32"
 			"zpos"			"15"
 			"wide"			"16"
@@ -197,12 +197,32 @@
 		}
 	}
 
-	"SaxtonBackgroundPanel" // Doesnt work it seems
+	"SaxtonBackgroundPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SaxtonBackgroundPanel"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"c-415"
+		"ypos"			"10"
+		"zpos"			"-1"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"1"
+		"enabled"		"1"
+	
+		"MannCoImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MannCoImage"
+			"xpos"			"15"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"420"
+			"tall"			"220"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"store/saxton_welcome"
+			"scaleImage"	"1"
+		}
 	}
 
 	"StoreBackgroundPanel"
@@ -217,7 +237,47 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportiontoparent"	"1"
-		"bgcolor_override"		"S_EconBG"
+
+		"StoreBackgroundImage"
+		{
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"StoreBackgroundImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enable"		"1"
+			"image"			"store/store_bg001"
+			"scale_image"	"1"
+			"proportiontoparent"	"1"
+		}
+	}
+		
+	"ReloadSchemeButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReloadSchemeButton"
+		"xpos"			"c-400"
+		"ypos"			"350"
+		"zpos"			"25"
+		"wide"			"100"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"RELOADSCHEME"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"reloadscheme"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"ItemCategoryTabs"
@@ -225,7 +285,7 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ItemCategoryTabs"
 		"xpos"				"c-230"
-		"ypos"				"28"
+		"ypos"				"8"
 		"zpos"				"0"
 		"wide"				"430"
 		"tall"				"30"
@@ -252,15 +312,15 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"						"HSFont14"
+			"font"			"HudFontSmallestBold"
 			
-			"fgcolor"					"White"
-			"defaultBgColor_override" 	"S_MenuShader"
-			"defaultFgColor_override" 	"White"
-			"armedBgColor_override" 	"S_Blue"
-			"armedFgColor_override" 	"White"
-			"selectedBgColor_override" 	"S_Blue"
-			"selectedFgColor_override"	"White"
+			"fgcolor"	"124 114 99 255"
+			"defaultBgColor_override" "38 35 33 255"
+			"defaultFgColor_override" "124 114 99 255"
+			"armedBgColor_override" "30 30 30 255"
+			"armedFgColor_override" "124 114 99 255"
+			"selectedBgColor_override" "10 10 10 255"
+			"selectedFgColor_override"	"235 227 203 255"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -281,7 +341,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c130"
-		"ypos"			"273"
+		"ypos"			"253"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
@@ -291,7 +351,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"<"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -304,11 +364,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c160"
-		"ypos"			"273"
+		"ypos"			"253"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"20"
@@ -316,7 +376,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "S_SBRed"
+		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"NextPageButton"
@@ -324,7 +384,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c210"
-		"ypos"			"273"
+		"ypos"			"253"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
@@ -334,7 +394,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -347,13 +407,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
-		"xpos"			"c-229"
-		"ypos"			"303"
+		"xpos"			"c-237"
+		"ypos"			"283"
 		"zpos"			"10"
-		"wide"			"f0"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -365,11 +425,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c-230"
-		"ypos"			"325"
+		"xpos"			"c-238"
+		"ypos"			"305"
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
@@ -379,7 +439,7 @@
 		"textinsetx"	"15"
 		
 		"Command"		"viewcart"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -388,8 +448,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
-		"xpos"			"c-225"
-		"ypos"			"328"
+		"xpos"			"c-233"
+		"ypos"			"308"
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
@@ -404,17 +464,17 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BrowseTheStoreButton"
 		"xpos"			"c-365"
-		"ypos"			"c-60"
+		"ypos"			"c-80"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_BrowseTheStore"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -429,7 +489,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MarketPlaceButton"
 		"xpos"			"c-230"
-		"ypos"			"c30"
+		"ypos"			"c10"
 		"zpos"			"2"
 		"wide"			"170"
 		"tall"			"23"
@@ -439,52 +499,33 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_MarketPlace"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"marketplace"
 		"paintbackground"	"1"
-		"defaultBgColor_override" "S_Menu"
+		"defaultBgColor_override" "46 43 42 255"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
-	"CaratLabel"
+	
+	"TitleLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabel"
+		"font"			"HudFontSmallest"
+		"labelText"		""
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"7"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
+		"xpos"			"c-45"
+		"ypos"			"c-230"
+		"zpos"			"100"
+		"wide"			"350"
+		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "White"
-	}
-
-	"StoreLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"StoreLabel"
-		"font"			"HSFont24"
-		"labelText"		"Mann Co. Store"
-		"textAlignment"	"west"
-		"xpos"			"c-280"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"560"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 

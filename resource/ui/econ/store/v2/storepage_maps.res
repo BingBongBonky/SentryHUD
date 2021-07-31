@@ -94,10 +94,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LearnMoreButton"
-		"xpos"			"c182"
-		"ypos"			"40"
+		"xpos"			"c175"
+		"ypos"			"20"
 		"zpos"			"5"
-		"wide"			"112"
+		"wide"			"120"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -110,7 +110,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"maps_learnmore"
-		"defaultBgcolor_override"		"S_MenuShader"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	

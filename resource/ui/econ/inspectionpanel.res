@@ -2,17 +2,17 @@
 {
 	"BGImage"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BGImage"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"o1+50"
+		"wide"			"o1"
 		"tall"			"p0.75"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"S_Menu"
-		"paintbackground"	"1"
+		"image"			"item_carousel_bg"
+		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
 
@@ -46,7 +46,6 @@
 			"allow_rot"				"0"
 			"inventory_image_type"	"1"
 			"continued_velocity"	"1"
-			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 
@@ -69,7 +68,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"90"
+		"fov"					"75"
 
 		"model"
 		{
@@ -124,8 +123,8 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs-0.5-70"
-		"ypos"				"p.7-33"
+		"xpos"				"cs-0.5"
+		"ypos"				"p.7-16"
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
@@ -155,10 +154,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"					"Gray"
-			"defaultFgColor_override" 	"Gray"
-			"armedFgColor_override" 	"White"
-			"depressedFgColor_override" "White"
+			"fgcolor"			"TanDark"
+			"defaultFgColor_override" "TanDark"
+			"armedFgColor_override" "TanDark"
+			"depressedFgColor_override" "TanDark"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -171,7 +170,7 @@
 			"paintborder"		"0"
 			
 			"image_drawcolor"		"255 255 255 77"
-			"image_armedcolor"		"255 255 255 170"
+			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
 			
 			"stayselectedonclick"	"1"
@@ -226,12 +225,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"r175"
-		"wide"			"350"
+		"ypos"			"p.7"
+		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"bgcolor_override"	"S_MenuShader"
-		"paintbackgroundtype"	"2"
+		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 
@@ -264,7 +262,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
@@ -307,7 +305,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"KCFont12"
+			"Font"				"HudFontSmallest"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
@@ -332,12 +330,12 @@
 				"visible"	"0"
 			}
 		
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"235 226 202 255"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "White"
+			"disabledFgColor_override" "235 226 202 255"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "White"
+			"selectionTextColor_override" "235 226 202 255"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -345,7 +343,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -356,7 +354,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"235 227 203 255"
 
 			"fixed_paintkit"
 			{
@@ -368,7 +366,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"KCFont12"
+			"Font"				"HudFontSmallest"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
@@ -398,12 +396,12 @@
 
 			"proportionaltoparent"	"1"
 		
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"235 226 202 255"
 			"bgcolor_override"	"0 0 0 0"
 			"disabledFgColor_override" "TanDark"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "White"
+			"selectionTextColor_override" "235 226 202 255"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -411,7 +409,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -426,7 +424,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"235 227 203 255"
 
 			"fixed_item"
 			{
@@ -443,7 +441,7 @@
 		{
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
-			"xpos"			"rs1-6"
+			"xpos"			"90"
 			"ypos"			"50"
 			"fixed_item"
 			{
@@ -475,7 +473,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -490,7 +488,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"235 227 203 255"
 
 			"fixed_paintkit"
 			{
@@ -507,7 +505,6 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"HSFont12"
 			"xpos"			"8"
 			"ypos"			"75"
 			"fixed_item"
@@ -610,8 +607,8 @@
 
 			"border_default"	"NoBorder"
 
-			"defaultBgColor_override"	"CreditsGreen"
-			"armedBgColor_override"		"S_FindGameGreen"
+			"defaultBgColor_override"	"72 103 32 255"
+			"armedBgColor_override"		"72 133 32 255"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

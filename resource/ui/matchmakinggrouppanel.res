@@ -35,7 +35,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"1"
-		"fgcolor"	"White"	
+		"fgcolor"	"TanLight"	
 		"font"		"HudFontSmallBold"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	

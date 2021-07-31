@@ -10,20 +10,20 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"210"
-		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-25"
-		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"245"
-		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"25"
+		"team1_player_base_offset_x"		"-75"
+		"team1_player_base_y"				"0"
+		"team1_player_delta_x"				"-47"
+		"team1_player_delta_y"				"0"
+		"team2_player_base_offset_x"		"25"
+		"team2_player_base_y"				"0"
+		"team2_player_delta_x"				"47"
+		"team2_player_delta_y"				"0"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"150"
-			"tall"			"23"
+			"wide"			"50"
+			"tall"			"33"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
@@ -33,18 +33,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"RGFont12"
-				"xpos"			"75"
-				"ypos"			"8"
+				"font"			"DefaultVerySmall"
+				"xpos"			"5"
+				"ypos"			"24"
 				"zpos"			"5"
-				"wide"			"100"
-				"tall"			"15"
+				"wide"			"50"
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				"fgcolor"		"White"
+				//"fgcolor"		"235 226 202 255"
 					
 				if_mvm
 				{
@@ -104,10 +104,10 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"25"
-				"ypos"				"2"
+				"xpos"				"22"
+				"ypos"				"-3"
 				"zpos"				"3"
-				"wide"				"80"
+				"wide"				"32"
 				"tall"				"32"
 				"visible"			"1"
 				"enabled"			"1"	
@@ -171,12 +171,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"KCFont14"
-				"xpos"			"46"
-				"ypos"			"7"
+				"font"			"DefaultSmall"
+				"xpos"			"30"
+				"ypos"			"18"
 				"zpos"			"5"
-				"wide"			"27"
-				"tall"			"12"
+				"wide"			"23"
+				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -194,9 +194,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"KCFont8"
-				"xpos"			"75"
-				"ypos"			"2"
+				"font"			"DefaultSmall"
+				"xpos"			"25"
+				"ypos"			"17"
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
@@ -204,8 +204,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"north-west"
-				"fgcolor"		"S_Lime"
+				"textAlignment"	"north"
+				"fgcolor"		"0 255 0 255"
 			}
 			
 			"specindex"
@@ -220,7 +220,7 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -239,6 +239,8 @@
 			"ypos"					"6"
 			"wide"					"500"
 			"tall"					"180"
+	
+			"team1_player_delta_x"			"52"
 		}		
 	}
 
@@ -247,7 +249,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"0"
+		"tall"			"33"
 	}
 	"BottomBar"
 	{
@@ -278,7 +280,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"KCFont18"
+		"font"			"HudFontSmall"
 		
 		if_mvm
 		{
@@ -376,9 +378,8 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"border"		"InspectPanelBorder"
-		"paintborder"			"1"
-		"paintbackground"		"0"
+		"bgcolor_override"		"255 255 255 0"
+		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -400,7 +401,6 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
-			"inventory_image_type" "1" // High quality item image
 		}
 		
 		"ItemLabel"
@@ -423,7 +423,7 @@
 			"brighttext"	"0"
 		}
 		
-		"attriblabel" // This causes bugs and isnt used normally
+		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
@@ -435,8 +435,8 @@
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"

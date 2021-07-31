@@ -63,10 +63,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"paintbackground"		"1"
-			"paintborder"			"0"
 			"border"		"ReplayDefaultBorder"
-			"bgcolor_override"		"S_Menu"
 			"proportionaltoparent"	"1"
 		}
 
@@ -114,10 +111,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"	"S_Menu"
-
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -283,7 +278,7 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"0"
+				"visible"		"1"
 				"proportionaltoparent"	"1"
 
 				"border"		"OuterShadowBorderThin"
@@ -301,7 +296,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"MainMenuBGBorder"
+				"border"		"ReplayDefaultBorder"
 			}
 
 			"QueueLogoButton"
@@ -414,12 +409,12 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" 	"White"
-				"armedFgColor_override" 	"S_Blue"
-				"depressedFgColor_override" "S_Blue"
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
 			
-				"image_drawcolor"			"235 235 235 255"
-				"image_armedcolor"			"45 121 221 255"
+				"image_drawcolor"	"117 107 94 255"
+				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -468,8 +463,8 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
 			
-				"image_drawcolor"	"235 235 235 255"
-				"image_armedcolor"	"45 121 221 255"
+				"image_drawcolor"	"117 107 94 255"
+				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -540,8 +535,8 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HSFont12"
-				"fgcolor_override"	"White"
+				"font"			"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
@@ -618,14 +613,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"S_Red"
-			"defaultBgColor_override"	"S_SBRed"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -659,7 +654,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -677,14 +672,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"S_Red"
-			"defaultBgColor_override"	"S_SBRed"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -700,7 +695,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
-				"drawcolor_override" "White"
+				"drawcolor_override" "TanLight"
 			}
 		}
 
@@ -718,7 +713,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -736,13 +731,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"S_Blue"
-			"defaultBgColor_override"	"S_MenuTooltip"
+		//	"armedBgColor_override"		"CreditsGreen"
+		//	"defaultBgColor_override"	"GreenSolid"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
@@ -776,7 +771,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -794,13 +789,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"S_FindGameGreen"
-			"defaultBgColor_override"	"CreditsGreen"
+			"armedBgColor_override"		"CreditsGreen"
+			"defaultBgColor_override"	"GreenSolid"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{

@@ -62,9 +62,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"S_Blue"
-		"depressedFgColor_override"	"S_Blue"
+		"defaultFgColor_override"	"118 107 94 255"
+		"armedFgColor_override"		"128 117 104 255"
+		"depressedFgColor_override"	"236 227 203 255"
 	}		
 	
 	"RotateRightButton"
@@ -89,9 +89,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"S_Blue"
-		"depressedFgColor_override"	"S_Blue"
+		"defaultFgColor_override"	"118 107 94 255"
+		"armedFgColor_override"		"128 117 104 255"
+		"depressedFgColor_override"	"236 227 203 255"
 	}	
 				
 	"NextWeaponButton"
@@ -105,7 +105,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_NextWeapon"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -141,8 +141,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 235 235 255"
-		"image_armedcolor"		"45 121 221 255"
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
 		
 		"SubImage"
 		{
@@ -286,8 +286,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 235 235 255"
-		"image_armedcolor"		"S_Blue"
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
 		
 		"SubImage"
 		{
@@ -352,9 +352,9 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"					"CreditsGreen"
-		"defaultBgColor_override"	"CreditsGreen"
-		"ArmedBgColor_override"		"S_FindGameGreen"
-		"depressedBgColor_override" "S_FindGameGreen"
+		"fgcolor"		"34 30 31 255"
+		"defaultBgColor_override"	"76 107 34 255"
+		"ArmedBgColor_override"	"86 117 44 255"
+		"depressedBgColor_override" "66 97 24 255"
 	}		
 }

@@ -17,7 +17,7 @@
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
 			"xpos"			"-8"
-			"ypos"			"-13"
+			"ypos"			"-15"
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"70"
@@ -34,7 +34,7 @@
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
 			"xpos"			"-75"
-			"ypos"			"-33"
+			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"320"
 			"tall"			"100"
@@ -176,9 +176,9 @@
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" 	"White"
-					"armedFgColor_override"		"White"
-					"selectedFgColor_override" 	"White"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"TanDark"
+					"selectedFgColor_override" "TanDark"
 				}
 
 				"ResultButton"
@@ -195,16 +195,16 @@
 					"border_default"		"SortCategoryBorder"	
 			
 					"labeltext"			"#TF_Competitive_Result"
-					"font"				"HSFont12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"141 63 63 255"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" 	"Gray"
-					"armedFgColor_override"		"S_Blue"
-					"selectedFgColor_override" 	"White"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
 					"image_drawcolor"		"0 0 0 0"
 
@@ -229,16 +229,16 @@
 					"border_default"		"SortCategoryBorder"
 			
 					"labeltext"			"#TF_Competitive_Date"
-					"font"				"HSFont12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" 	"Gray"
-					"armedFgColor_override"		"S_Blue"
-					"selectedFgColor_override" 	"White"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
 					"image_drawcolor"		"0 0 0 0"
 
@@ -263,16 +263,16 @@
 					"border_default"		"SortCategoryBorder"
 			
 					"labeltext"			"#TF_Competitive_Map"
-					"font"				"HSFont12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" 	"Gray"
-					"armedFgColor_override"		"S_Blue"
-					"selectedFgColor_override" 	"White"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
 					"image_drawcolor"		"0 0 0 0"
 
@@ -296,15 +296,15 @@
 					"paintbackground"	"0"
 			
 					"labeltext"			"#TF_Competitive_KDR"
-					"font"				"HSFont12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" 	"Gray"
-					"armedFgColor_override"		"S_Blue"
-					"selectedFgColor_override" 	"White"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
 					"image_drawcolor"		"0 0 0 0"
 
@@ -343,7 +343,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"White"
+						"fgcolor_override"	"TanDark"
 					}
 		
 					"UpButton"

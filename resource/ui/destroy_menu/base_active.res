@@ -4,8 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"HSFont14"
-		"fgcolor"		"White"
+		"font"			"Default"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -16,10 +15,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Dispenser"
-		"textAlignment"	"center"
+		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
 	}
 	
 	"ItemBackground"	
@@ -34,8 +32,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg"
-		"iconColor"		"S_MenuTransparent"
+		"icon"			"hud_menu_item_bg_outline"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"DestroyIcon"	
@@ -67,7 +65,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"235 235 255 128"
+		"iconColor"		"255 255 255 128"
 	}
 		
 	"NumberBg"	
@@ -79,8 +77,8 @@
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
@@ -90,32 +88,11 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"KCFont18"
-		"fgcolor"		"White"
+		"font"			"HudMenuNumberFont"
+		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"2"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
-	}
-
-	"NumberLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabelShadow"
-		"font"			"KCFont18"
-		"fgcolor"		"S_Shadow"
-		"xpos"			"1"
-		"ypos"			"99"
-		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"18"
 		"autoResize"	"0"

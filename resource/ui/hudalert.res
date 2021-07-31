@@ -17,19 +17,19 @@
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
-
-		"src_drawcorner_height"	"0"
-		"src_drawcorner_width"	"0"
 	}
 	"AlertLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"xpos"			"80"
 		"ypos"			"70"
+		//"ypos_hidef"	"23"
+		//"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"
+		"wide"			"230"	[$WIN32]
+		"wide"			"180"	[$X360]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"

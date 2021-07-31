@@ -1,18 +1,11 @@
-#base "huditemeffectmeter_base.res"
+#base "HudItemEffectMeter.res"
 
 "Resource/UI/HudItemEffectMeter_Pyro.res"
-// Pyro: The Phlogistinator
-
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"ypos"			"365"
-		"ypos_minmode"	"r95"
-	}
-
-	"ItemEffectMeterBG"
-	{
-		"ypos_minmode"	"26"
+		"xpos"			"r214"
+		"ypos_minmode"	"r70"
 	}
 }

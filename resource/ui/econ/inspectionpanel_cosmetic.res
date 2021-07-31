@@ -72,9 +72,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"0"
-				"defaultFgColor_override"	"White"
-				"armedFgColor_override"		"S_Blue"
-				"depressedFgColor_override"	"S_Blue"
+				"defaultFgColor_override"	"118 107 94 255"
+				"armedFgColor_override"		"128 117 104 255"
+				"depressedFgColor_override"	"236 227 203 255"
 			}		
 	
 			"RotateRightButton"
@@ -99,9 +99,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"0"
-				"defaultFgColor_override"	"White"
-				"armedFgColor_override"		"S_Blue"
-				"depressedFgColor_override"	"S_Blue"
+				"defaultFgColor_override"	"118 107 94 255"
+				"armedFgColor_override"		"128 117 104 255"
+				"depressedFgColor_override"	"236 227 203 255"
 			}
 
 			"ZoomButton"
@@ -130,8 +130,8 @@
 		
 				"paintbackground"	"0"
 		
-				"image_drawcolor"	"178 178 178 255"
-				"image_armedcolor"	"235 235 235 255"
+				"image_drawcolor"	"118 107 94 200"
+				"image_armedcolor"	"246 247 213 255"
 		
 				"SubImage"
 				{
@@ -165,8 +165,8 @@
 		
 		"Slider"
 		{
-			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"White"
+			"PaintBackgroundType"	"2"
+			"fgcolor_override"	"118 107 94 255"
 		}
 		
 		"UpButton"
@@ -216,9 +216,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"S_MenuTooltip"
-		"PaintBorder"	"0"
+		"paintbackground"	"0"
+		"border"		"TFFatLineBorderOpaque"
+		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -230,15 +230,17 @@
 			"zpos"			"1"
 			"wide"			"220"
 			"tall"			"264"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintborder"	"1"
+			"border"		"StoreInnerShadowBorder"
 		}
 		
 		"ItemNameLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"240"
@@ -301,7 +303,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"White"
+					"fgcolor"		"118 107 94 255"
 				}		
 				
 				"RestrictionsLabel"
@@ -352,7 +354,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"White"
+					"fgcolor"		"173 165 146 255"
 				}		
 				
 				"UsedByTextLabel"
@@ -385,7 +387,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"White"
+					"fgcolor"		"173 165 146 255"
 				}		
 				
 				"SlotTextLabel"
@@ -418,7 +420,6 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"labeltext"		"%armory_text%"
-					"fgcolor"		"White"
 				}			
 				
 				"AttributesLabel"
@@ -464,7 +465,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"HSFont14"
+					"font"			"HudFontSmallestBold"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -561,10 +562,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "Gray"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		
 		"bgblockout"
 		{
@@ -577,15 +578,15 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override" "S_MenuTooltip"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override" "51 47 46 255"
 		}
 		
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
 			
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			
 			"model_xpos"	"1"
@@ -599,12 +600,12 @@
 			
 			"itemmodelpanel"
 			{
-				"inventory_image_type"	"1"
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
 		}
 	}
+	
 	"ClassUsageImage1"
 	{
 		"ControlName"	"CStorePreviewClassIcon"
@@ -616,10 +617,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "Gray"
-		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"0"
+		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor_mouseover" "255 255 255 255"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"2"
 	}
 	"ClassUsageImage2"
 	{
@@ -632,10 +633,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "Gray"
-		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"0"
+		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor_mouseover" "255 255 255 255"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"2"
 	}
 	"ClassUsageImage3"
 	{
@@ -648,10 +649,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "Gray"
-		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"0"
+		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor_mouseover" "255 255 255 255"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"2"
 	}
 	"ClassUsageImage4"
 	{
@@ -664,10 +665,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "Gray"
-		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"0"
+		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor_mouseover" "255 255 255 255"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"2"
 	}
 	"ClassUsageImage5"
 	{
@@ -680,10 +681,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "Gray"
-		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"0"
+		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor_mouseover" "255 255 255 255"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"2"
 	}
 	"ClassUsageImage6"
 	{
@@ -696,10 +697,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "Gray"
-		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"0"
+		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor_mouseover" "255 255 255 255"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"IconsMoveLeftButton"
@@ -807,8 +808,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"178 178 178 255"
-		"image_armedcolor"		"235 235 235 255"
+		"image_drawcolor"		"118 107 94 200"
+		"image_armedcolor"		"128 117 104 255"
 		
 		"SubImage"
 		{
@@ -852,8 +853,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"178 178 178 255"
-		"image_armedcolor"	"235 235 235 255"
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
 		
 		"SubImage"
 		{
@@ -1059,8 +1060,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"178 178 178 255"
-		"image_armedcolor"	"235 235 235 255"
+		"image_drawcolor"	"118 107 94 255"
+		"image_armedcolor"	"246 247 213 255"
 		
 		"SubImage"
 		{

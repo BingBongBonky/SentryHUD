@@ -12,7 +12,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HSFont12"
+				"font"			"HudFontSmallestBold"
 				"labelText"		"#TF_SurveyQuestion_CasualInquiry"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -26,7 +26,7 @@
 				"enabled"		"1"
 				"wrap"			"0"
 				"centerwrap"	"1"
-				"fgcolor_override" "White"
+				"fgcolor_override" "TanLight"
 				"proportionaltoparent"	"1"
 			}
 
@@ -91,7 +91,7 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer0"
-					"font"			"HSFont12"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 
 					"associate"		"Radio0"
@@ -129,7 +129,7 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer1"
-					"font"			"HSFont12"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 
@@ -165,7 +165,7 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer2"
-					"font"			"HSFont12"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 					"default"		"1"
 				}
@@ -202,7 +202,7 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer3"
-					"font"			"HSFont12"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 
@@ -238,7 +238,7 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer4"
-					"font"			"HSFont12"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 
@@ -274,7 +274,7 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer5"
-					"font"			"HSFont12"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 			}
@@ -289,7 +289,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#AbuseReport_Submit"
-				"font"			"HSFont12"
+				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"submit"
 				"sound_depressed"	"UI/buttonclick.wav"

@@ -2,7 +2,7 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"14"
@@ -12,8 +12,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"bgcolor_override"		"S_MenuShaderTransparent"
-		"paintbackgroundtype"	"2"
+		"icon"			"hud_menu_bg"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"Divider"
@@ -24,37 +24,37 @@
 		"ypos"			"51"
 		"zpos"			"0"
 		"wide"			"436"
-		"tall"			"0"
-		"fillcolor"		"255 222 208 0"
+		"tall"			"2"
+		"fillcolor"		"255 222 208 255"
 	}
 	
 	"DestroyIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
-		"xpos"			"15"
-		"ypos"			"-1"
+		"xpos"			"0"
+		"ypos"			"-2"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"64"
+		"tall"			"64"
 		"visible"		"1"
-		"enabled"		"0"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 255 245 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"TitleLabelDropshadow"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HSFont48"
-		"fgcolor"		"S_Shadow"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"1"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"xpos"			"32"			// align me to the left edge of the first selection
+		"ypos"			"7"
 		"zpos"			"2"
 		"wide"			"300"
-		"tall"			"38"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -69,10 +69,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HSFont48"
-		"fgcolor"		"White"
-		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"-1"
+		"font"			"HudFontGiantBold"
+		"xpos"			"31"			// align me to the left edge of the first selection
+		"ypos"			"4"
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"38"
@@ -91,8 +90,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
-		"xpos"			"245"
-		"ypos"			"12"
+		"xpos"			"218"
+		"ypos"			"39"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"13"

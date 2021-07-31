@@ -19,22 +19,22 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"RGFont24"
+		"font"			"ScoreboardMedium"
 		"labelText"		"%popfile%"
-		"textAlignment"	"west"
-		"xpos"			"100"
+		"textAlignment"	"east"
+		"xpos"			"290"
 		"ypos"			"375"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"tanlight"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"375"
-		"ypos"			"15"
+		"xpos"			"425"
+		"ypos"			"30"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
@@ -43,44 +43,51 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"-2"
+			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"9"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 	}
 	
 	"PlayerListBackground"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
 		"xpos"			"25"
-		"ypos"			"0"
-		"zpos"			"-10"
+		"ypos"			"75"
+		"zpos"			"-1"
 		"wide"			"550"
-		"tall"			"400"
+		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"S_SBBG"
-		"PaintBackgroundType"	"2"
+		"image"			"../hud/tournament_panel_brown"
+		
+		"scaleImage"		"1"
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"MvMPlayerList"
@@ -89,7 +96,6 @@
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"35"
 		"ypos"			"79"
-		"zpos"			"1"
 		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
@@ -97,33 +103,17 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"20"
+		"linespacing"	"22"
 		"textcolor"		"White"
-	}
-	
-	"PlayerStatsBackground"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"PlayerStatsBackgroundNew"
-		"xpos"			"35"
-		"ypos"			"235"
-		"zpos"			"-6"
-		"wide"			"160"
-		"tall"			"135"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 190"
 	}
 	
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"200"
-		"ypos"			"235"
-		"wide"			"360"
+		"xpos"			"100"
+		"ypos"			"230"
+		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
 		
@@ -131,28 +121,6 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"CreditStatsBackground"
-			"xpos"			"-9999"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"135"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
-
-		"CreditStatsBackgroundNew"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"CreditStatsBackgroundNew"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
@@ -162,21 +130,27 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"0 0 0 190"
+			"image"			"../HUD/tournament_panel_brown"
+
+			"src_corner_height"	"22"				// pixels inside the image
+			"src_corner_width"	"22"
+		
+			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HSFont24"
+			"font"			"HudFontMediumSmall"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"8"
-			"ypos"			"4"
+			"ypos"			"8"
 			"wide"			"100"
 			"tall"			"25"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -238,7 +212,7 @@
 			"ypos"			"8"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 	}
 }

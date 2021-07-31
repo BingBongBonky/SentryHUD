@@ -11,9 +11,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"15 15 15 200"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
+		"border"		"TFFatLineBorderOpaque"
 	}
 
 

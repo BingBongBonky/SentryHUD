@@ -22,12 +22,12 @@
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"22"
+		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"west"
-		"font"			"HSFont32"
-		"fgcolor_override"	"White"
+		"font"			"HudFontMediumBigBold"
+		"fgcolor_override"	"TanDark"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -76,7 +76,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HSFont18"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -90,7 +90,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"S_FindGameGreen"
-		"defaultBgColor_override"	"CreditsGreen"
+		"armedBgColor_override"		"CreditsGreen"
+		"defaultBgColor_override"	"GreenSolid"
 	}
 }

@@ -13,13 +13,13 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"S_EconBG"
-		"infocus_bgcolor_override" 		"S_EconBG"
-		"outoffocus_bgcolor_override" 	"S_EconBG"
+		"bgcolor_override"	"46 43 42 255"
+		"infocus_bgcolor_override" "46 43 42 255"
+		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"thumbnail_bgcolor"				"S_MenuShader"
-		"thumbnail_bgcolor_mouseover"	"S_Menu"
-		"thumbnail_bgcolor_selected"	"S_Menu"
+		"thumbnail_bgcolor"			"51 47 46 255"
+		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
+		"thumbnail_bgcolor_selected"	"176 166 148 255"
 		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
@@ -56,7 +56,6 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type"  "1" // High quality item image
 			}
 		}
 	}
@@ -77,13 +76,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "200 80 60 255"
 	}
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"HSFont24"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -102,7 +101,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"White"
 		"labelText"		"#Store_FilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -120,7 +118,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"FilterComboBox"
-		"Font"				"HSFont14"
+		"Font"				"HudFontSmallestBold"
 		"xpos"				"c-240"
 		"ypos"				"32"
 		"zpos"				"1"
@@ -137,13 +135,13 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"					"White"
-		"bgcolor_override"					"S_MenuShader"
-		"disabledFgColor_override" 			"White"
-		"disabledBgColor_override" 			"S_MenuShader"
-		"selectionColor_override" 			"S_MenuShader"
-		"selectionTextColor_override" 		"White"
-		"defaultSelectionBG2Color_override" "S_MenuShader"
+		"fgcolor_override"	"235 226 202 255"
+		"bgcolor_override"	"51 47 46 255"
+		"disabledFgColor_override" "235 226 202 255"
+		"disabledBgColor_override" "51 47 46 255"
+		"selectionColor_override" "51 47 46 255"
+		"selectionTextColor_override" "235 226 202 255"
+		"defaultSelectionBG2Color_override" "51 47 46 255"
 	}
 	
 	"DataPanel"
@@ -157,14 +155,14 @@
 		"tall"			"253"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
-		"bgcolor_override"		"S_MenuTooltip"
+		"paintborder"	"1"
+		"border"		"StorePreviewBorder"
 
 		"Data_TextRichText"
 		{
 			"ControlName"	"CEconItemDetailsRichText"
 			"fieldName"		"Data_TextRichText"
-			"font"			"KCFont12"
+			"font"			"ScoreboardSmall"
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"5"
@@ -175,7 +173,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"wrap"			"1"
 			"highlight_color"	"177 168 149 255"
 			"itemset_color"		"216 244 9 255"
@@ -276,9 +274,8 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type"  "1"
+			"inventory_image_type" "1"
 			"allow_rot"				"0"
-			"inventory_image_type"  "1" // High quality item image
 		}
 	}
 	
@@ -297,7 +294,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"<"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -310,7 +307,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"KCFont14"
+		"font"			"HudFontSmallBold"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-80"
@@ -322,7 +319,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "S_SBRed"
+		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"NextPageButton"
@@ -340,7 +337,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -414,7 +411,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Store"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -435,7 +432,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
 		"font"			"HudFontSmallestBold"

@@ -10,7 +10,7 @@
 		"zpos"					"101"
 		"wide"					"f0"
 		"tall"					"f0"
-		"bgcolor_override"		"S_MenuTooltip"
+		"bgcolor_override"		"30 25 25 245"
 	}
 
 	"BG"
@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HSFont18"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
 			"xpos"			"95"
@@ -95,7 +95,6 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type"  "1" // High quality item image
 			}
 		}	
 		"SubjectBG"
@@ -105,7 +104,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		""
 			"textAlignment"	"east"
-			"xpos"			"305"
+			"xpos"			"300"
 			"ypos"			"10"
 			"zpos"			"-1"
 			"wide"			"84"
@@ -121,7 +120,7 @@
 		{		
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"TargetItem"
-			"xpos"			"305"
+			"xpos"			"300"
 			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"84"
@@ -143,7 +142,6 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type"  "1" // High quality item image
 			}
 		}	
 	
@@ -151,7 +149,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ConfirmLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_StrangeCount_TransferExplain"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -164,7 +162,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "White"
+			"fgcolor_override" "200 80 60 255"
 		}
 	
 		"CancelButton"
@@ -182,7 +180,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Cancel"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -208,7 +206,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#CraftNameConfirm"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

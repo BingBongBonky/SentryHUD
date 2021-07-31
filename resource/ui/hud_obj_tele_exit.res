@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
-		"ypos"			"6"
+		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"31"
 		"autoResize"	"0"
@@ -24,51 +24,14 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-
-	"BackgroundNew"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundNew"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"bgcolor_override"	"S_MenuTransparent"
-	}
-
-	"TeamColoredLine"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"		
-		"wide"			"4"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		"src_corner_height"		"3"
-		"src_corner_width"		"3"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
-	}
 	
-	"Icon_Teleport_Entrance"
+	"Icon_Teleport_Exit"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
@@ -97,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"HSFont8"
+			"font"			"DefaultVerySmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -106,7 +69,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_exit_not_built_360"
+			"labelText"		"#Building_hud_tele_exit_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -120,7 +83,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"31"
+		"tall"			"43"
 		"visible"		"0"
 
 		"Icon_Upgrade_1"
@@ -171,7 +134,6 @@
 			"iconColor"		"255 255 255 255"
 		}
 
-
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -216,7 +178,7 @@
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -292,82 +254,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-			
-			"TeleportedIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"TeleportedIcon"
-				"xpos"			"0"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/hud_obj_status_teleport_64"
-				"drawcolor"		"ProgressOffWhite"
-				"scaleImage"	"1"
-			}
-			
-			"ChargingPanel"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"ChargingPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"100"
-				"tall"			"31"
-				"visible"		"0"
-				
-				"Recharge"
-				{	
-					"ControlName"	"ContinuousProgressBar"
-					"fieldName"		"Recharge"
-					"font"			"Default"
-					"xpos"			"12"
-					"ypos"			"6"
-					"wide"			"38"
-					"tall"			"8"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"Left"
-					"dulltext"		"0"
-					"brighttext"	"0"
-				}	
-			}
-			
-			"FullyChargedPanel"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"FullyChargedPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"100"
-				"tall"			"31"
-				"visible"		"0"
-				
-				"TimesUsedLabel"
-				{	
-					"ControlName"	"CExLabel"
-					"fieldName"		"TimesUsedLabel"
-					"font"			"DefaultSmall"
-					"xpos"			"12"
-					"ypos"			"5"
-					"wide"			"200"
-					"tall"			"25"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"labelText"		"%timesused%"
-					"textAlignment"	"north-west"
-					"dulltext"		"0"
-					"brighttext"	"0"
-				}
-			}	
-			
+		
 			"UpgradeIcon"
 			{
 				"ControlName"	"CIconPanel"

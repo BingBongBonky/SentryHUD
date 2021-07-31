@@ -48,48 +48,20 @@
 		}
 	}	
 
-	"BlueTeamBackground"
+	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BlueTeamBackground"
-		"xpos"			"c-45"
-		"ypos"			"1"
-		"zpos"			"-10"
-		"wide"			"45"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"S_SBBlue"
-		"proportionaltoparent"	"1"
-	}
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"o3.833"
+		"tall"			"35"
 
-	"RedTeamBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RedTeamBackground"
-		"xpos"			"c0"
-		"ypos"			"1"
-		"zpos"			"-10"
-		"wide"			"46"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"S_SBRed"
+		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
-	}
-
-	"TimerBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TimerBG"
-		"xpos"			"c-45"
-		"ypos"			"10"
-		"zpos"			"-21"
-		"wide"			"91"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"S_MenuTransparent"
-		"proportionaltoparent"	"1"
+			
+		"image"					"../hud/comp_round_timer"
+		"scaleimage"			"1"
 	}
 }

@@ -19,8 +19,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -191,7 +191,7 @@
 		"wide"			"260"
 		"tall"			"f40"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -213,8 +213,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HSFont18"
-			"fgcolor_override"	"White"
+			"font"			"HudFontSmallishBold"
+			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
@@ -236,8 +236,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HSFont12"
-			"fgcolor_override"	"White"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
@@ -246,6 +246,13 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+			}
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
 			}
 		}
 
@@ -260,8 +267,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HSFont12"
-			"fgcolor_override"	"White"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -270,6 +277,19 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+			}
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
@@ -314,7 +334,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"White"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -332,7 +352,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"White"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
@@ -360,7 +380,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"Black"
+						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
 					}
 
@@ -375,7 +395,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"S_XP"
+						"fgcolor_override"	"CreditsGreen"
 					}
 
 					"Frame"
@@ -402,7 +422,6 @@
 				"wide"			"f0"
 				"tall"			"p0.45"
 				"visible"		"0"
-				"enabled"		"0"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
 

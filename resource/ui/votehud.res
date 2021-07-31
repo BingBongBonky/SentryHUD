@@ -10,9 +10,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"15 15 15 200"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"PassedIcon"
 		{
@@ -44,7 +42,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"235 235 235 255"
+			"fgcolor_override"	"255 255 255 255"
 		}
 		
 		"PassedResult"
@@ -63,7 +61,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"235 235 235 235"
+			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
 		}		
 	}
@@ -78,9 +76,7 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"	"15 15 15 200"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
+		"border"		"TFFatLineBorderOpaque"
 		
 		"Header"
 		{
@@ -129,7 +125,7 @@
 			"ypos"			"23"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
@@ -143,7 +139,7 @@
 			"fieldName"		"Divider"
 			"xpos"			"10"
 			"ypos"			"50"
-			"wide"			"0"
+			"wide"			"130"
 			"tall"			"1"
 			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
@@ -356,7 +352,7 @@
 			"fieldName"		"Divider2"
 			"xpos"			"10"
 			"ypos"			"100"
-			"wide"			"0"
+			"wide"			"130"
 			"tall"			"1"
 			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
@@ -411,9 +407,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"15 15 15 200"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -445,7 +439,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"235 235 235 255"
+			"fgcolor_override"	"200 30 30 255"
 		}
 		
 		"FailedReason"
@@ -464,7 +458,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"235 235 235 255"
+			"fgcolor_override"	"255 255 255 255"
 		}		
 	}
 	
@@ -479,9 +473,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"15 15 15 200"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -513,7 +505,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"235 235 235 255"
+			"fgcolor_override"	"200 30 30 255"
 		}
 		
 		"FailedReason"
@@ -532,7 +524,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"235 235 235 255"
+			"fgcolor_override"	"255 255 255 255"
 		}		
 	}
 	
@@ -550,15 +542,16 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"MainMenuBGBorder"
-		"paintbackground"	"0"
+		"border"			"TFFatLineBorderOpaque"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackground"	"0"
 
-		"header_font"		"HSFont18"
-		"header_fgcolor"	"White"
+		"header_font"		"ItemFontNameLarge"
+		"header_fgcolor"	"Orange"
 
 		"issue_width"		"180"		
 		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"White"
+		"issue_fgcolor"		"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
 		
 		"parameter_width"	"200"
@@ -567,7 +560,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HSFont24"
+			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -579,7 +572,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
-			"fgcolor_override"	"235 235 235 255"
 		}
 									
 		"VoteSetupList"
@@ -638,7 +630,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"HSFont12"
+			"Font"				"HudFontSmallestBold"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
@@ -655,13 +647,13 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"15 15 15 245"
-			"bgcolor_override"	"235 235 235 255"
-			"disabledFgColor_override" "15 15 15 245"
-			"disabledBgColor_override" "235 235 235 255"
-			"selectionColor_override" "235 235 235 255"
-			"selectionTextColor_override" "11 11 11 245"
-			"defaultSelectionBG2Color_override" "235 235 235 255"
+			"fgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"251 235 202 255"
+			"disabledFgColor_override" "117 107 94 255"
+			"disabledBgColor_override" "251 235 202 255"
+			"selectionColor_override" "251 235 202 255"
+			"selectionTextColor_override" "117 107 94 255"
+			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
 			
 		"CallVoteButton"
@@ -683,18 +675,7 @@
 			"brighttext"	"0"
 			"Command"		"CallVote"
 			"Default"		"0"
-			"font"			"HSFont12"
-			// default style
- 			"defaultBgColor_override"	"S_Menu"
- 			"defaultFgColor_override"	"White"
-	
- 			// armed style
- 			"armedBgColor_override"		"S_Blue"
- 			"armedFgColor_override" 	"White"
-	
- 			// depressed style    
- 			"depressedBgColor_override"	"S_Blue"
- 			"depressedFgColor_override" "White"
+			"font"			"HudFontSmallBold"
 		}
 		"Button1"
 		{
@@ -715,18 +696,7 @@
 			"brighttext"	"0"
 			"Command"		"Close"
 			"Default"		"0"
-			"font"			"HSFont12"
-			// default style
- 			"defaultBgColor_override"	"S_Menu"
- 			"defaultFgColor_override"	"White"
-	
- 			// armed style
- 			"armedBgColor_override"		"S_Blue"
- 			"armedFgColor_override" 	"White"
-	
- 			// depressed style    
- 			"depressedBgColor_override"	"S_Blue"
- 			"depressedFgColor_override" "White"
+			"font"			"HudFontSmallBold"
 		}
 	}
 }

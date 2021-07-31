@@ -24,36 +24,36 @@
 		"visible"		"1"
 		
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"1"
-		"bgcolor_override"	"S_MenuTooltip"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
 	}
 	
 	"WaveFailHeaderShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveFailHeaderShadow"
-		"font"			"HSFont24"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-274"
 		"ypos"			"106"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"S_Shadow"
+		"fgcolor"		"Black"
 	}
 	
 	"WaveFailHeader"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HSFont24"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-275"
 		"ypos"			"105"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"White"
+		"fgcolor"		"Orange"
 	}
 	
 	"HeaderDivider"
@@ -65,21 +65,21 @@
 		"wide"			"500"
 		"tall"			"2"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 0"
+		"bgcolor_override"		"20 20 20 100"
 	}
 	
 	"SummaryHeader"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SummaryHeader"
-		"font"			"HSFont18"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%summaryheader%"
 		"textAlignment" "west"
-		"xpos"			"c-240"
-		"ypos"			"133"
+		"xpos"			"c-250"
+		"ypos"			"135"
 		"wide"			"550"
-		"tall"			"35"
-		"fgcolor"		"White"
+		"tall"			"30"
+		"fgcolor"		"Black"
 	}
 	
 	"CollectionContainer"
@@ -96,34 +96,33 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Header"
-			"font"			"HSFont18"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Credit_Collection"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"-7"
+			"ypos"			"0"
 			"wide"			"140"
-			"tall"			"24"
-			"fgcolor"		"White"
+			"fgcolor"		"Black"
 		}
 	
 		"CollectedLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CollectedLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Collected"
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"CollectedCount"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CollectedCount"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -136,20 +135,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MissedLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"MissedCount"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MissedCount"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -162,20 +161,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"BonusCount"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusCount"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -199,138 +198,137 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Header"
-			"font"			"HSFont18"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Credit_Use"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"-7"
+			"ypos"			"0"
 			"wide"			"195"
-			"tall"			"24"
-			"fgcolor"		"White"
+			"fgcolor"		"Black"
 		}
 	
 		"YouLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"YouLabel"
-			"font"			"HSFont12"
+			"font"			"FontStorePriceSmall"
 			"labelText"		"#TF_PVE_You"
 			"textAlignment" "east"
 			"xpos"			"120"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"TeamLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TeamLabel"
-			"font"			"HSFont12"
+			"font"			"FontStorePriceSmall"
 			"labelText"		"#Winpanel_Team2"
 			"textAlignment" "east"
 			"xpos"			"175"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"BuybackLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Buybacks"
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"BuybackCountYou"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountYou"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%buybacksyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"BuybackCountTeam"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountTeam"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%buybacksteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"BottleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Bottles"
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"BottleCountYou"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountYou"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%bottlesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"BottleCountTeam"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountTeam"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%bottlesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"InactiveLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InactiveLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Inactive_Upgrades"
 			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"White"
+			"fgcolor"		"TanDarker"
 		}
 		
 		"InactiveCountYou"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountYou"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%inactiveupgradesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -343,7 +341,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountTeam"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%inactiveupgradesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -365,7 +363,7 @@
 		
 		"Background"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -375,21 +373,26 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"S_Menu"
+			"image"			"../HUD/tournament_panel_black"
+
+			"src_corner_height"	"22"				// pixels inside the image
+			"src_corner_width"	"22"
+		
+			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		
 		"Header"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Header"
-			"font"			"HSFont24"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Hint_Header"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"5"
 			"wide"			"500"
-			"tall"			"30"
-			"fgcolor"		"White"
+			"fgcolor"		"Gray"
 		}
 
 		"CptCntnBody"
@@ -455,14 +458,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Hint1"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"%hint1%"
 			"textAlignment" "north-west"
 			"xpos"			"55"
 			"ypos"			"60"
 			"wide"			"185"
 			"tall"			"55"
-			"fgcolor"		"White"
+			"fgcolor"		"Gray"
 			"wrap"			"1"
 		}
 		
@@ -484,14 +487,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Hint2"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"%hint2%"
 			"textAlignment" "north-west"
 			"xpos"			"305"
 			"ypos"			"60"
 			"wide"			"185"
 			"tall"			"55"
-			"fgcolor"		"White"
+			"fgcolor"		"Gray"
 			"wrap"			"1"
 		}
 	}
@@ -510,7 +513,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_PVE_Vote_MissionRestart"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -518,7 +521,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 235 235 255"
+		"image_drawcolor"	"235 226 202 255"
 		"Command"		"vote_restart"
 	}
 		
@@ -536,7 +539,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -544,7 +547,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 235 235 255"
+		"image_drawcolor"	"235 226 202 255"
 		"Command"		"continue"
 	}
 }

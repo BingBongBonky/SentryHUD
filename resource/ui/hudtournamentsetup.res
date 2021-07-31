@@ -2,27 +2,32 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"180"
 		"tall"			"65"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"S_Menu"
-		"paintbackgroundtype"	"2"
+		"image"			"../HUD/tournament_panel_brown"
+
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HSFont18"
-		"fgcolor_override"		"White"
+		"font"			"HudFontSmallBold"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -41,8 +46,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HSFont14"
-		"fgcolor_override"	"White"
+		"font"			"HudFontSmallest"
 		"xpos"			"67"
 		"ypos"			"28"
 		"zpos"			"1"
@@ -61,7 +65,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"TournamentNameEdit"
-		"xpos"		"7"
+		"xpos"		"8"
 		"ypos"		"27"
 		"wide"		"120"
 		"tall"		"16"
@@ -76,7 +80,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
@@ -95,7 +99,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"11 11 11 255"
+		"fillcolor"	"0 0 0 255"
 		"scaleImage"	"1"
 	}
 
@@ -118,13 +122,8 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"HSFont12"
-		"defaultBgcolor_override"		"S_SBRed"
-		"defaultFgcolor_override"		"White"
-		"armedBgcolor_override"			"S_Red"
-		"armedFgcolor_override"			"White"
-		"depressedBgcolor_override"		"S_Red"
-		"depressedFgcolor_override"		"White"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"Red"
 	}
 
 	"TournamentReadyButton"
@@ -146,12 +145,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"HSFont12"
-		"defaultBgcolor_override"		"S_SBBlue"
-		"defaultFgcolor_override"		"White"
-		"armedBgcolor_override"			"S_Blue"
-		"armedFgcolor_override"			"White"
-		"depressedBgcolor_override"		"S_Blue"
-		"depressedFgcolor_override"		"White"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"FooterBGBlack"
 	}
 }

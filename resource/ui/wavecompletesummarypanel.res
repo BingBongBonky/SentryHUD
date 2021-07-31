@@ -2,7 +2,7 @@
 {		
 	"Background"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -12,7 +12,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"S_MenuTransparent"
+		"image"			"../HUD/tournament_panel_brown"
+
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"WaveCompleteContainer"
@@ -30,7 +36,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HSFont24"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"3"
@@ -39,19 +45,19 @@
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"		
+			"fgcolor"		"black"		
 			
 			// Red Background
 			"PaintBackgroundType" "2"
 			"fgcolor_override"	"black"		
-			"bgcolor_override"	"S_SBRed"
+			"bgcolor_override"	"190 60 60 225"
 		}
 		
 		"WaveCompleteLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"HSFont24"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
@@ -60,7 +66,7 @@
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"		
+			"fgcolor"		"tanlight"		
 		}
 	}
 		
@@ -79,21 +85,21 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_CurrencyCollected"
 			"textAlignment" "north-east"
 			"xpos"			"0"
 			"ypos"			"9"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 		
 		"CreditCollectedCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -107,21 +113,21 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedTextLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "north-east"
 			"xpos"			"0"
 			"ypos"			"21"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 		
 		"CreditMissedCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedCountLabel"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -135,21 +141,21 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"font"			"HSFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "north-east"
 			"xpos"			"0"
 			"ypos"			"33"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"White"
+			"fgcolor"		"tanlight"
 		}
 		
 		"CreditBonusCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusCountLabel"
-			"font"			"KCFont12"
+			"font"			"HudFontSmallest"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"

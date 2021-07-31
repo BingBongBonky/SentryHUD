@@ -39,13 +39,13 @@
 		
 		"paintbackground"	"1"
 		
-		"defaultBgColor_override"	"CreditsGreen"
-		"ArmedBgColor_override"		"S_FindGameGreen"
-		"depressedBgColor_override" "S_FindGameGreen"
+		"defaultBgColor_override"	"76 107 34 255"
+		"ArmedBgColor_override"	"86 117 44 255"
+		"depressedBgColor_override" "66 97 24 255"
 		
-		"image_drawcolor"			"235 235 235 255"
-		"image_armedcolor"			"235 235 235 255"
-		"image_depressedcolor"		"235 235 235 255"
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"200 80 60 255"
+		"image_depressedcolor"	"255 80 60 255"
 		
 		"SubImage"
 		{

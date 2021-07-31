@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"labelText"		"%header%"
 		"textAlignment" "north-west"
-		"xpos"			"8"
-		"ypos"			"-3"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"15"
 		"fgcolor"		"tanlight"
@@ -31,21 +31,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"HSFont14"
+		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"15"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"tanlight"
 	}
 	
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"KCFont14"
+		"font"			"HudFontSmall"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -59,21 +59,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"HSFont14"
+		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"27"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"tanlight"
 	}
 	
 	"CreditMissedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"KCFont14"
+		"font"			"HudFontSmall"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -87,7 +87,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusTextLabel"
-		"font"			"HSFont14"
+		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusCountLabel"
-		"font"			"KCFont14"
+		"font"			"HudFontSmall"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -122,7 +122,7 @@
 		"ypos"			"26"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"S_Shadow"
+		"fgcolor"		"Black"
 	}
 	
 	"CreditRatingLabel"
@@ -136,6 +136,6 @@
 		"ypos"			"25"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"tanlight"
 	}
 }

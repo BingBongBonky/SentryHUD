@@ -34,8 +34,12 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c350"
-		"ypos"				"150"
+		"xpos"				"c250"
+		"xpos_lodef"				"c217"
+		"xpos_hidef"				"c238"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -93,27 +97,38 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Offense"
-		"xpos"			"c-173"
-		"ypos"			"236"
+		"xpos"			"c-300"
+		"xpos_hidef"			"c-287"
+		"xpos_lodef"	"c-260"
+		"ypos"			"96"
+		"ypos_hidef"			"102"
+		"ypos_lodef"	"116"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"14"
+		"tall"			"12"
+		"tall_lodef"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Offense"
-		"textAlignment"	"center"
-		"font"			"HSFont18"
-		"fgcolor"		"White"
+		"textAlignment"	"left"
+		"font"			"MenuClassBuckets"
+		"font_lodef"			"MenuMainTitle"
+		"fgcolor"		"TanDark"
+		"fgcolor_lodef"	"TanLight"
 	}
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c-210"
-		"ypos"				"136"
+		"xpos"				"c-300"
+		"xpos_hidef"				"c-290"
+		"xpos_lodef"		"c-265"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -122,21 +137,22 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"1"
+		"labelText"			"1"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_scout_inactive"
 		"image_armed"		"class_sel_sm_scout_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override"			"0 0 0 0"
-		"depressedFgColor_override"		"0 0 0 0"
-		"selectedFgColor_override" 		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" "TanDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -157,7 +173,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"0"
-			"ypos"			"-2"
+			"ypos"			"0"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -171,8 +187,12 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c-150"
-		"ypos"				"136"
+		"xpos"				"c-250"
+		"xpos_hidef"				"c-244"
+		"xpos_lodef"		"c-225"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -181,21 +201,22 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"2"
+		"labelText"			"2"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_soldier_inactive"
 		"image_armed"		"class_sel_sm_soldier_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override" 		"0 0 0 0"
-		"depressedFgColor_override"		"0 0 0 0"
-		"selectedFgColor_override" 		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -230,8 +251,12 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c-90"
-		"ypos"				"136"
+		"xpos"				"c-200"
+		"xpos_hidef"				"c-194"
+		"xpos_lodef"		"c-180"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -240,21 +265,21 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"3"
+		"labelText"			"3"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_pyro_inactive"
 		"image_armed"		"class_sel_sm_pyro_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override"			"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -290,27 +315,37 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Defense"
-		"xpos"			"c15"
-		"ypos"			"236"
+		"xpos"			"c-110"
+		"xpos_hidef"			"c-105"
+		"xpos_lodef"	"c-95"
+		"ypos"			"96"
+		"ypos_hidef"			"102"
+		"ypos_lodef"	"116"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"14"
+		"tall"			"12"
+		"tall_lodef"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Defense"
-		"textAlignment"	"center"
-		"font"			"HSFont18"
-		"fgcolor"		"White"
+		"textAlignment"	"left"
+		"font"			"MenuClassBuckets"
+		"font_lodef"			"MenuMainTitle"
+		"fgcolor"		"TanDark"
+		"fgcolor_lodef"	"TanLight"
 	}
 	"demoman"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c-30"
-		"ypos"				"136"
+		"xpos"				"c-110"
+		"xpos_lodef"		"c-100"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -319,21 +354,21 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"4"
+		"labelText"			"4"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_demo_inactive"
 		"image_armed"		"class_sel_sm_demo_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override" 		"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -353,8 +388,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"7"
-			"ypos"			"-2"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
@@ -368,31 +403,34 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c30"
-		"ypos"				"136"
+		"xpos"				"c-60"
+		"xpos_lodef"		"c-55"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
-		"wide"				"80"
+		"wide"				"50"
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"5"
+		"labelText"			"5"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_heavy_inactive"
 		"image_armed"		"class_sel_sm_heavy_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override" 		"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -412,7 +450,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"12"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"7"
 			"wide"			"50"
@@ -427,8 +465,10 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c105"
-		"ypos"				"135"
+		"xpos"				"c-10"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -437,21 +477,21 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"6"
+		"labelText"			"6"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_engineer_inactive"
 		"image_armed"		"class_sel_sm_engineer_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override" 		"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -487,27 +527,38 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Support"
-		"xpos"			"c205"
-		"ypos"			"236"
+		"xpos"			"c76"
+		"xpos_hidef"			"c74"
+		"xpos_lodef"	"c70"
+		"ypos"			"96"
+		"ypos_hidef"			"102"
+		"ypos_lodef"	"116"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"14"
+		"tall"			"12"
+		"tall_lodef"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Support"
-		"textAlignment"	"center"
-		"font"			"HSFont18"
-		"fgcolor"		"White"
+		"textAlignment"	"left"
+		"font"			"MenuClassBuckets"
+		"font_lodef"			"MenuMainTitle"
+		"fgcolor"		"TanDark"
+		"fgcolor_lodef"	"TanLight"
 	}
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c165"
-		"ypos"				"135"
+		"xpos"				"c78"
+		"xpos_hidef"				"c70"
+		"xpos_lodef"		"c65"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -516,21 +567,21 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"7"
+		"labelText"			"7"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_medic_inactive"
 		"image_armed"		"class_sel_sm_medic_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override" 		"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -565,8 +616,12 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c225"
-		"ypos"				"135"
+		"xpos"				"c128"
+		"xpos_hidef"				"c120"
+		"xpos_lodef"		"c105"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -575,21 +630,21 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"8"
+		"labelText"			"8"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_sniper_inactive"
 		"image_armed"		"class_sel_sm_sniper_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override" 		"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -624,8 +679,12 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c285"
-		"ypos"				"135"
+		"xpos"				"c178"
+		"xpos_hidef"				"c170"
+		"xpos_lodef"		"c145"
+		"ypos"				"-5"
+		"ypos_lodef"				"9"
+		"ypos_hidef"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -634,21 +693,21 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"9"
+		"labelText"			"9"	[$WIN32]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"KCFont18"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_spy_inactive"
 		"image_armed"		"class_sel_sm_spy_inactive"
 		
-		"fgcolor"						"0 0 0 0"
-		"defaultFgColor_override" 		"0 0 0 0"
-		"armedFgColor_override" 		"0 0 0 0"
-		"depressedFgColor_override" 	"0 0 0 0"
-		"selectedFgColor_override"		"0 0 0 0"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -680,12 +739,12 @@
 		}				
 	}	
 
-	"CancelButton"
+	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-210"
-		"ypos"			"270"
+		"xpos"			"c-295"
+		"ypos"			"r38"
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"25"
@@ -694,28 +753,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"CANCEL"
+		"labelText"		"#TF_ClassMenu_Cancel"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
-		"font"			"HSFont24"
-		
-		// default style
- 		"defaultBgColor_override"	"S_MenuTooltip"
- 		"defaultFgColor_override"	"White"
- 		// armed style
- 		"armedBgColor_override"		"S_Blue"
- 		"armedFgColor_override" 	"White"
- 		// depressed style    
- 		"depressedBgColor_override"	"S_Blue"
- 		"depressedFgColor_override" "White"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override" "200 80 60 255"
 	}
 	
-	"EditLoadoutButton"
+	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c245"
-		"ypos"			"270"
+		"xpos"			"r180"
+		"ypos"			"r38"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"25"
@@ -727,20 +777,10 @@
 		"labelText"		"#EditLoadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"HSFont24"
-
-		// default style
- 		"defaultBgColor_override"	"S_MenuTooltip"
- 		"defaultFgColor_override"	"White"
- 		// armed style
- 		"armedBgColor_override"		"S_Blue"
- 		"armedFgColor_override" 	"White"
- 		// depressed style    
- 		"depressedBgColor_override"	"S_Blue"
- 		"depressedFgColor_override" "White"
+		"font"			"HudFontSmallBold"
 	}
 
-	"ResetButton"
+	"ResetButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
@@ -765,34 +805,53 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
 		"xpos"			"30"
+		"xpos_lodef"			"62"
+		"xpos_hidef"			"72"
 		"ypos"			"r40"
+		"ypos_lodef"			"r60"
+		"ypos_hidef"			"r54"
 		"zpos"			"5"
 		"wide"			"450"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_lodef"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
-		"font"			"HSFont18"
-		"fgcolor"		"White"
+		"font"			"MenuMainTitle"
+		"fgcolor"		"HudOffWhite"
 	}
 	
 	"MenuBG"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"bgcolor_override"	"S_MenuTransparent"
 		"visible"		"1"
 		"enabled"		"1"
+		"fov"			"16"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/UI_class01.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "365"
+			"origin_x_lodef" "415"
+			"origin_x_hidef" "380"
+			"origin_y" "0"
+			"origin_z" "-40"
+		}
 	}	
 
 	"Hint"
@@ -800,19 +859,27 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Hint"
 		"xpos"			"c-300"
+		"xpos_hidef"	"c-287"
+		"xpos_lodef"	"c-260"
 		"ypos"			"95"
+		"ypos_hidef"	"101"
+		"ypos_lodef"	"115"
 		"zpos"			"2"
-		"wide"			"0"
+		"wide"			"600"
+		"tall"			"50"
+		"tall_lodef"	"30"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%hint%"
 		"textAlignment"	"left"
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
+		"font_lodef"	"HudFontMediumSmallSecondary"
 		"fgcolor"		"HudTrainingHint"
+		"fgcolor_lodef"	"HudTrainingHint"
 	}
 	
 	"ShadedBar"
@@ -820,21 +887,69 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
-		"ypos"			"145"
-		"zpos"			"-10"
+		"ypos"			"r50"
+		"ypos_lodef"			"r74"
+		"ypos_hidef"			"r65"
+		"zpos"			"4"
 		"wide"			"f0"
-		"tall"			"110"
+		"tall"			"50"
+		"tall_lodef"			"74"
+		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"S_Menu"
+		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}		
 	
-	"localPlayerImage"
+	"Footer" [$X360]
+	{
+		"ControlName"		"CTFFooter"
+		"fieldName"			"Footer"
+		"zpos"				"6"
+		"tall"				"80"
+		"button_separator"	"10"
+		"button_separator_lodef"	"5"
+		"buttongap"			"50"
+		"buttongap_hidef"		"35"
+		"buttongap_lodef"			"18"
+		"textadjust"		"3"
+		"textadjust_lodef"		"0"
+		"buttonoffsety"		"20"
+		"buttonoffsety_hidef"		"0"
+		"buttonoffsety_lodef"		"18"
+		"center"			"0"
+		"button_pin_right_lodef"	"55"
+		"fonttext"			"MatchmakingDialogMenuLarge"
+		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
+		"fgcolor"			"HudOffWhite" 	
+		
+		"button"
+		{
+			"name"		"cancel"
+			"text"		"#GameUI_Cancel"
+			"icon"		"#GameUI_Icons_B_BUTTON"	
+		}
+		
+		"button"
+		{
+			"name"		"nextprev"
+			"text"		"#TF_NextPrev"
+			"icon"		"#GameUI_Icons_DPAD"	
+		}				
+		
+		"button"
+		{
+			"name"		"select"
+			"text"		"#GameUI_Select"
+			"icon"		"#GameUI_Icons_A_BUTTON"	
+		}
+	}
+	
+	"localPlayerImage" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
@@ -842,7 +957,7 @@
 		"ypos"			"330"
 		"zpos"			"9"
 		"wide"			"45"
-		"tall"			"0"
+		"tall"			"90"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -857,11 +972,11 @@
 		"ypos"			"345"
 		"zpos"			"2"
 		"wide"			"55"
-		"tall"			"0"
+		"tall"			"80"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/color_panel_clear"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
@@ -874,7 +989,7 @@
 		"draw_corner_height" 	"5"	
 	}
 	
-	"countImage0"
+	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
@@ -882,14 +997,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}							
 	
-	"countImage1"
+	"countImage1" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
@@ -897,14 +1012,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage2"
+	"countImage2" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
@@ -912,14 +1027,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage3"
+	"countImage3" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
@@ -927,14 +1042,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage4"
+	"countImage4" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
@@ -942,14 +1057,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage5"
+	"countImage5" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
@@ -957,14 +1072,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage6"
+	"countImage6" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
@@ -972,14 +1087,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage7"
+	"countImage7" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
@@ -987,14 +1102,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage8"
+	"countImage8" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
@@ -1002,14 +1117,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage9"
+	"countImage9" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
@@ -1017,14 +1132,14 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"countImage10"
+	"countImage10" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
@@ -1032,26 +1147,26 @@
 		"ypos"			"345"
 		"zpos"			"9"
 		"wide"			"30"
-		"tall"			"0"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
 	
-	"CountLabel"
+	"CountLabel" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
-		"xpos"			"-9999"
+		"xpos"			"c35"
 		"ypos"			"402"
 		"zpos"			"10"
-		"wide"			"0"
+		"wide"			"150"
 		"tall"			"18"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
@@ -1059,12 +1174,12 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"numScout"
+	"numScout" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c-210"
-		"ypos"			"150"
+		"xpos"			"c-300"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1075,16 +1190,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}	
 	
-	"numSoldier"
+	"numSoldier" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c-150"
-		"ypos"			"150"
+		"xpos"			"c-250"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1095,16 +1210,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}		
 	
-	"numPyro"
+	"numPyro" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c-90"
-		"ypos"			"150"
+		"xpos"			"c-200"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1115,16 +1230,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}			
 	
-	"numDemoman"
+	"numDemoman" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c-24"
-		"ypos"			"150"
+		"xpos"			"c-110"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1135,16 +1250,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}				
 	
-	"numHeavy"
+	"numHeavy" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c43"
-		"ypos"			"150"
+		"xpos"			"c-60"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1155,16 +1270,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}					
 	
-	"numEngineer"
+	"numEngineer" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c106"
-		"ypos"			"150"
+		"xpos"			"c-10"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1175,16 +1290,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}						
 	
-	"numMedic"
+	"numMedic" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c165"
-		"ypos"			"150"
+		"xpos"			"c78"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1195,16 +1310,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}							
 	
-	"numSniper"
+	"numSniper" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c227"
-		"ypos"			"150"
+		"xpos"			"c128"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1215,16 +1330,16 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}						
 	
-	"numSpy"
+	"numSpy" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c284"
-		"ypos"			"150"
+		"xpos"			"c178"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
@@ -1235,8 +1350,8 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"KCFont12"
-		"fgcolor"		"White"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
 	}								
 	
 	"MvMUpgradeImageScout"
@@ -1501,7 +1616,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"35"
+		"fov"			"25"
 		"allow_rot"		"0"
 
 		"paintbackground" "1"		
@@ -1513,10 +1628,10 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "190"
+			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "250"
-			"origin_y" "40"
+			"origin_x" "320"
+			"origin_y" "10"
 			"origin_z" "-49"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
@@ -1539,8 +1654,8 @@
 		"tall"			"165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 	}
 	

@@ -17,10 +17,10 @@
 		"ControlName"		"CExCheckButton"
 		"fieldName"		"MapCheckbutton"
 		"xpos"		"5"
-		"ypos"		"cs-0.5"
+		"ypos"		"-2"
 		"zpos"		"3"
 		"wide"		"f0"
-		"tall"		"f6"
+		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
@@ -43,7 +43,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%title_token%"
 		"textAlignment"	"west"
-		"font"			"HSFont12"
+		"font"			"HudFontSmallest"
 		"textinsetx"	"20"
 		"use_proportional_insets"	"1"
 		
@@ -61,7 +61,7 @@
 		"proportionaltoparent"	"1"
 		"progress"		"0.5"
 
-		"fgcolor_override"	"S_SBRed"
+		"fgcolor_override"	"117 107 94 30"
 		"bgcolor_override"	"0 0 0 0"
 	}
 }

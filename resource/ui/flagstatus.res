@@ -7,24 +7,18 @@
 		"xpos"			"40"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"60"
+		"wide"			"80"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		
-		"if_mvm"
-		{
-			"wide"		"80"
-			"tall"		"80"
-		}
 	}
 	"Briefcase"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Briefcase"
-		"xpos"			"55"
-		"ypos"			"14"
+		"xpos"			"65"
+		"ypos"			"28"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"30"
@@ -32,7 +26,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
-
+		
 		"if_mvm"
 		{
 			"xpos"			"62"
@@ -45,11 +39,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"StatusIcon"
-		"xpos"			"58"
-		"ypos"			"18"
+		"xpos"			"75"
+		"ypos"			"26"
 		"zpos"			"3"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"

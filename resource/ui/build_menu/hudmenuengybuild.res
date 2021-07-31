@@ -2,7 +2,7 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"10"
@@ -12,8 +12,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"bgcolor_override"		"S_MenuShaderTransparent"
-		"paintbackgroundtype"	"2"
+		"icon"			"hud_menu_bg"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"Divider"
@@ -24,8 +24,8 @@
 		"ypos"			"47"
 		"zpos"			"1"
 		"wide"			"436"
-		"tall"			"0"
-		"fillcolor"		"255 222 208 0"
+		"tall"			"2"
+		"fillcolor"		"255 222 208 255"
 	}
 	
 	"BuildIcon"	
@@ -33,7 +33,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
 		"xpos"			"15"
-		"ypos"			"-5"
+		"ypos"			"-8"
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
@@ -41,7 +41,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"110 96 252 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"BuildIconShadow"	
@@ -49,7 +49,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
 		"xpos"			"16"
-		"ypos"			"-4"
+		"ypos"			"-7"
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
@@ -57,17 +57,16 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"S_Shadow"
+		"iconColor"		"0 0 0 255"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HSFont48"
-		"fgcolor"		"White"
+		"font"			"HudFontGiantBold"
 		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"-5"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -85,10 +84,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HSFont48"
-		"fgcolor"		"S_Shadow"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"-3"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"xpos"			"69"			// align me to the left edge of the first selection
+		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -107,9 +106,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
-		"fgcolor"		"White"
-		"xpos"			"245"
-		"ypos"			"8"
+		"xpos"			"218"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"13"
@@ -122,7 +120,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"

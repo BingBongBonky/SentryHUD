@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"S_EconBG"
-		"infocus_bgcolor_override" 		"S_EconBG"
-		"outoffocus_bgcolor_override" 	"S_EconBG"
+		"bgcolor_override"	"46 43 42 255"
+		"infocus_bgcolor_override" "46 43 42 255"
+		"outoffocus_bgcolor_override" "46 43 42 255"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
@@ -67,7 +67,6 @@
 				{
 					"use_item_rendertarget" "0"
 					"allow_rot"				"0"
-					"inventory_image_type"  "1" // High quality item image
 				}
 			
 				"namelabel"
@@ -85,7 +84,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"235 235 235 255"
+					"fgcolor"		"235 226 202 255"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -94,7 +93,7 @@
 		
 		"recipebuttons_kv"
 		{
-			"font"			"HSFont14"
+			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -107,11 +106,11 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "200 200 200 255"
+			"defaultFgColor_override" "117 107 94 255"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "235 235 235 255"
+			"armedFgColor_override" "235 226 202 255"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "235 235 235 255"
+			"depressedFgColor_override" "178 82 22 255"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
@@ -145,7 +144,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"labelText"		"#CraftStep1"
 		"textAlignment"	"north-west"
 		"xpos"			"c-290"
@@ -157,7 +156,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "200 187 161 255"
 	}
 	
 	"selectedrecipecontainer"
@@ -170,25 +169,25 @@
 		"wide"			"300"
 		"tall"			"350"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"200 187 161 0"
 
 		"RecipeTitle"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HSFont24"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
-			"ypos"			"-25"
+			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"280"
-			"tall"			"80"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
 		
@@ -196,7 +195,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeInputStringLabel"
-			"font"			"HSFont12"
+			"font"			"ItemFontAttribLarge"
 			"labelText"		"%recipeinputstring%"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -216,7 +215,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -228,13 +227,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"117 107 94 255"
 		}
 		"OutputLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Craft_Recipe_Outputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -246,7 +245,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"117 107 94 255"
 		}
 		
 		"CraftButton"
@@ -264,7 +263,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HSFont24"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -278,8 +277,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeAccountLabel"
-			"font"			"HSFont12"
-			"labelText"		"#Craft_PremiumRecipe" // haha imagine being f2p
+			"font"			"HudFontSmallestBold"
+			"labelText"		"#Craft_PremiumRecipe"
 			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"318"
@@ -291,7 +290,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"White"
+			"fgcolor"		"178 82 22 255"
 		}
 		"UpgradeButton"
 		{
@@ -449,7 +448,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 235 235 255"
+			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

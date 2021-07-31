@@ -2,7 +2,7 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"10"
@@ -12,16 +12,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"bgcolor_override"		"S_MenuShaderTransparent"
-		"paintbackgroundtype"	"2"
+		"icon"			"hud_menu_bg"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"12"
-		"ypos"			"-5"
+		"xpos"			"15"
+		"ypos"			"-8"
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
@@ -29,15 +29,15 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"50 255 210 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"BuildIconShadow"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
-		"xpos"			"13"
-		"ypos"			"-4"
+		"xpos"			"16"
+		"ypos"			"-7"
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
@@ -45,17 +45,16 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"S_Shadow"
+		"iconColor"		"0 0 0 255"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HSFont32"
-		"fgcolor"		"White"
+		"font"			"HudFontGiant"
 		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"5"
+		"ypos"			"8"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -73,10 +72,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HSFont32"
-		"fgcolor"		"S_Shadow"
+		"font"			"HudFontGiant"
+		"fgcolor"		"Black"
 		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"7"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -95,9 +94,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
-		"fgcolor"		"White"
-		"xpos"			"45"
-		"ypos"			"168"
+		"xpos"			"35"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"13"

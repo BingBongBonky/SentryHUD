@@ -96,7 +96,7 @@
 		"labelText"		"%button_token%"
 		"textinsetx"	"4"
 		"use_proportional_insets" "1"
-		"font"			"HSFont12"
+		"font"			"HudFontSmallestBold"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -112,9 +112,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanLight"
 	}	
 
 	"MatchmakingBanPanel"
@@ -136,7 +136,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MatchmakingBanDurationLabel"
-			"font"			"KCFont12"
+			"font"			"MMenuPlayListDesc"
 			"fgcolor_override"	"RedSolid"
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"	"south-west"
@@ -159,7 +159,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"HSFont8"
+		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
 		"xpos"			"rs1"
@@ -172,7 +172,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "TanLight"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
@@ -181,7 +181,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabelShadow"
-		"font"			"HSFont8"
+		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
 		"xpos"			"rs1+1"
@@ -194,7 +194,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "S_Shadow"
+		"fgcolor_override" "Black"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
@@ -219,15 +219,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 				
-		"defaultFgColor_override" "Gray"
-		"armedFgColor_override" "White"
-		"depressedFgColor_override" "White"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
 				
-		"image_drawcolor"	"White"
-		"image_armedcolor"	"White"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 140 140 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

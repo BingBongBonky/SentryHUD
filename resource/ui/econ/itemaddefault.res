@@ -21,8 +21,8 @@
 		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
 
-		"paintborder"	"0"
-		"bgcolor_override"		"S_EconBG"
+		"paintborder"	"1"
+		"border"		"ReplayDefaultBorder"
 	}
 
 	"ItemName"
@@ -77,7 +77,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"TanDark"
 				"mouseinputenabled"	"1"
 			}
 		
@@ -109,7 +109,7 @@
 			"proportionaltoparent"	"1"
 
 			"font"			"AdFont_AdText"
-			"fgcolor_override"	"235 235 235 255"
+			"fgcolor_override"	"163 163 163 255"
 			"textinsetx"	"10"
 			"textinsety"	"0"
 			"textAlignment"	"north-west"
@@ -174,8 +174,8 @@
 
 		"border_default"	"NoBorder"
 
-		"defaultBgColor_override"	"S_FindGameGreen"
-		"armedBgColor_override"		"CreditsGreen"
+		"defaultBgColor_override"	"72 103 32 255"
+		"armedBgColor_override"		"72 133 32 255"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -206,8 +206,8 @@
 
 		"border_default"	"NoBorder"
 
-		"defaultBgColor_override"	"S_FindGameGreen"
-		"armedBgColor_override"		"CreditsGreen"
+		"defaultBgColor_override"	"72 103 32 255"
+		"armedBgColor_override"		"72 133 32 255"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"

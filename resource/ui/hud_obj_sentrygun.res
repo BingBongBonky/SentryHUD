@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BuildingStatusItem"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"60"
@@ -12,6 +12,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabPosition"	"0"
 	}
 	
 	"Background"
@@ -23,48 +24,11 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_background_disabled"
+		"icon"			"obj_status_background_tall_disabled"
 		"iconColor"		"255 255 255 255"
-	}
-
-	"BackgroundNew"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundNew"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"bgcolor_override"	"S_MenuTransparent"
-	}
-
-	"TeamColoredLine"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"		
-		"wide"			"4"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		"src_corner_height"		"3"
-		"src_corner_width"		"3"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
 	}
 	
 	"Icon_Sentry_1"
@@ -79,7 +43,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"237 237 255 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"Icon_Sentry_2"
@@ -94,7 +58,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_2"
-		"iconColor"		"237 237 255 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"Icon_Sentry_3"
@@ -109,7 +73,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"237 237 255 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NotBuiltPanel"
@@ -126,7 +90,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"HSFont8"
+			"font"			"DefaultVerySmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -166,7 +130,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"237 237 255 255"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Icon_Upgrade_2"
@@ -182,7 +146,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"237 237 255 255"
+			"iconColor"		"255 255 255 255"
 		}
 
 		"Icon_Upgrade_3"
@@ -198,18 +162,19 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"237 237 255 255"
+			"iconColor"		"255 255 255 255"
 		}
 		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"116"
-			"ypos"			"-3"
+			"xpos"			"114"
+			"ypos"			"0"
+			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"44"
-			"tall"			"66"
+			"tall"			"60"
 			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background_tall"
@@ -280,7 +245,6 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
-				"fgcolor"		"White"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -300,8 +264,6 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
-				"fgcolor_override"	"White"
-				"bgcolor_override"	"S_MenuTransparent"
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
@@ -339,7 +301,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"White"
+				"drawcolor"		"ProgressOffWhite"
 			}
 						
 			"KillsLabel"
@@ -347,7 +309,6 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
 				"font"			"DefaultSmall"
-				"fgcolor"		"White"
 				"xpos"			"12"
 				"ypos"			"13"
 				"wide"			"200"
@@ -366,7 +327,6 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
-				"fgcolor"		"White"
 				"xpos"			"0"
 				"ypos"			"25"
 				"zpos"			"1"
@@ -376,7 +336,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"White"
+				"drawcolor"		"ProgressOffWhite"
 			}
 			
 			"Shells"
@@ -384,8 +344,6 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"
-				"fgcolor_override"		"White"
-				"bgcolor_override"		"S_MenuTransparent"
 				"xpos"			"12"
 				"ypos"			"26"
 				"wide"			"38"
@@ -403,7 +361,6 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"RocketIcon"
-				"fgcolor"		"White"
 				"xpos"			"0"
 				"ypos"			"38"
 				"zpos"			"1"
@@ -421,8 +378,6 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Rockets"
 				"font"			"Default"
-				"fgcolor_override"		"White"
-				"bgcolor_override"		"S_MenuTransparent"
 				"xpos"			"12"
 				"ypos"			"39"
 				"wide"			"38"
@@ -449,7 +404,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
-				"iconColor"		"White"
+				"iconColor"		"ProgressOffWhite"
 			}			
 			
 			"Upgrade"
@@ -457,8 +412,6 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"fgcolor_override"		"White"
-				"bgcolor_override"		"S_MenuTransparent"
 				"xpos"			"12"
 				"ypos"			"39"
 				"wide"			"38"

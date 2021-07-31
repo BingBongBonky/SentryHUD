@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"S_EconBG"
-		"infocus_bgcolor_override" 		"S_EconBG"
-		"outoffocus_bgcolor_override" 	"S_EconBG"
+		"bgcolor_override"	"46 43 42 255"
+		"infocus_bgcolor_override" "46 43 42 255"
+		"outoffocus_bgcolor_override" "46 43 42 255"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -31,7 +31,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"S_SBRed"
+		"itemcountcolor"			"200 80 60 255"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	
@@ -263,7 +263,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
-	"ShowBackpackButton"
+		"ShowBackpackButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
@@ -500,7 +500,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -517,7 +517,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"HSFont14"
+		"font"			"HudFontSmall"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -529,7 +529,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"S_SBRed"
+		"fgcolor"		"117 107 94 255"
 		"centerwrap"	"1"
 	}
 	
@@ -573,7 +573,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabel"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -585,13 +585,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "117 107 94 255"
 	}
 	"LoadoutChangesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"HSFont18"
+		"font"			"HudFontSmallBold"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -603,7 +603,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "S_SBRed"
+		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"class_loadout_panel"
@@ -633,18 +633,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c268"
-		"ypos"			"15"
+		"xpos"			"c275"
+		"ypos"			"10"
 		"zpos"			"100"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"?"
-		"font"			"HSFont14"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -652,13 +652,6 @@
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "S_EconBG"
-		"armedFgColor_override" "White"
-		"armedBgColor_override"	"S_Blue"
-		"depressedFgColor_override" "White"
-		"depressedBgColor_override" "S_Blue"
 	}
 	
 	"StartExplanation"
@@ -2139,9 +2132,10 @@
 		"ypos"			"0"
 		"zpos"			"2000"
 		"wide"			"f0"
-		"tall"			"440"
+		"tall"			"f100"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"S_MenuTransparent"
+		"bgcolor_override"	"30 25 25 245"
 	}
+
 }

@@ -77,8 +77,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -120,8 +120,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -153,7 +153,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"?"
-			"font"			"HSFont14"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -170,14 +170,14 @@
 			"ControlName"		"Label"
 			"fieldName"		"Title"
 			"xpos"		"10"
-			"ypos"		"45"
+			"ypos"		"47"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
-			"font"			"HSFont18"
+			"font"			"HudFontMediumSmallBold"
 		
 			"mouseinputenabled"	"0"
 		}
@@ -194,13 +194,13 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HSFont12"
-			"fgcolor_override"	"White"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanDark"
 		
 			"mouseinputenabled"	"1"
 		}
 
-		"QueueEstimation" // Unused
+		"QueueEstimation"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"QueueEstimation"
@@ -213,12 +213,11 @@
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
 			"font"			"HudFontSmallest"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"
-			"enabled"	"0"
 		
-			"mouseinputenabled"	"1"
+			"mouseinputenabled"	"0"
 		}
 
 		"PlayListDropShadow"
@@ -232,7 +231,7 @@
 			"tall"			"f65"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
+			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -255,17 +254,17 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1"
+				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"6" // This gets slammed from client schme.  GG.
+				"wide"			"5" // This gets slammed from client schme.  GG.
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 
 				"Slider"
 				{
-					"fgcolor_override"	"White"
+					"fgcolor_override"	"TanDark"
 				}
 		
 				"UpButton"
