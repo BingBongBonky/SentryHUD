@@ -45,9 +45,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
-		"PaintBorder"	"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"S_MenuTooltip"
+		"PaintBorder"	"0"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -59,10 +59,9 @@
 			"zpos"			"1"
 			"wide"			"220"
 			"tall"			"209"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"visible"		"0"
+			"enabled"		"0"
+			"paintborder"	"0"
 		}
 	
 	
@@ -81,7 +80,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "S_Menu"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -99,14 +98,14 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "S_Menu"
 		}
 		
 		"MapsDescLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapsDescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HSFont12"
 			"labelText"		"#Store_MapsDesc"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -163,8 +162,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
+		"image_drawcolor"	"76 76 76 255"
+		"image_armedcolor"	"235 235 235 255"
 		
 		"SubImage"
 		{
@@ -196,7 +195,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

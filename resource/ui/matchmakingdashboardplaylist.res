@@ -22,12 +22,12 @@
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
+		"tall"		"22"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"font"			"HSFont32"
+		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -56,7 +56,7 @@
 		"tall"			"298"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
+		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}

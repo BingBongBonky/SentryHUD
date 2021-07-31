@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"S_EconBG"
+		"infocus_bgcolor_override" 		"S_EconBG"
+		"outoffocus_bgcolor_override" 	"S_EconBG"
 
 		"item_ypos"						"50"
 		"output_item_ypos"				"255"		
@@ -41,7 +41,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"61 61 61 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -59,6 +59,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"  "1" // High quality item image
 			}
 			
 
@@ -108,7 +109,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"ItemFontNameLarge"
+			"font"			"HSFont12"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -120,7 +121,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor"		"White"
 			"wrap"			"1"
 		}
 	
@@ -128,7 +129,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -140,13 +141,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"White"
 		}
 		"OutputLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"labelText"		"#Dynamic_Recipe_Outputs_Not_Complete"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -158,7 +159,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"White"
 		}
 		"UntradableLabel"
 		{
@@ -194,7 +195,8 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"HSFont32"
+			"fgcolor"		"White"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -219,7 +221,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"<"
-			"font"			"HudFontSmallBold"
+			"font"			"KCFont18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -231,7 +233,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurInputPageLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"KCFont18"
 			"labelText"		"%inputpage%"
 			"textAlignment"	"center"
 			"xpos"			"210"
@@ -243,7 +245,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "S_SBRed"
 		}
 		"NextInputPageButton"
 		{
@@ -260,7 +262,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		">"
-			"font"			"HudFontSmallBold"
+			"font"			"KCFont18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -320,14 +322,14 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor_override"		"172 52 52 255"
 		}
 
 		"BackpackItems"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackpackItems"
-			"font"			"HudFontSmallBold"
+			"font"			"HSFont14"
 			"labelText"		"#Dynamic_Recipe_Matching_Items"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -339,7 +341,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor"		"White"
 			"wrap"			"1"
 		}
 			
@@ -358,7 +360,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontMediumBold"
+			"font"			"HSFont32"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -383,7 +385,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"<"
-			"font"			"HudFontSmallBold"
+			"font"			"KCFont18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -395,7 +397,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurPageLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"KCFont18"
 			"labelText"		"%backpackpage%"
 			"textAlignment"	"center"
 			"xpos"			"26"
@@ -407,7 +409,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "S_SBRed"
 		}
 		"NextPageButton"
 		{
@@ -424,7 +426,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		">"
-			"font"			"HudFontSmallBold"
+			"font"			"KCFont18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -444,7 +446,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"61 61 61 255"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"

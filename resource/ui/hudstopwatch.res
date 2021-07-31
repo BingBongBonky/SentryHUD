@@ -2,94 +2,54 @@
 {
 	"HudStopWatchBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"0"
-		"ypos"			"5"
+		"xpos"			"35"
+		"ypos"			"14"
 		"zpos"			"-1"
-		"wide"			"125"
-		"tall"			"31"
+		"wide"			"91"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-		if_comp
-		{
-			"ypos"	"20"
-		}
-
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
+		"bgcolor_override"	"S_MenuTransparent"
 	}
 
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StopWatchImageCaptureTime"
-		"xpos"			"5"
-		"ypos"			"12"
-		"zpos"			"0"
-		"wide"			"17"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/ico_time_10"
-		"scaleImage"		"1"	
-		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
-
-		if_comp
-		{
-			"ypos"	"27"
-		}
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"2"
-		"ypos"				"-4"	[$WIN32]
+		"xpos"				"0"
+		"ypos"				"-6"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
 
-		if_comp
-		{
-			"ypos"	"11"
-		}
-
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"		"HudFontMediumSmall"
-			"font_lodef"		"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"		"23"
-			"xpos_hidef"		"114"
-			"xpos_lodef"		"114"
-			"ypos"			"11"
-			"ypos_minmode"		"11"
-			"ypos_hidef"		"15"
-			"ypos_lodef"		"18"
+			"font"			"KCFont12"
+			"fgcolor"		"White"
+			"xpos"			"45"
+			"ypos"			"12"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"		"45"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"		"west"
 		}	
 	}
 
@@ -97,11 +57,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"HudFontMediumBold"
+		"font"			"KCFont12"
+		"fgcolor"		"White"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
-		"xpos"			"0"
-		"ypos"			"6"
+		"xpos"			"-6"
+		"ypos"			"7"
 		"zpos"			"4"
 		"wide"			"93"
 		"tall"			"30"
@@ -109,21 +70,17 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-
-		if_comp
-		{
-			"ypos"	"21"
-		}
 	}
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HSFont8"
+		"fgcolor"		"White"
 		"labelText"		"%pointslabel%"
-		"textAlignment"		"east"
-		"xpos"			"0"
-		"ypos"			"9"
+		"textAlignment"		"west"
+		"xpos"			"90"
+		"ypos"			"7"
 		"zpos"			"4"
 		"wide"			"120"
 		"tall"			"30"
@@ -132,63 +89,42 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-
-		if_comp
-		{
-			"ypos"	"24"
-		}
 	}
 
 	"StopWatchLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HSFont8"
+		"fgcolor"		"White"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"		"west"
-		"xpos"			"25"
-		"ypos"			"5"
+		"xpos"			"43"
+		"ypos"			"6"
 		"zpos"			"4"
-		"wide"			"90"
+		"wide"			"80"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
-
-		if_comp
-		{
-			"ypos"	"20"
-		}
 	}
 
 	"HudStopWatchDescriptionBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HudStopWatchDescriptionBG"
-		"xpos"			"0"
-		"ypos"			"27"
-		"zpos"			"-1"
-		"wide"			"125"
-		"tall"			"19"
+		"xpos"			"40"
+		"ypos"			"29"
+		"zpos"			"-5"
+		"wide"			"80"
+		"tall"			"8"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"
-
-
-		"src_corner_height"	"2"				// pixels inside the image
-		"src_corner_width"	"2"
-		
-		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
-
-		if_comp
-		{
-			"ypos"	"42"
-		}
+		"bgcolor_override"	"S_MenuTransparent"
 	}
 
 	"StopWatchDescriptionLabel"
@@ -198,8 +134,8 @@
 		"font"			"ClockSubTextTiny"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"center"
-		"xpos"			"0"
-		"ypos"			"23"
+		"xpos"			"18"
+		"ypos"			"18"
 		"zpos"			"4"
 		"wide"			"125"
 		"tall"			"30"
@@ -208,10 +144,5 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-
-		if_comp
-		{
-			"ypos"	"38"
-		}
 	}
 }

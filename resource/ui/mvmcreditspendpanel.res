@@ -31,83 +31,83 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesLabel"
-		"font"			"HudFontSmall"
+		"font"			"HSFont14"
 		"labelText"		"#TF_PVE_Upgrades"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"15"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"UpgradesCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"KCFont14"
 		"labelText"		"%upgrades%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
 		"ypos"			"15"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"font"			"HudFontSmall"
+		"font"			"HSFont14"
 		"labelText"		"#TF_PVE_Buybacks"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"27"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"BuyBackCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"KCFont14"
 		"labelText"		"%buybacks%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
 		"ypos"			"27"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"BottleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleLabel"
-		"font"			"HudFontSmall"
+		"font"			"HSFont14"
 		"labelText"		"#TF_PVE_Bottles"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"39"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 	
 	"BottleCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"KCFont14"
 		"labelText"		"%bottles%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
 		"ypos"			"39"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 }

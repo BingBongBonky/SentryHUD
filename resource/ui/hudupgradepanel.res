@@ -48,6 +48,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"  "1" // High quality item image
 			}
 		}
 	}
@@ -66,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 210"
+		"bgcolor_override"	"S_MenuTransparent"
 	}
 	
 	"SelectWeaponPanel"
@@ -82,12 +83,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"63 59 55 0"
+		"bgcolor_override"	"0 0 0 0"
 		
-		"OutterPanelBG"
+		"OuterPanelBG"
 		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"OutterPanelBG"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"OuterPanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-8"
@@ -97,14 +98,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"23"	// pixels inside the image
-			"src_corner_width"	"23"
-			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
-
+			"bgcolor_override"	"S_MenuShader"
 		}
 		
 		"InnerPanelRim"
@@ -120,9 +114,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
-			"PaintBackgroundType" "2"
-			"bgcolor_override"	"142 132 121 255"
+			"bgcolor_override"	"S_Menu"
 		}
 		
 		"InnerBGPanel"
@@ -135,8 +127,9 @@
 			"wide"			"470"
 			"tall"			"220"
 			"visible"		"1"
+			"enabled"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"bgcolor_override"		"S_Menu"
 		}
 	
 		"PlayerUpgradeButton"
@@ -162,7 +155,7 @@
 			"Command"		"PlayerUpgrade"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			//"bgcolor_override"	"142 132 121 255"
+			//"bgcolor_override"	"0 0 0 0"
 			"alpha"	"0"
 		}
 		
@@ -212,7 +205,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"142 132 121 255"
+			"bgcolor_override"	"S_Blue"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -230,7 +223,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
+			"bgcolor_override"	"S_Blue"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -238,18 +231,18 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MouseOverUpgradePanel"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"10"
-			"wide"			"157"
-			"tall"			"47"
+			"wide"			"158"
+			"tall"			"48"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"S_Blue"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel1"
@@ -266,7 +259,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -284,7 +277,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -302,7 +295,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -320,7 +313,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -338,7 +331,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -356,7 +349,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"bgcolor_override"	"S_MenuTooltip"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -381,13 +374,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GreyedOutLabel"
-			"font"			"HudFontSmall"
+			"font"			"HSFont14"
 			"labelText"		"%powerup_hint%"
 			"textAlignment"	"north"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"xpos"			"190"
-			"ypos"			"95"
+			"ypos"			"85"
 			"zpos"			"2"
 			"wide"			"240"
 			"tall"			"140"
@@ -462,14 +455,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"52 48 45 255"
+			"bgcolor_override"	"S_MenuTooltip"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsDescriptionLabel"
-			"font"			"ItemFontAttribLarge"
+			"font"			"KCFont12"
 			"labelText"		"%upgrade_description%"
 			"textAlignment"	"center"
 			"wrap"			"1"
@@ -499,7 +492,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"97 94 84 255"
+			"bgcolor_override"	"S_MenuTooltip"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -516,14 +509,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"72 68 63 255"
+			"bgcolor_override"	"S_MenuTransparent"
 		}
 		
 		"UpgradeItemsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsLabel"
-			"font"			"HudFontSmall"
+			"font"			"KCFont12"
 			"labelText"		"%upgrade_label%"
 			"textAlignment"	"center"
 			"xpos"			"25"
@@ -560,30 +553,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"KCFont18"
 			"labelText"		"%credits%"
-			"textAlignment"	"east"
-			"xpos"			"0"
-			"ypos"			"280"
+			"textAlignment"	"west"
+			"xpos"			"255"
+			"ypos"			"278"
 			"wide"			"245"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"121 195 58 255"
+			"fgcolor"		"S_FindGameGreen"
 		}
 		
 		"CreditsTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HSFont14"
 			"labelText"		"#TF_PVE_UpgradeAmount"
-			"textAlignment"	"west"
-			"xpos"			"250"
-			"ypos"			"280"
-			"wide"			"500"
+			"textAlignment"	"east"
+			"xpos"			"140"
+			"ypos"			"278"
+			"wide"			"100"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -685,7 +678,7 @@
 		
 		"TipPanelBG"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"TipPanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -696,20 +689,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"23"	// pixels inside the image
-			"src_corner_width"	"23"
-			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
+			"bgcolor_override"	"S_Menu"
 		}
 		
 		"TipText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipText"
-			"font"			"HudFontSmallest"
+			"font"			"KCFont12"
 			"labelText"		"%tiptext%"
 			"textAlignment" "west"
 			"xpos"			"10"

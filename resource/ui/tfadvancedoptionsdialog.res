@@ -13,11 +13,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override"		"S_MenuTooltip"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"paintborder"			"1"
-		"paintbackground"		"0"
+		"paintborder"			"0"
+		"paintbackground"		"1"
 		"border"				"GrayDialogBorder"
 		
 		"control_w"			"500"
@@ -29,7 +29,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HSFont24"
 		"labelText"		"#TF_AdvancedOptions"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -41,7 +41,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	"CancelButton"
 	{
@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -82,7 +82,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -125,7 +125,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
+			"font"			"KCFont12"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -137,7 +137,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}

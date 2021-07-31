@@ -114,12 +114,12 @@
 		"command"		"nav_close"
 
 		"textAlignment"	"east"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont18"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"S_Blue"
 	}
 
 	"ReturnButton"
@@ -145,12 +145,12 @@
 		"labelText"		"<"
 
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont18"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"S_Blue"
 	}
 	
 	"BGPanel"

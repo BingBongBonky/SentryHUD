@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"S_EconBG"
+		"infocus_bgcolor_override" 		"S_EconBG"
+		"outoffocus_bgcolor_override" 	"S_EconBG"
 		
 		"max_cart_model_panels"	"10"
 		
@@ -33,16 +33,16 @@
 		"item_controls_yoffset"	"2"
 
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"24 22 20 255"
+		"item_backdrop_color"				"S_MenuTooltip"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"2"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"S_MenuShader"
+		"item_panel_bgcolor_mouseover"	"S_MenuTooltip"
+		"item_panel_bgcolor_selected"	"S_MenuTooltip"
 		
 		"classicon_xdelta"		"5"
 
@@ -82,7 +82,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type" "1"
+				"inventory_image_type"  "1"
 			}
 
 			"use_item_sounds" "1"		
@@ -133,6 +133,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"  "1"
 			}
 			
 			"use_item_sounds" "1"		
@@ -140,7 +141,7 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HSFont14"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -171,10 +172,10 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"Black"
+		"bgcolor_override"	"White"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
+		"font"		"KCFont12"
 	}
 	
 	"SubcategoryFilterComboBox"
@@ -200,21 +201,21 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
-		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"fgcolor_override"					"White"
+		"bgcolor_override"					"S_MenuShader"
+		"disabledFgColor_override" 			"White"
+		"disabledBgColor_override" 			"S_MenuShader"
+		"selectionColor_override" 			"S_MenuShader"
+		"selectionTextColor_override" 		"White"
+		"defaultSelectionBG2Color_override" "S_MenuShader"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
-			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
-			"paintbackgroundtype"	"2"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"S_MenuShader"
+			"armedFgColor_override"		"White"
+			"armedBgColor_override"		"S_MenuShader"
+			"paintbackgroundtype"		"2"
 		}
 	}
 	
@@ -223,7 +224,7 @@
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
 		"Font"				"HudFontSmallestBold"
-		"xpos"				"c152"
+		"xpos"				"c145"
 		"ypos"				"30"
 		"zpos"				"1"
 		"wide"				"142"
@@ -241,21 +242,21 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
-		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"fgcolor_override"					"White"
+		"bgcolor_override"					"S_MenuShader"
+		"disabledFgColor_override" 			"White"
+		"disabledBgColor_override" 			"S_MenuShader"
+		"selectionColor_override" 			"S_MenuShader"
+		"selectionTextColor_override" 		"White"
+		"defaultSelectionBG2Color_override" "S_MenuShader"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
-			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
-			"paintbackgroundtype"	"2"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"S_MenuShader"
+			"armedFgColor_override"		"White"
+			"armedBgColor_override"		"S_MenuShader"
+			"paintbackgroundtype"		"2"
 		}
 	}
 	
@@ -320,7 +321,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"243 234 216 255"
+		"fgcolor"		"White"
 	}
 
 	"PrevPageButton"
@@ -338,7 +339,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -351,7 +352,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"KCFont14"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c220"
@@ -363,7 +364,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "S_SBRed"
 	}
 	
 	"NextPageButton"
@@ -381,7 +382,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -394,7 +395,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"KCFont12"
 		"labelText"		"%selectionprice%"
 		"textAlignment"	"east"
 		"xpos"			"c20"
@@ -414,7 +415,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-70"
@@ -426,14 +427,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 	
 	"SubcategoryFiltersLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubcategoryFiltersLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		"#Store_ItemTypeFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c30"
@@ -445,14 +446,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 	
 	"SortFilterLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SortFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		"#Store_SortByLabel"
 		"textAlignment"	"west"
 		"xpos"			"c152"
@@ -464,14 +465,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 	
 	"ClassFilterLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont12"
 		"labelText"		"#Store_ClassFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -483,7 +484,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 	
 	"ClassFilterNavPanel"
@@ -520,10 +521,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
+			"fgcolor"					"White"
+			"defaultFgColor_override" 	"White"
+			"armedFgColor_override" 	"White"
+			"depressedFgColor_override" "White"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -693,13 +694,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HSFont14"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"315"
 		"zpos"			"0"
-		"wide"			"200"
+		"wide"			"f0"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -711,7 +712,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-300"
@@ -725,7 +726,7 @@
 		"textinsetx"	"15"
 		
 		"Command"		"viewcart"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -759,55 +760,37 @@
 		"image"			"store_special"
 		"scaleImage"	"1"
 	}
-	
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c0"
-		"ypos"			"330"
-		"zpos"			"25"
-		"wide"			"100"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
 
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c50"
-		"ypos"			"15"
+		"xpos"			"c268"
+		"ypos"			"10"
 		"zpos"			"100"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"19"
+		"tall"			"19"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
+		"font"			"HSFont14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
+		"default"		"0"
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultFgColor_override" 	"White"
+		"defaultBgColor_override" 	"S_EconBG"
+		"armedFgColor_override" 	"White"
+		"armedBgColor_override"		"S_Blue"
+		"depressedFgColor_override" "White"
+		"depressedBgColor_override" "S_Blue"
 	}
 
 	"StartExplanation"

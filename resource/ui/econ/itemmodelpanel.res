@@ -94,7 +94,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"White"
 			"centerwrap"	"1"
 		}
 		"attriblabel"
@@ -121,7 +121,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"HSFont8"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -156,7 +156,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"KCFont8"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"

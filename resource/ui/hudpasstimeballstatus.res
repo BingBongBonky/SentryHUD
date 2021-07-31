@@ -32,7 +32,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"HudFontBiggerBold"
+		"font"			"HSFont18"
 		"xpos"			0
 		"ypos"			c100
 		"zpos"			"3"
@@ -42,14 +42,14 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"224 217 197 255"
+		fgcolor_override	"White"
 	}
 
 	"EventBonusLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HSFont18"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
@@ -60,7 +60,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		""
-		fgcolor_override	"255 235 35 200"
+		fgcolor_override	"White"
 		pin_to_sibling			EventTitleLabel
 		pin_corner_to_sibling	6
 		pin_to_sibling_corner	4
@@ -91,10 +91,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-190"
+		"xpos"			"c-80"
 		"ypos"			"r88"
-		"zpos"			"0"
-		"wide"			"380"
+		"zpos"			"-999"
+		"wide"			"0"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
@@ -103,13 +103,41 @@
 		"scaleImage"	"1"
 	}
 
+	"ProgressBarBlue"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ProgressBarBlue"	
+		"xpos"			"c-80"
+		"ypos"			"r71"
+		"zpos"			"-10"
+		"wide"			"80"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_SBBlue"
+	}
+
+	"ProgressBarRed"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ProgressBarRed"	
+		"xpos"			"c0"
+		"ypos"			"r71"
+		"zpos"			"-10"
+		"wide"			"80"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"S_SBRed"
+	}
+
 	"BlueProgressEnd"
 	{
 		// tells the code where the end of the progress bar is since the image
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-152"
+		"xpos"			"c-80"
 		"ypos"			"r64"
 		"visible"		"0"
 	}
@@ -120,7 +148,7 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c152"
+		"xpos"			"c80"
 		"ypos"			"r64"
 		"visible"		"0"
 	}	
@@ -282,24 +310,9 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		//font					TargetID
-		"visible"				"1"
-		"enabled"				"1"
-		"zpos"					"-400"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"150"
-		"tall"					"16"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"1"
-		"labelText"				"NameOfCarrier"
-		pin_to_sibling			ProgressLevelBar
-		pin_corner_to_sibling	4
-		pin_to_sibling_corner	6
+		"visible"				"0"
+		"enabled"				"0"
 	}
-
-
 
 	"BallPowerCluster" 
 	{

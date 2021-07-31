@@ -6,13 +6,15 @@
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"10"
-		"zpos"			"0"
+		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"paintbackground" "0"
+		"paintbackground" "1"
+		"bgcolor_override"	"S_MenuShaderTransparent"
+		"paintbackgroundtype"	"2"
 	}
 
 	"ItemBackground"
@@ -20,10 +22,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
+		"ypos"			"10"
+		"zpos"			"0"
 		"wide"			"250"
-		"tall"			"180"
+		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -31,13 +33,14 @@
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
+
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
 		"xpos"			"205"
 		"ypos"			"140"
-		"zpos"			"-1"
+		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"1"
@@ -48,12 +51,30 @@
 		"tileVertically" "0"
 	}
 
+	"BackgroundEngineerShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundEngineerShadow"
+		"xpos"			"206"
+		"ypos"			"141"
+		"zpos"			"0"
+		"wide"			"40"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"pipboy_engineer"
+		"tileImage"		"0"
+		"tileVertically" "0"
+		"drawcolor"		"S_Shadow"
+	}
+
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"15"
-		"ypos"			"-8"
+		"xpos"			"12"
+		"ypos"			"-5"
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
@@ -63,14 +84,31 @@
 		"icon"			"ico_build"
 		"iconColor"		"0 255 0 255"
 	}
+
+	"BuildIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildIconShadow"
+		"xpos"			"13"
+		"ypos"			"-4"
+		"zpos"			"0"
+		"wide"			"48"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_build"
+		"iconColor"		"S_Shadow"
+	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiant"
+		"font"			"HSFont32"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"8"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -82,7 +120,27 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+	}
+	
+	"TitleLabelDropshadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"HSFont32"
+		"fgcolor"		"S_Shadow"
+		"xpos"			"70"			// align me to the left edge of the first selection
+		"ypos"			"7"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Teleport_Title"
+		"textAlignment"	"Left"
+		"dulltext"		"1"
+		"brighttext"	"0"
 	}
 	
 	"CancelLabel"
@@ -90,8 +148,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
-		"xpos"			"35"
-		"ypos"			"35"
+		"fgcolor"		"0 255 0 255"
+		"xpos"			"15"
+		"ypos"			"168"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"13"
@@ -103,7 +162,6 @@
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}
 	
 	"available_target_1"

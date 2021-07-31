@@ -74,17 +74,17 @@
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
-			"font"	"MMenuPlayListDesc"
+			"font"	"HSFont8"
 			"textinsetx"	"40"
 
 			"stay_armed_on_click"	"1"
 
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
+			"defaultBgColor_override"	"235 235 235 20"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightOrange"
-			"selectedBGColor_override" "Orange"
+			"armedBgColor_override"	"S_Blue"
+			"selectedBGColor_override" "S_Blue"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -157,7 +157,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HSFont12"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -165,7 +165,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}	
 
 		"TitleShadow"
@@ -182,7 +182,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HSFont12"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -190,14 +190,14 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor_override"		"Black"
+			"fgcolor_override"		"S_Shadow"
 		}
 
 		"DescLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"MMenuPlayListDesc"
+			"font"			"HSFont8"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-5"
@@ -211,7 +211,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "White"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -220,7 +220,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
-			"font"			"MMenuPlayListDesc"
+			"font"			"HSFont8"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-4"
@@ -234,7 +234,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "Black"
+			"fgcolor_override" "S_Shadow"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -251,7 +251,7 @@
 		"tall"			"1000"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
+		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -269,7 +269,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"		"NoBorder"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"

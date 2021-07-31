@@ -24,11 +24,48 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
+	}
+
+	"BackgroundNew"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundNew"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"bgcolor_override"	"S_MenuTransparent"
+	}
+
+	"TeamColoredLine"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColoredBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"		
+		"wide"			"4"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/objectives_timepanel_red_bg"
+		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
+		"src_corner_height"		"3"
+		"src_corner_width"		"3"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	
 	"Icon_Dispenser"
@@ -43,7 +80,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"237 237 255 255"
 	}
 	
 	"NotBuiltPanel"
@@ -60,7 +97,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"HSFont8"
+			"fgcolor"		"White"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -99,7 +137,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"237 237 255 255"
 		}
 
 		"Icon_Upgrade_2"
@@ -115,7 +153,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"237 237 255 255"
 		}
 
 		"Icon_Upgrade_3"
@@ -131,7 +169,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"237 237 255 255"
 		}
 
 		"AlertTray"
@@ -184,6 +222,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
+			"fgcolor"	"White"
 			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
@@ -212,6 +251,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
+				"fgcolor"		"White"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -231,6 +271,8 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
+				"fgcolor_override"	"White"
+				"bgcolor_override"	"S_MenuTransparent"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
@@ -268,7 +310,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"White"
 			}
 
 			"Ammo"
@@ -276,6 +318,8 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Ammo"
 				"font"			"Default"
+				"fgcolor_override"	"White"
+				"bgcolor_override"	"S_MenuTransparent"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"38"
@@ -302,7 +346,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
-				"iconColor"		"ProgressOffWhite"
+				"iconColor"		"White"
 			}
 			
 			"Upgrade"
@@ -310,6 +354,8 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
+				"fgcolor_override"	"White"
+				"bgcolor_override"	"S_MenuTransparent"
 				"xpos"			"12"
 				"ypos"			"17"
 				"wide"			"38"

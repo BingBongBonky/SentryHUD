@@ -5,7 +5,7 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"5"
+		"xpos"					"0"
 		"ypos"					"10"
 		"zpos"					"1001"
 		"wide"					"200"
@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"QuickplayBorder"
 
-		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
-		"log_font_large"			"HudFontMediumSecondary"
+		"log_font_small"			"KCFont18"
+		"log_font_medium"			"KCFont18"
+		"log_font_large"			"KCFont18"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"KCFont18"
 		
 		"bgcolor_override"	"0 0 0 50"
 
@@ -62,7 +62,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"White"
 			}
 		
 			"UpButton"
@@ -85,7 +85,7 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"6"
+		"xpos"					"1"
 		"ypos"					"rs1+19"
 		"zpos"			"1"
 		"wide"			"f2"
@@ -94,7 +94,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"KCFont8"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 

@@ -1,5 +1,31 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
+	// Custom Tooltip Buttons
+	"ReloadHudButton"
+	{
+		"command" 	"engine hud_reloadscheme"
+		"tooltip"	"Reload HUD"
+	}
+
+	"ConsoleButton"
+	{
+		"Command"	"engine toggleconsole"
+		"tooltip"	"Open the console"
+	}
+
+	"FixPlayersButton"
+	{
+		"Command"	"engine record fix;stop"
+		"tooltip"	"Fix invisible players"
+	}
+
+	"MinModeButton"
+	{
+		"Command"	"engine toggle cl_hud_minmode 0 1"
+		"tooltip"	"Toggle HUD Min Mode"
+	}
+
+	// These buttons are only visible in VR
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -7,7 +33,6 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
@@ -39,7 +64,7 @@
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
+		"subimage"		"replay/thumbnails/mainmenu/glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

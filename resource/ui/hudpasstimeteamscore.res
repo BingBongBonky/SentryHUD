@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudPasstimeTeamScore"
 		"xpos"				"0"
-		"ypos"				"25"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
@@ -15,32 +15,30 @@
 
 	"LeftSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-140"
-		"ypos"			"r95"
+		"xpos"			"c-65"
+		"ypos"			"r70"
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"65"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
+		"bgcolor_override"	"S_SBBlue"
 	}
 		
 	"RightSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c-140"
-		"ypos"			"r95"
+		"xpos"			"c0"
+		"ypos"			"r70"
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"65"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
+		"bgcolor_override"	"S_SBRed"
 	}
 		
 	"OutlineBG"
@@ -52,8 +50,8 @@
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 	}
@@ -62,69 +60,84 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-120"
-		"ypos"			"r67"
+		"xpos"			"c-81"
+		"ypos"			"r70"
 		"zpos"			"8"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"75"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"
+		"font"			"KCFont60"
+		"fgcolor"		"White"
 	}	
 		
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-118"
-		"ypos"			"r66"
+		"xpos"			"c-79"
+		"ypos"			"r68"
 		"zpos"			"7"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"75"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"
-	}	
+		"font"			"KCFont60"
+		"fgcolor"		"S_Shadow"
+	}
 							
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c42"
-		"ypos"			"r67"
+		"xpos"			"c4"
+		"ypos"			"r70"
 		"zpos"			"8"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"75"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"		
+		"font"			"KCFont60"
+		"fgcolor"		"White"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c44"
-		"ypos"			"r66"
+		"xpos"			"c6"
+		"ypos"			"r68"
 		"zpos"			"7"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"75"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"		
-	}
+		"font"			"KCFont60"
+		"fgcolor"		"S_Shadow"
+	}	
 
 	"PlayingToCluster"
 	{
@@ -143,7 +156,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayingTo"
 			"xpos"			"c-70"
-			"ypos"			"r57"
+			"ypos"			"r48"
 			"zpos"			"4"
 			"wide"			"140"
 			"tall"			"30"
@@ -153,24 +166,32 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontSmall"
-			"fgcolor"		"TanLight"
+			"font"			"HSFont14"
+			"fgcolor"		"White"
 		}	
 				
 		"PlayingToBG"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PlayingToBG"
-			"xpos"			"c-75"
-			"ypos"			"r60"
-			"zpos"			"3"
-			"wide"			"150"
-			"tall"			"38"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+
+		"PlayingToBGNew"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PlayingToBG"
+			"xpos"			"c-65"
+			"ypos"			"r40"
+			"zpos"			"-3"
+			"wide"			"130"
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/objectives_flagpanel_bg_playingto"
-			"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+			"bgcolor_override"	"S_Menu"
+			"alpha"				"240"
 			"scaleImage"	"1"	
-		}
+		}		
 	}
 }
